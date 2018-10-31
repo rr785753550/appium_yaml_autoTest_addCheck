@@ -1,0 +1,155 @@
+# coding: utf-8
+testinfo:
+  title: wifi热点功能：MK21，一个‘-’代表一个功能
+  desc: wifi热点功能具体功能操作
+testcase1:
+  -
+    networkMenu:
+      element_info: com.spt.carengine.settings:id/menu_network_tv
+      element_type:  id
+      element_operate: click
+      operate_times: 1
+testcase2:
+  -
+    wifiView:
+      element_info: WLAN
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate1:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+
+testcase3:
+  -
+    wifiHotspot:
+      element_info: WLAN热点
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    hotspotSet:
+      element_info: 设置WLAN热点
+      element_type: text
+      element_operate: click
+      operate_times: 1
+    changeName:
+      element_info: android.widget.EditText
+      element_type: class
+      element_operate: send_keys
+      operate_times: 1
+      send_content: test2018
+    okButton:
+      element_info: 保存
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate1:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+
+testcase4:
+  -
+    network:
+      element_info: 移动网络
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    networkRoming1:
+      element_info: 移动数据网络漫游
+      element_type: text
+      element_operate: click
+      operate_times: 1
+    warningToast:
+      element_info: 确定
+      element_type: text
+      element_operate: click
+      operate_times: 1
+    networkRoming2:
+      element_info: 移动数据网络漫游
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    prefSet:
+      element_info: 偏好设置
+      element_type: text
+      element_operate: click
+      operate_times: 1
+    backOperate1:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+  -
+    firstNet:
+      element_info: 首选网络类型
+      element_type: text
+      element_operate: click
+      operate_times: 1
+    backOperate2:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+  -
+    swipeList:
+      element_info: android:id/list
+      element_type: id
+      element_operate: swipe_up
+      operate_times: 1
+  -
+    apnView:
+      element_info: 接入点名称 (APN)
+      element_type: text
+      element_operate: click
+      operate_times: 1
+    backOperate3:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+  -
+    newworkOperator:
+      element_info: 网络运营商
+      element_type: text
+      element_operate: click
+      operate_times: 1
+    backOperate4:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 2
+
+testcase5:
+  -
+    trafficManagement:
+      element_info: 流量管理
+      element_type: text
+      element_operate: click
+      operate_times: 1
+testcase6:
+  -
+    swipeElement:
+      element_info: com.spt.carengine.settings:id/common_listview
+      element_type: id
+      element_operate: swipe_up
+      operate_times: 1
+  -
+    btphone:
+      element_info: 蓝牙电话
+      element_type: text
+      element_operate: click
+      operate_times: 1
+    backOperate1:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1

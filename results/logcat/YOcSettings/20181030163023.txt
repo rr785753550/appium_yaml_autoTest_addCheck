@@ -1,0 +1,438 @@
+--------- beginning of system
+--------- beginning of main
+10-30 16:30:24.391 D/YOcSettings( 8166): [MainActivity] switchToFragment > fragmentName = com.yunovo.settings.DrivingFragment
+10-30 16:30:24.437 I/YOcSettings( 8166): [DrivingAdapter] getView:: bean.isChecked() = true
+10-30 16:30:27.439 D/YOcSettings( 8166): [MainActivity] switchToFragment > fragmentName = com.yunovo.settings.CollisionFragment
+10-30 16:30:27.450 D/YOcSettings( 8166): [Config] isShowDrivingColli,,,show = 1
+10-30 16:30:27.453 D/YOcSettings( 8166): [Config] isShowStopColli,,,show = 2
+10-30 16:30:27.455 D/YOcSettings( 8166): [GsensorData] setDrivingCollisionSwitch::collsionSwitch : 0
+10-30 16:30:27.455 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:27.455 D/YOcSettings( 8166): [GsensorData] setDrivingCollisionSwitch::collsionSwitch : 0
+10-30 16:30:27.456 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:27.457 I/YOcSettings( 8166): [GsensorData] getDrivingGsensorSensitive::value : 125
+10-30 16:30:27.457 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 125
+10-30 16:30:27.457 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:27.458 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:27.458 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:27.458 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.index: 0
+10-30 16:30:27.458 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.level: 63
+10-30 16:30:27.459 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorLevel::level : 63
+10-30 16:30:27.460 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.debounce:125
+10-30 16:30:27.460 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorSensitive::value : 125
+10-30 16:30:27.461 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:27.462 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:27.462 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:27.463 I/YOcSettings( 8166): [GsensorData] getDefaultGsensorValue::value : 250
+10-30 16:30:27.463 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 250
+10-30 16:30:27.463 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:27.464 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:27.464 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:27.464 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.index: 0
+10-30 16:30:27.464 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.level: 16
+10-30 16:30:27.465 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorLevel::level : 16
+10-30 16:30:27.466 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.debounce:250
+10-30 16:30:27.466 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorValue::value : 250
+10-30 16:30:27.467 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:27.467 I/YOcSettings( 8166): [CollisionFragment] getListViewData::list.size = 4
+10-30 16:30:27.470 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 0
+10-30 16:30:27.482 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 1
+10-30 16:30:27.487 I/YOcSettings( 8166): [GsensorData] getDrivingGsensorSensitive::value : 125
+10-30 16:30:27.488 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 125
+10-30 16:30:27.488 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:27.488 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:27.489 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:27.489 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.index: 0
+10-30 16:30:27.489 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.level: 63
+10-30 16:30:27.489 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorLevel::level : 63
+10-30 16:30:27.490 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.debounce:125
+10-30 16:30:27.491 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorSensitive::value : 125
+10-30 16:30:27.491 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:27.496 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 2
+10-30 16:30:27.505 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 3
+10-30 16:30:27.512 I/YOcSettings( 8166): [GsensorData] getDefaultGsensorValue::value : 250
+10-30 16:30:27.513 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 250
+10-30 16:30:27.513 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:27.513 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:27.513 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:27.514 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.index: 0
+10-30 16:30:27.514 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.level: 16
+10-30 16:30:27.514 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorLevel::level : 16
+10-30 16:30:27.515 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.debounce:250
+10-30 16:30:27.516 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorValue::value : 250
+10-30 16:30:27.516 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:29.350 I/YOcSettings( 8166): [CollisionAdapter] onCheckedChanged::bean.getTag() = driving_monitor
+10-30 16:30:29.351 D/YOcSettings( 8166): [GsensorData] setDrivingCollisionSwitch::value : true
+10-30 16:30:29.365 I/YOcSettings( 8166): [CollisionFragment] onChange::uriStr = content://settings/system/drivingCollisionSwitch
+10-30 16:30:29.367 I/YOcSettings( 8166): [CollisionFragment] updateData::
+10-30 16:30:29.370 D/YOcSettings( 8166): [GsensorData] setDrivingCollisionSwitch::collsionSwitch : 1
+10-30 16:30:29.372 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:1
+10-30 16:30:29.375 I/YOcSettings( 8166): [CollisionFragment] updateData::
+10-30 16:30:29.378 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 0
+10-30 16:30:29.380 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 1
+10-30 16:30:29.381 I/YOcSettings( 8166): [GsensorData] getDrivingGsensorSensitive::value : 125
+10-30 16:30:29.381 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 125
+10-30 16:30:29.381 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:29.382 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:29.382 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:29.382 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.index: 0
+10-30 16:30:29.382 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.level: 63
+10-30 16:30:29.383 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorLevel::level : 63
+10-30 16:30:29.384 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.debounce:125
+10-30 16:30:29.384 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorSensitive::value : 125
+10-30 16:30:29.385 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:29.386 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 2
+10-30 16:30:29.387 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 3
+10-30 16:30:29.388 I/YOcSettings( 8166): [GsensorData] getDefaultGsensorValue::value : 250
+10-30 16:30:29.389 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 250
+10-30 16:30:29.389 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:29.389 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:29.390 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:29.390 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.index: 0
+10-30 16:30:29.390 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.level: 16
+10-30 16:30:29.390 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorLevel::level : 16
+10-30 16:30:29.391 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.debounce:250
+10-30 16:30:29.392 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorValue::value : 250
+10-30 16:30:29.392 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:29.476 D/YOcSettings( 8166): [Config] isShowDrivingColli,,,show = 1
+10-30 16:30:29.477 D/YOcSettings( 8166): [Config] isShowStopColli,,,show = 2
+10-30 16:30:29.477 D/YOcSettings( 8166): [GsensorData] setDrivingCollisionSwitch::collsionSwitch : 1
+10-30 16:30:29.477 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:1
+10-30 16:30:29.478 D/YOcSettings( 8166): [GsensorData] setDrivingCollisionSwitch::collsionSwitch : 1
+10-30 16:30:29.478 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:1
+10-30 16:30:29.478 I/YOcSettings( 8166): [GsensorData] getDrivingGsensorSensitive::value : 125
+10-30 16:30:29.478 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 125
+10-30 16:30:29.479 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:29.479 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:29.479 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:29.479 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.index: 0
+10-30 16:30:29.479 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.level: 63
+10-30 16:30:29.480 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorLevel::level : 63
+10-30 16:30:29.481 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.debounce:125
+10-30 16:30:29.481 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorSensitive::value : 125
+10-30 16:30:29.482 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:29.482 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:29.483 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:29.483 I/YOcSettings( 8166): [GsensorData] getDefaultGsensorValue::value : 250
+10-30 16:30:29.483 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 250
+10-30 16:30:29.483 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:29.484 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:29.484 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:29.484 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.index: 0
+10-30 16:30:29.484 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.level: 16
+10-30 16:30:29.485 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorLevel::level : 16
+10-30 16:30:29.485 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.debounce:250
+10-30 16:30:29.486 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorValue::value : 250
+10-30 16:30:29.486 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:29.487 I/YOcSettings( 8166): [CollisionFragment] getListViewData::list.size = 4
+10-30 16:30:29.506 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 0
+10-30 16:30:29.509 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 1
+10-30 16:30:29.513 I/YOcSettings( 8166): [GsensorData] getDrivingGsensorSensitive::value : 125
+10-30 16:30:29.514 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 125
+10-30 16:30:29.514 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:29.515 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:29.515 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:29.515 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.index: 0
+10-30 16:30:29.517 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.level: 63
+10-30 16:30:29.517 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorLevel::level : 63
+10-30 16:30:29.518 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.debounce:125
+10-30 16:30:29.518 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorSensitive::value : 125
+10-30 16:30:29.519 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:29.521 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 2
+10-30 16:30:29.523 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 3
+10-30 16:30:29.524 I/YOcSettings( 8166): [GsensorData] getDefaultGsensorValue::value : 250
+10-30 16:30:29.524 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 250
+10-30 16:30:29.524 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:29.525 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:29.525 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:29.525 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.index: 0
+10-30 16:30:29.526 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.level: 16
+10-30 16:30:29.526 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorLevel::level : 16
+10-30 16:30:29.527 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.debounce:250
+10-30 16:30:29.527 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorValue::value : 250
+10-30 16:30:29.528 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:31.307 I/YOcSettings( 8166): [CollisionAdapter] onClick.....driving_monitor_level,LOW
+10-30 16:30:31.308 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 1
+10-30 16:30:31.309 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.index: 1
+10-30 16:30:31.309 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.level: 40
+10-30 16:30:31.310 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorLevel::level : 40
+10-30 16:30:31.335 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.debounce:60
+10-30 16:30:31.337 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorSensitive::value : 60
+10-30 16:30:31.346 I/YOcSettings( 8166): [CollisionFragment] updateData::
+10-30 16:30:31.448 D/YOcSettings( 8166): [Config] isShowDrivingColli,,,show = 1
+10-30 16:30:31.449 D/YOcSettings( 8166): [Config] isShowStopColli,,,show = 2
+10-30 16:30:31.451 D/YOcSettings( 8166): [GsensorData] setDrivingCollisionSwitch::collsionSwitch : 1
+10-30 16:30:31.451 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:1
+10-30 16:30:31.452 D/YOcSettings( 8166): [GsensorData] setDrivingCollisionSwitch::collsionSwitch : 1
+10-30 16:30:31.452 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:1
+10-30 16:30:31.453 I/YOcSettings( 8166): [GsensorData] getDrivingGsensorSensitive::value : 60
+10-30 16:30:31.453 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 60
+10-30 16:30:31.454 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 1
+10-30 16:30:31.455 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 50
+10-30 16:30:31.455 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 1
+10-30 16:30:31.455 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.index: 1
+10-30 16:30:31.456 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.level: 40
+10-30 16:30:31.456 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorLevel::level : 40
+10-30 16:30:31.458 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.debounce:60
+10-30 16:30:31.459 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorSensitive::value : 60
+10-30 16:30:31.460 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:50
+10-30 16:30:31.461 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:31.462 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:31.463 I/YOcSettings( 8166): [GsensorData] getDefaultGsensorValue::value : 250
+10-30 16:30:31.463 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 250
+10-30 16:30:31.464 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:31.464 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:31.465 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:31.465 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.index: 0
+10-30 16:30:31.465 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.level: 16
+10-30 16:30:31.466 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorLevel::level : 16
+10-30 16:30:31.467 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.debounce:250
+10-30 16:30:31.467 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorValue::value : 250
+10-30 16:30:31.469 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:31.469 I/YOcSettings( 8166): [CollisionFragment] getListViewData::list.size = 4
+10-30 16:30:31.487 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 0
+10-30 16:30:31.488 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 1
+10-30 16:30:31.489 I/YOcSettings( 8166): [GsensorData] getDrivingGsensorSensitive::value : 60
+10-30 16:30:31.489 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 60
+10-30 16:30:31.489 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 1
+10-30 16:30:31.490 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 50
+10-30 16:30:31.490 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 1
+10-30 16:30:31.490 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.index: 1
+10-30 16:30:31.490 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.level: 40
+10-30 16:30:31.491 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorLevel::level : 40
+10-30 16:30:31.492 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.debounce:60
+10-30 16:30:31.492 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorSensitive::value : 60
+10-30 16:30:31.493 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:50
+10-30 16:30:31.495 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 2
+10-30 16:30:31.496 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 3
+10-30 16:30:31.496 I/YOcSettings( 8166): [GsensorData] getDefaultGsensorValue::value : 250
+10-30 16:30:31.497 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 250
+10-30 16:30:31.497 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:31.497 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:31.497 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:31.498 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.index: 0
+10-30 16:30:31.498 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.level: 16
+10-30 16:30:31.498 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorLevel::level : 16
+10-30 16:30:31.499 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.debounce:250
+10-30 16:30:31.499 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorValue::value : 250
+10-30 16:30:31.500 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:33.527 I/YOcSettings( 8166): [CollisionAdapter] onClick.....driving_monitor_level,MIDDLE
+10-30 16:30:33.528 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 2
+10-30 16:30:33.531 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.index: 2
+10-30 16:30:33.538 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.level: 19
+10-30 16:30:33.538 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorLevel::level : 19
+10-30 16:30:33.552 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.debounce:5
+10-30 16:30:33.553 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorSensitive::value : 5
+10-30 16:30:33.570 I/YOcSettings( 8166): [CollisionFragment] updateData::
+10-30 16:30:33.672 D/YOcSettings( 8166): [Config] isShowDrivingColli,,,show = 1
+10-30 16:30:33.672 D/YOcSettings( 8166): [Config] isShowStopColli,,,show = 2
+10-30 16:30:33.674 D/YOcSettings( 8166): [GsensorData] setDrivingCollisionSwitch::collsionSwitch : 1
+10-30 16:30:33.674 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:1
+10-30 16:30:33.674 D/YOcSettings( 8166): [GsensorData] setDrivingCollisionSwitch::collsionSwitch : 1
+10-30 16:30:33.675 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:1
+10-30 16:30:33.676 I/YOcSettings( 8166): [GsensorData] getDrivingGsensorSensitive::value : 5
+10-30 16:30:33.676 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 5
+10-30 16:30:33.677 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 2
+10-30 16:30:33.678 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 100
+10-30 16:30:33.678 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 2
+10-30 16:30:33.679 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.index: 2
+10-30 16:30:33.680 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.level: 19
+10-30 16:30:33.680 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorLevel::level : 19
+10-30 16:30:33.682 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.debounce:5
+10-30 16:30:33.683 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorSensitive::value : 5
+10-30 16:30:33.684 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:100
+10-30 16:30:33.685 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:33.686 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:33.687 I/YOcSettings( 8166): [GsensorData] getDefaultGsensorValue::value : 250
+10-30 16:30:33.688 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 250
+10-30 16:30:33.688 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:33.689 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:33.690 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:33.691 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.index: 0
+10-30 16:30:33.692 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.level: 16
+10-30 16:30:33.692 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorLevel::level : 16
+10-30 16:30:33.694 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.debounce:250
+10-30 16:30:33.694 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorValue::value : 250
+10-30 16:30:33.696 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:33.696 I/YOcSettings( 8166): [CollisionFragment] getListViewData::list.size = 4
+10-30 16:30:33.704 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 0
+10-30 16:30:33.705 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 1
+10-30 16:30:33.706 I/YOcSettings( 8166): [GsensorData] getDrivingGsensorSensitive::value : 5
+10-30 16:30:33.706 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 5
+10-30 16:30:33.707 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 2
+10-30 16:30:33.707 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 100
+10-30 16:30:33.708 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 2
+10-30 16:30:33.708 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.index: 2
+10-30 16:30:33.708 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.level: 19
+10-30 16:30:33.708 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorLevel::level : 19
+10-30 16:30:33.709 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.debounce:5
+10-30 16:30:33.710 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorSensitive::value : 5
+10-30 16:30:33.711 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:100
+10-30 16:30:33.712 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 2
+10-30 16:30:33.714 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 3
+10-30 16:30:33.714 I/YOcSettings( 8166): [GsensorData] getDefaultGsensorValue::value : 250
+10-30 16:30:33.715 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 250
+10-30 16:30:33.715 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:33.715 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:33.715 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:33.716 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.index: 0
+10-30 16:30:33.716 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.level: 16
+10-30 16:30:33.716 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorLevel::level : 16
+10-30 16:30:33.717 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.debounce:250
+10-30 16:30:33.717 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorValue::value : 250
+10-30 16:30:33.718 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:35.624 I/YOcSettings( 8166): [CollisionAdapter] onClick.....driving_monitor_level,HIGH
+10-30 16:30:35.624 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:35.625 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.index: 0
+10-30 16:30:35.625 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.level: 63
+10-30 16:30:35.625 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorLevel::level : 63
+10-30 16:30:35.653 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.debounce:125
+10-30 16:30:35.654 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorSensitive::value : 125
+10-30 16:30:35.666 I/YOcSettings( 8166): [CollisionFragment] updateData::
+10-30 16:30:35.766 D/YOcSettings( 8166): [Config] isShowDrivingColli,,,show = 1
+10-30 16:30:35.767 D/YOcSettings( 8166): [Config] isShowStopColli,,,show = 2
+10-30 16:30:35.768 D/YOcSettings( 8166): [GsensorData] setDrivingCollisionSwitch::collsionSwitch : 1
+10-30 16:30:35.768 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:1
+10-30 16:30:35.769 D/YOcSettings( 8166): [GsensorData] setDrivingCollisionSwitch::collsionSwitch : 1
+10-30 16:30:35.769 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:1
+10-30 16:30:35.770 I/YOcSettings( 8166): [GsensorData] getDrivingGsensorSensitive::value : 125
+10-30 16:30:35.770 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 125
+10-30 16:30:35.770 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:35.771 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:35.771 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:35.771 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.index: 0
+10-30 16:30:35.772 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.level: 63
+10-30 16:30:35.772 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorLevel::level : 63
+10-30 16:30:35.773 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.debounce:125
+10-30 16:30:35.773 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorSensitive::value : 125
+10-30 16:30:35.774 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:35.775 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:35.775 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:35.776 I/YOcSettings( 8166): [GsensorData] getDefaultGsensorValue::value : 250
+10-30 16:30:35.777 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 250
+10-30 16:30:35.777 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:35.777 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:35.778 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:35.778 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.index: 0
+10-30 16:30:35.778 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.level: 16
+10-30 16:30:35.778 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorLevel::level : 16
+10-30 16:30:35.779 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.debounce:250
+10-30 16:30:35.780 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorValue::value : 250
+10-30 16:30:35.781 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:35.781 I/YOcSettings( 8166): [CollisionFragment] getListViewData::list.size = 4
+10-30 16:30:35.802 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 0
+10-30 16:30:35.805 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 1
+10-30 16:30:35.806 I/YOcSettings( 8166): [GsensorData] getDrivingGsensorSensitive::value : 125
+10-30 16:30:35.807 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 125
+10-30 16:30:35.807 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:35.807 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:35.808 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:35.809 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.index: 0
+10-30 16:30:35.809 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.level: 63
+10-30 16:30:35.810 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorLevel::level : 63
+10-30 16:30:35.811 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.debounce:125
+10-30 16:30:35.812 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorSensitive::value : 125
+10-30 16:30:35.813 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:35.815 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 2
+10-30 16:30:35.816 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 3
+10-30 16:30:35.816 I/YOcSettings( 8166): [GsensorData] getDefaultGsensorValue::value : 250
+10-30 16:30:35.817 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 250
+10-30 16:30:35.817 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:35.817 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:35.817 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:35.818 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.index: 0
+10-30 16:30:35.818 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.level: 16
+10-30 16:30:35.818 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorLevel::level : 16
+10-30 16:30:35.819 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.debounce:250
+10-30 16:30:35.819 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorValue::value : 250
+10-30 16:30:35.820 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:37.667 I/YOcSettings( 8166): [CollisionAdapter] onCheckedChanged::bean.getTag() = driving_monitor
+10-30 16:30:37.668 D/YOcSettings( 8166): [GsensorData] setDrivingCollisionSwitch::value : false
+10-30 16:30:37.681 I/YOcSettings( 8166): [CollisionFragment] onChange::uriStr = content://settings/system/drivingCollisionSwitch
+10-30 16:30:37.683 D/YOcSettings( 8166): [GsensorData] setDrivingCollisionSwitch::collsionSwitch : 0
+10-30 16:30:37.685 I/YOcSettings( 8166): [CollisionFragment] updateData::
+10-30 16:30:37.686 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:37.689 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:37.691 I/YOcSettings( 8166): [CollisionFragment] updateData::
+10-30 16:30:37.698 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 0
+10-30 16:30:37.701 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 1
+10-30 16:30:37.702 I/YOcSettings( 8166): [GsensorData] getDrivingGsensorSensitive::value : 125
+10-30 16:30:37.703 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 125
+10-30 16:30:37.703 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:37.704 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:37.704 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:37.704 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.index: 0
+10-30 16:30:37.705 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.level: 63
+10-30 16:30:37.705 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorLevel::level : 63
+10-30 16:30:37.706 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.debounce:125
+10-30 16:30:37.707 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorSensitive::value : 125
+10-30 16:30:37.708 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:37.710 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 2
+10-30 16:30:37.712 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 3
+10-30 16:30:37.713 I/YOcSettings( 8166): [GsensorData] getDefaultGsensorValue::value : 250
+10-30 16:30:37.714 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 250
+10-30 16:30:37.714 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:37.715 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:37.715 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:37.715 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.index: 0
+10-30 16:30:37.716 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.level: 16
+10-30 16:30:37.716 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorLevel::level : 16
+10-30 16:30:37.718 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.debounce:250
+10-30 16:30:37.718 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorValue::value : 250
+10-30 16:30:37.719 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:37.792 D/YOcSettings( 8166): [Config] isShowDrivingColli,,,show = 1
+10-30 16:30:37.793 D/YOcSettings( 8166): [Config] isShowStopColli,,,show = 2
+10-30 16:30:37.794 D/YOcSettings( 8166): [GsensorData] setDrivingCollisionSwitch::collsionSwitch : 0
+10-30 16:30:37.794 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:37.794 D/YOcSettings( 8166): [GsensorData] setDrivingCollisionSwitch::collsionSwitch : 0
+10-30 16:30:37.795 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:37.795 I/YOcSettings( 8166): [GsensorData] getDrivingGsensorSensitive::value : 125
+10-30 16:30:37.795 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 125
+10-30 16:30:37.796 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:37.796 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:37.797 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:37.797 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.index: 0
+10-30 16:30:37.797 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.level: 63
+10-30 16:30:37.798 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorLevel::level : 63
+10-30 16:30:37.799 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.debounce:125
+10-30 16:30:37.799 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorSensitive::value : 125
+10-30 16:30:37.800 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:37.801 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:37.801 D/YOcSettings( 8166): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-30 16:30:37.802 I/YOcSettings( 8166): [GsensorData] getDefaultGsensorValue::value : 250
+10-30 16:30:37.802 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 250
+10-30 16:30:37.803 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:37.803 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:37.804 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:37.804 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.index: 0
+10-30 16:30:37.804 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.level: 16
+10-30 16:30:37.805 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorLevel::level : 16
+10-30 16:30:37.807 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.debounce:250
+10-30 16:30:37.807 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorValue::value : 250
+10-30 16:30:37.808 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:37.809 I/YOcSettings( 8166): [CollisionFragment] getListViewData::list.size = 4
+10-30 16:30:37.819 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 0
+10-30 16:30:37.821 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 1
+10-30 16:30:37.822 I/YOcSettings( 8166): [GsensorData] getDrivingGsensorSensitive::value : 125
+10-30 16:30:37.823 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 125
+10-30 16:30:37.823 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:37.824 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:37.824 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:37.825 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.index: 0
+10-30 16:30:37.825 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.level: 63
+10-30 16:30:37.826 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorLevel::level : 63
+10-30 16:30:37.828 D/YOcSettings( 8166): [CollisionUtil] setDrivingCollisionValue.debounce:125
+10-30 16:30:37.829 I/YOcSettings( 8166): [GsensorData] setDrivingGsensorSensitive::value : 125
+10-30 16:30:37.830 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0
+10-30 16:30:37.832 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 2
+10-30 16:30:37.833 I/YOcSettings( 8166): [CollisionAdapter] getView::position = 3
+10-30 16:30:37.834 I/YOcSettings( 8166): [GsensorData] getDefaultGsensorValue::value : 250
+10-30 16:30:37.835 D/YOcSettings( 8166): [CollisionUtil] getTempProgress::tempSensitive : 250
+10-30 16:30:37.835 D/YOcSettings( 8166): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-30 16:30:37.836 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:37.836 D/YOcSettings( 8166): [CollisionUtil] dataExchange : 0
+10-30 16:30:37.837 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.index: 0
+10-30 16:30:37.837 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.level: 16
+10-30 16:30:37.837 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorLevel::level : 16
+10-30 16:30:37.838 D/YOcSettings( 8166): [CollisionUtil] setCollisionValue.debounce:250
+10-30 16:30:37.839 I/YOcSettings( 8166): [GsensorData] setDefaultGsensorValue::value : 250
+10-30 16:30:37.840 D/YOcSettings( 8166): [CollisionUtil] onStopTrackingTouch.progress:0

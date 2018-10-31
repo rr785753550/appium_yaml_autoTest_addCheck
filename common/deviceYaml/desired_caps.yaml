@@ -1,0 +1,26 @@
+deviceInfo:
+  platformName: Android
+  platformVersion: 5.1
+  deviceName: 10.0.0.37:5555
+
+appiumConfig:
+  automationName: Appium
+  noReset: True
+  unicodeKeyboard: True
+  resetKeyboard: True
+
+serviceInfo:
+  ip: 127.0.0.1
+  port: 4723
+
+settings:
+  appPackage: com.spt.carengine.settings
+  appActivity: com.spt.carengine.settings.activity.MainActivity
+
+autonavi:
+  appPackage: com.autonavi.minimap
+  appActivity: com.autonavi.set2.activity.SplashActivity
+
+xiset:
+  appPackage: com.android.settings
+  appActivity: com.android.settings.MainSettings

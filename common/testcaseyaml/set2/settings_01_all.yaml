@@ -1,0 +1,208 @@
+# coding: utf-8
+testinfo:
+  title: 设置功能：MK21，一个‘-’代表一个功能
+  desc: click设置中的一级菜单
+testcase1:
+  -
+    networkMenu:
+      element_info: com.spt.carengine.settings:id/menu_network_tv
+      element_type:  id
+      element_operate: click
+      operate_times: 1
+  -
+    wifiView:
+      element_info: WLAN
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate1:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+  -
+    wifiHotspot:
+      element_info: WLAN热点
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate2:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+  -
+    network:
+      element_info: 移动网络
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate3:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+  -
+    trafficManagement:
+      element_info: 流量管理
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    swipeElement:
+      element_info: com.spt.carengine.settings:id/common_listview
+      element_type: id
+      element_operate: swipe_up
+      operate_times: 1
+  -
+    btphone:
+      element_info: 蓝牙电话
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate4:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+
+testcase2:
+  -
+    drivingMenu:
+      element_info: com.spt.carengine.settings:id/menu_driving_tv
+      element_type: id
+      element_operate: click
+      operate_times: 1
+  -
+    collisionSet:
+      element_info: 碰撞设置
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate1:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+  -
+    screenSet:
+      element_info: 熄屏设置
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate2:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+  -
+    electronicDog:
+      element_info: 电子狗
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    DVRset:
+      element_info: DVR设置
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate3:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+
+testcase3:
+  -
+    deviceMenu:
+      element_info: com.spt.carengine.settings:id/menu_device_tv
+      element_type: id
+      element_operate: click
+      operate_times: 1
+  -  soundAlight:
+      element_info: 声音和亮度
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate1:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+  -
+    storage:
+      element_info: 存储
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate2:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+  -
+    timeAdate:
+      element_info: 日期和时间
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate3:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+
+testcase4:
+  -
+    systemMenu:
+      element_info: com.spt.carengine.settings:id/menu_system_tv
+      element_type: id
+      element_operate: click
+      operate_times: 1
+  -
+    systemUpdate:
+      element_info: 系统更新
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate1:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+  -
+    about:
+      element_info: 关于本机
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate2:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+  -
+    reset:
+      element_info: 恢复出厂设置
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate3:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1

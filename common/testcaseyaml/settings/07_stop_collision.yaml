@@ -1,0 +1,65 @@
+testinfo:
+  title: K21设置-行车碰撞设置
+  condition: 无
+testcase:
+  step1:
+    element_info: //android.widget.TextView[@text='停车监控']/../android.widget.CheckBox
+    element_type: xpath
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 打开停车监控开关
+  step2:
+    element_info: //android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]
+    element_type: xpath
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 设置停车碰撞等级为中
+  step3:
+    element_info: //android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]
+    element_type: xpath
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 设置停车碰撞等级为高
+  step4:
+    element_info: //android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]
+    element_type: xpath
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 设置停车碰撞等级为低
+  step5:
+    element_info: //android.widget.TextView[@text='停车监控']/../android.widget.CheckBox
+    element_type: xpath
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 关闭停车监控
+  step6:
+    element_info:
+    element_type:
+    element_operate: back
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 返回到上一层
+check:
+  result1:
+    check_content: setCollsionSwitch::value
+    expect_value: 'true'
+  result2:
+    check_content: onClick.....stop_monitor_level
+    expect_value: LOW
+  result3:
+    check_content: onClick.....stop_monitor_level
+    expect_value: MIDDLE
+  result4:
+    check_content: onClick.....stop_monitor_level
+    expect_value: HIGH
+  result5:
+    check_content: setCollsionSwitch::value
+    expect_value: 'false'
+output:
+  pass_output: 停车监控开关及碰撞等级操作--成功
+  fail_output: 停车监控开关及碰撞等级操作--失败

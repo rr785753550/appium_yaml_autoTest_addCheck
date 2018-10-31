@@ -1,0 +1,67 @@
+--------- beginning of system
+--------- beginning of main
+10-29 17:34:31.047 D/YOcSettings(32226): [MainActivity] switchToFragment > fragmentName = com.yunovo.settings.DrivingFragment
+10-29 17:34:34.435 D/YOcSettings(32226): [MainActivity] switchToFragment > fragmentName = com.yunovo.settings.CollisionFragment
+10-29 17:34:34.449 D/YOcSettings(32226): [Config] isShowDrivingColli,,,show = 1
+10-29 17:34:34.451 D/YOcSettings(32226): [Config] isShowStopColli,,,show = 2
+10-29 17:34:34.453 D/YOcSettings(32226): [GsensorData] setDrivingCollisionSwitch::collsionSwitch : 0
+10-29 17:34:34.453 D/YOcSettings(32226): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-29 17:34:34.454 D/YOcSettings(32226): [GsensorData] setDrivingCollisionSwitch::collsionSwitch : 0
+10-29 17:34:34.454 D/YOcSettings(32226): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-29 17:34:34.455 I/YOcSettings(32226): [GsensorData] getDrivingGsensorSensitive::value : 125
+10-29 17:34:34.455 D/YOcSettings(32226): [CollisionUtil] getTempProgress::tempSensitive : 125
+10-29 17:34:34.456 D/YOcSettings(32226): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-29 17:34:34.456 D/YOcSettings(32226): [CollisionUtil] dataExchange : 0
+10-29 17:34:34.456 D/YOcSettings(32226): [CollisionUtil] dataExchange : 0
+10-29 17:34:34.457 D/YOcSettings(32226): [CollisionUtil] setDrivingCollisionValue.index: 0
+10-29 17:34:34.457 D/YOcSettings(32226): [CollisionUtil] setDrivingCollisionValue.level: 63
+10-29 17:34:34.457 I/YOcSettings(32226): [GsensorData] setDrivingGsensorLevel::level : 63
+10-29 17:34:34.458 D/YOcSettings(32226): [CollisionUtil] setDrivingCollisionValue.debounce:125
+10-29 17:34:34.459 I/YOcSettings(32226): [GsensorData] setDrivingGsensorSensitive::value : 125
+10-29 17:34:34.460 D/YOcSettings(32226): [CollisionUtil] onStopTrackingTouch.progress:0
+10-29 17:34:34.461 D/YOcSettings(32226): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-29 17:34:34.461 D/YOcSettings(32226): [GsensorData] getCollsionSwitch::collsionSwitch:0
+10-29 17:34:34.462 I/YOcSettings(32226): [GsensorData] getDefaultGsensorValue::value : 250
+10-29 17:34:34.462 D/YOcSettings(32226): [CollisionUtil] getTempProgress::tempSensitive : 250
+10-29 17:34:34.463 D/YOcSettings(32226): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-29 17:34:34.463 D/YOcSettings(32226): [CollisionUtil] dataExchange : 0
+10-29 17:34:34.463 D/YOcSettings(32226): [CollisionUtil] dataExchange : 0
+10-29 17:34:34.464 D/YOcSettings(32226): [CollisionUtil] setCollisionValue.index: 0
+10-29 17:34:34.464 D/YOcSettings(32226): [CollisionUtil] setCollisionValue.level: 16
+10-29 17:34:34.464 I/YOcSettings(32226): [GsensorData] setDefaultGsensorLevel::level : 16
+10-29 17:34:34.465 D/YOcSettings(32226): [CollisionUtil] setCollisionValue.debounce:250
+10-29 17:34:34.465 I/YOcSettings(32226): [GsensorData] setDefaultGsensorValue::value : 250
+10-29 17:34:34.466 D/YOcSettings(32226): [CollisionUtil] onStopTrackingTouch.progress:0
+10-29 17:34:34.467 I/YOcSettings(32226): [CollisionFragment] getListViewData::list.size = 4
+10-29 17:34:34.470 I/YOcSettings(32226): [CollisionAdapter] getView::position = 0
+10-29 17:34:34.481 I/YOcSettings(32226): [CollisionAdapter] getView::position = 1
+10-29 17:34:34.487 I/YOcSettings(32226): [GsensorData] getDrivingGsensorSensitive::value : 125
+10-29 17:34:34.487 D/YOcSettings(32226): [CollisionUtil] getTempProgress::tempSensitive : 125
+10-29 17:34:34.488 D/YOcSettings(32226): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-29 17:34:34.488 D/YOcSettings(32226): [CollisionUtil] dataExchange : 0
+10-29 17:34:34.489 D/YOcSettings(32226): [CollisionUtil] dataExchange : 0
+10-29 17:34:34.489 D/YOcSettings(32226): [CollisionUtil] setDrivingCollisionValue.index: 0
+10-29 17:34:34.490 D/YOcSettings(32226): [CollisionUtil] setDrivingCollisionValue.level: 63
+10-29 17:34:34.490 I/YOcSettings(32226): [GsensorData] setDrivingGsensorLevel::level : 63
+10-29 17:34:34.491 D/YOcSettings(32226): [CollisionUtil] setDrivingCollisionValue.debounce:125
+10-29 17:34:34.491 I/YOcSettings(32226): [GsensorData] setDrivingGsensorSensitive::value : 125
+10-29 17:34:34.492 D/YOcSettings(32226): [CollisionUtil] onStopTrackingTouch.progress:0
+10-29 17:34:34.497 I/YOcSettings(32226): [CollisionAdapter] getView::position = 2
+10-29 17:34:34.505 I/YOcSettings(32226): [CollisionAdapter] getView::position = 3
+10-29 17:34:34.511 I/YOcSettings(32226): [GsensorData] getDefaultGsensorValue::value : 250
+10-29 17:34:34.511 D/YOcSettings(32226): [CollisionUtil] getTempProgress::tempSensitive : 250
+10-29 17:34:34.511 D/YOcSettings(32226): [CollisionUtil] initCollisionLevelSeekbar::progress : 0
+10-29 17:34:34.511 D/YOcSettings(32226): [CollisionUtil] dataExchange : 0
+10-29 17:34:34.512 D/YOcSettings(32226): [CollisionUtil] dataExchange : 0
+10-29 17:34:34.512 D/YOcSettings(32226): [CollisionUtil] setCollisionValue.index: 0
+10-29 17:34:34.512 D/YOcSettings(32226): [CollisionUtil] setCollisionValue.level: 16
+10-29 17:34:34.512 I/YOcSettings(32226): [GsensorData] setDefaultGsensorLevel::level : 16
+10-29 17:34:34.513 D/YOcSettings(32226): [CollisionUtil] setCollisionValue.debounce:250
+10-29 17:34:34.513 I/YOcSettings(32226): [GsensorData] setDefaultGsensorValue::value : 250
+10-29 17:34:34.514 D/YOcSettings(32226): [CollisionUtil] onStopTrackingTouch.progress:0
+10-29 17:34:40.584 D/YOcSettings(32226): [MainActivity] switchToFragment > fragmentName = com.yunovo.settings.DrivingFragment
+10-29 17:34:40.611 I/YOcSettings(32226): [DrivingAdapter] getView:: bean.isChecked() = true
+10-29 17:34:49.141 I/YOcSettings(32226): [MainActivity] onBackPressed:::::::
+10-29 17:35:24.793 I/YOcSettings(32671): [MainActivity] ,initData intent = Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.spt.carengine.settings/.activity.MainActivity }
+10-29 17:35:24.795 D/YOcSettings(32671): [MainActivity] switchToFragment > fragmentName = com.yunovo.settings.DrivingFragment
+10-29 17:35:24.949 I/YOcSettings(32671): [DrivingAdapter] getView:: bean.isChecked() = true

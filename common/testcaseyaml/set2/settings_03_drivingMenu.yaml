@@ -1,0 +1,187 @@
+# coding: utf-8
+testinfo:
+  title: 行车功能：MK21，一个‘-’代表一个功能
+  desc: 行车功能功能具体功能操作
+testcase1:
+  -
+    drivingMenu:
+      element_info: com.spt.carengine.settings:id/menu_driving_tv
+      element_type: id
+      element_operate: click
+      operate_times: 1
+testcase2:
+  -
+    collisionSet:
+      element_info: 碰撞设置
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    drivingMonitorSwith1:
+      element_info: //android.widget.TextView[@text='行车监控']/../android.widget.CheckBox
+      element_type: xpath
+      element_operate: click
+      operate_times: 1
+
+    checked_drivingSwitch:
+      element_info: //android.widget.TextView[@text='行车监控']/../android.widget.CheckBox
+      element_type: xpath
+      element_operate: get_attribute
+      attribute_content: checked
+      attribute_value: true
+    collision_level_low:
+      element_info: //android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]
+      element_type: xpath
+      element_operate: click
+      operate_times: 1
+    collision_level_middle:
+      element_info: //android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]
+      element_type: xpath
+      element_operate: click
+      operate_times: 1
+    collision_level_high:
+      element_info: //android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]
+      element_type: xpath
+      element_operate: click
+      operate_times: 1
+    drivingMonitorSwith2:
+      element_info: //android.widget.TextView[@text='行车监控']/../android.widget.CheckBox
+      element_type: xpath
+      element_operate: click
+      operate_times: 1
+  -
+    parkingMonitorSwith1:
+      element_info: //android.widget.TextView[@text='停车监控']/../android.widget.CheckBox
+      element_type: xpath
+      element_operate: click
+
+    checked_parkingSwitch:
+      element_info: //android.widget.TextView[@text='停车监控']/../android.widget.CheckBox
+      element_type: xpath
+      element_operate: get_attribute
+      attribute_content: checked
+      attribute_value: true
+    parking_level_low:
+      element_info: //android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]
+      element_type: xpath
+      element_operate: click
+      operate_times: 1
+    parking_level_middle:
+      element_info: //android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]
+      element_type: xpath
+      element_operate: click
+      operate_times: 1
+    parking_level_high:
+      element_info: //android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]
+      element_type: xpath
+      element_operate: click
+      operate_times: 1
+    parkingMonitorSwith2:
+      element_info: //android.widget.TextView[@text='停车监控']/../android.widget.CheckBox
+      element_type: xpath
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+testcase3:
+  -
+    screenSet:
+      element_info: 熄屏设置
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    screenSwitch1:
+      element_info: //android.widget.TextView[@text='屏保开关']/../android.widget.CheckBox
+      element_type: xpath
+      element_operate: click
+      operate_times: 2
+
+    checked_screenSwitch:
+      element_info: //android.widget.TextView[@text='屏保开关']/../android.widget.CheckBox
+      element_type: xpath
+      element_operate: get_attribute
+      attribute_content: checked
+      attribute_value: true
+    drivingMode:
+      element_info: //android.widget.TextView[@text='行车模式']/../android.widget.CheckBox
+      element_type: xpath
+      element_operate: click
+      operate_times: 1
+    screenSaver:
+      element_info: //android.widget.TextView[@text='省电模式']/../android.widget.CheckBox
+      element_type: xpath
+      element_operate: click
+      operate_times: 1
+    screenoffTime1:
+      element_info: com.spt.carengine.settings:id/thirty_second
+      element_type: id
+      element_operate: click
+      operate_times: 1
+    screenoffTime2:
+      element_info: com.spt.carengine.settings:id/one_minute
+      element_type: id
+      element_operate: click
+      operate_times: 1
+    screenoffTime3:
+      element_info: com.spt.carengine.settings:id/three_minutes
+      element_type: id
+      element_operate: click
+      operate_times: 1
+    screenSwitch2:
+      element_info: //android.widget.TextView[@text='屏保开关']/../android.widget.CheckBox
+      element_type: xpath
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1
+testcase4:
+  -
+    elecDog:
+      element_info: //android.widget.TextView[@text='电子狗']/../android.widget.CheckBox
+      element_type: xpath
+      element_operate: click
+      operate_times: 2
+testcase5:
+  -
+    DVRset:
+      element_info: DVR设置
+      element_type: text
+      element_operate: click
+      operate_times: 1
+  -
+    voiceSwitch:
+      element_info: com.spt.carengine.record:id/switch_voice
+      element_type: id
+      element_operate: click
+      operate_times: 2
+  -
+    voiceTime1:
+      element_info: com.spt.carengine.record:id/one_min_tv
+      element_type: id
+      element_operate: click
+      operate_times: 1
+    voiceTime2:
+      element_info: com.spt.carengine.record:id/three_min_tv
+      element_type: id
+      element_operate: click
+      operate_times: 1
+    voiceTime3:
+      element_info: com.spt.carengine.record:id/five_min_tv
+      element_type: id
+      element_operate: click
+      operate_times: 1
+  -
+    backOperate:
+      element_info:
+      element_type:
+      element_operate: back
+      operate_times: 1

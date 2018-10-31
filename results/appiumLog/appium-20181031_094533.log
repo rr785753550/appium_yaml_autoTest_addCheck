@@ -1,0 +1,1213 @@
+2018-10-31 09:45:35:487 - info: [Appium] Welcome to Appium v1.9.0
+2018-10-31 09:45:35:488 - info: [Appium] Non-default server args:
+2018-10-31 09:45:35:488 - info: [Appium]   address: 127.0.0.1
+2018-10-31 09:45:35:488 - info: [Appium]   log: F:\PythonWorkSpace\appium_yaml_autoTest_addCheck\results/appiumLog/appium-20181031_094533.log
+2018-10-31 09:45:35:488 - info: [Appium]   localTimezone: true
+2018-10-31 09:45:35:514 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2018-10-31 09:45:38:472 - info: [HTTP] --> POST /wd/hub/session
+2018-10-31 09:45:38:472 - info: [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:platformVersion":5.1,"appium:deviceName":"10.0.0.37:5555","appium:automationName":"Appium","appium:noReset":true,"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:appPackage":"com.spt.carengine.settings","appium:appActivity":"com.spt.carengine.settings.activity.MainActivity"}},"desiredCapabilities":{"platformName":"Android","platformVersion":5.1,"deviceName":"10.0.0.37:5555","automationName":"Appium","noReset":true,"unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.spt.carengine.settings","appActivity":"com.spt.carengine.settings.activity.MainActivity"}}
+2018-10-31 09:45:38:474 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","platformVersion":5.1,"deviceName":"10.0.0.37:5555","automationName":"Appium","noReset":true,"unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.spt.carengine.settings","appActivity":"com.spt.carengine.settings.activity.MainActivity"},null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:platformVersion":5.1,"appium:deviceName":"10.0.0.37:5555","appium:automationName":"Appium","appium:noReset":true,"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:appPackage":"com.spt.carengine.settings","appium:appActivity":"com.spt.carengine.settings.activity.MainActivity"}}]
+2018-10-31 09:45:38:475 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1540950338475 (09:45:38 GMT+0800 (中国标准时间))
+2018-10-31 09:45:38:480 - info: [Appium] Creating new AndroidDriver (v3.7.0) session
+2018-10-31 09:45:38:480 - info: [Appium] Capabilities:
+2018-10-31 09:45:38:480 - info: [Appium]   platformName: Android
+2018-10-31 09:45:38:480 - info: [Appium]   platformVersion: 5.1
+2018-10-31 09:45:38:480 - info: [Appium]   deviceName: 10.0.0.37:5555
+2018-10-31 09:45:38:480 - info: [Appium]   automationName: Appium
+2018-10-31 09:45:38:481 - info: [Appium]   noReset: true
+2018-10-31 09:45:38:481 - info: [Appium]   unicodeKeyboard: true
+2018-10-31 09:45:38:481 - info: [Appium]   resetKeyboard: true
+2018-10-31 09:45:38:481 - info: [Appium]   appPackage: com.spt.carengine.settings
+2018-10-31 09:45:38:481 - info: [Appium]   appActivity: com.spt.carengine.settings.activity.MainActivity
+2018-10-31 09:45:38:484 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"platformName":"Android","... were provided
+2018-10-31 09:45:38:484 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2018-10-31 09:45:38:488 - info: [BaseDriver] Session created with session id: b9f1dabb-ca38-4721-99f5-88b56c1e3b71
+2018-10-31 09:45:38:569 - info: [AndroidDriver] Java version is: 1.8.0_181
+2018-10-31 09:45:38:574 - info: [ADB] Checking whether adb is present
+2018-10-31 09:45:38:579 - info: [ADB] Found 1 'build-tools' folders under 'F:\adt-bundle-windows-x86_64-20140624\sdk' (newest first):
+2018-10-31 09:45:38:579 - info: [ADB]     F:/adt-bundle-windows-x86_64-20140624/sdk/build-tools/android-4.4W
+2018-10-31 09:45:38:579 - info: [ADB] Using adb.exe from F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe
+2018-10-31 09:45:38:580 - info: [AndroidDriver] Retrieving device list
+2018-10-31 09:45:38:580 - info: [debug] [ADB] Trying to find a connected android device
+2018-10-31 09:45:38:581 - info: [debug] [ADB] Getting connected devices...
+2018-10-31 09:45:38:600 - info: [debug] [ADB] 1 device(s) connected
+2018-10-31 09:45:38:600 - info: [AndroidDriver] Looking for a device with Android '5.1'
+2018-10-31 09:45:38:601 - info: [debug] [ADB] Setting device id to 10.0.0.37:5555
+2018-10-31 09:45:38:601 - info: [ADB] Getting device platform version
+2018-10-31 09:45:38:602 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell getprop ro.build.version.release'
+2018-10-31 09:45:40:803 - info: [debug] [ADB] Current device property 'ro.build.version.release': 5.1
+2018-10-31 09:45:40:804 - info: [AndroidDriver] Using device: 10.0.0.37:5555
+2018-10-31 09:45:40:806 - info: [debug] [ADB] Setting device id to 10.0.0.37:5555
+2018-10-31 09:45:40:807 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell getprop ro.build.version.sdk'
+2018-10-31 09:45:40:883 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 22
+2018-10-31 09:45:40:884 - info: [debug] [ADB] Device API level: 22
+2018-10-31 09:45:40:884 - info: [AndroidDriver] App file was not listed, instead we're going to run com.spt.carengine.settings directly on the device
+2018-10-31 09:45:40:884 - info: [debug] [AndroidDriver] Checking whether package is present on the device
+2018-10-31 09:45:40:884 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell pm list packages com.spt.carengine.settings'
+2018-10-31 09:45:41:430 - info: [AndroidDriver] Starting Android session
+2018-10-31 09:45:41:433 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 wait-for-device'
+2018-10-31 09:45:41:470 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell echo ping'
+2018-10-31 09:45:41:517 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-10-31 09:45:41:519 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-10-31 09:45:41:519 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell pm list packages io.appium.settings'
+2018-10-31 09:45:42:129 - info: [debug] [ADB] App is installed
+2018-10-31 09:45:42:130 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-10-31 09:45:42:131 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell dumpsys package io.appium.settings'
+2018-10-31 09:45:43:195 - info: [ADB] Checking whether aapt is present
+2018-10-31 09:45:43:199 - info: [ADB] Using aapt.exe from F:\adt-bundle-windows-x86_64-20140624\sdk\build-tools\android-4.4W\aapt.exe
+2018-10-31 09:45:43:230 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2018-10-31 09:45:43:232 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell ps'
+2018-10-31 09:45:52:279 - info: [debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2018-10-31 09:45:52:279 - info: [debug] [ADB] Device API level: 22
+2018-10-31 09:45:52:279 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell settings put secure mock_location 1'
+2018-10-31 09:45:53:094 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-10-31 09:45:53:095 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-10-31 09:45:53:098 - info: [debug] [Logcat] Starting logcat capture
+2018-10-31 09:45:53:263 - info: [debug] [AndroidDriver] Enabling Unicode keyboard support
+2018-10-31 09:45:53:263 - info: [debug] [AndroidDriver] Pushing unicode ime to device...
+2018-10-31 09:45:53:266 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 install C\:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-ime\\bin\\UnicodeIME-debug.apk'
+2018-10-31 09:46:12:151 - info: [debug] [ADB] Install command stdout: pkg: /data/local/tmp/UnicodeIME-debug.apk
+2018-10-31 09:46:12:154 - info: [debug] [ADB] Failure [INSTALL_FAILED_ALREADY_EXISTS]
+2018-10-31 09:46:12:155 - info: [debug] [ADB] Application 'C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-ime\bin\UnicodeIME-debug.apk' already installed. Continuing.
+2018-10-31 09:46:12:156 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell settings get secure default_input_method'
+2018-10-31 09:46:15:446 - info: [debug] [AndroidDriver] Unsetting previous IME io.appium.android.ime/.UnicodeIME
+2018-10-31 09:46:15:446 - info: [debug] [AndroidDriver] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+2018-10-31 09:46:15:447 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell ime enable io.appium.android.ime/.UnicodeIME'
+2018-10-31 09:46:16:631 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell ime set io.appium.android.ime/.UnicodeIME'
+2018-10-31 09:46:17:519 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-10-31 09:46:17:520 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-10-31 09:46:17:520 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell pm list packages io.appium.unlock'
+2018-10-31 09:46:20:887 - info: [debug] [ADB] App is installed
+2018-10-31 09:46:20:888 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2018-10-31 09:46:20:888 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell dumpsys package io.appium.unlock'
+2018-10-31 09:46:26:419 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2018-10-31 09:46:26:419 - info: [ADB] Getting device platform version
+2018-10-31 09:46:26:420 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell getprop ro.build.version.release'
+2018-10-31 09:46:34:136 - info: [debug] [ADB] Current device property 'ro.build.version.release': 5.1
+2018-10-31 09:46:34:137 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell wm size'
+2018-10-31 09:46:38:282 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell getprop ro.product.model'
+2018-10-31 09:46:42:074 - info: [debug] [ADB] Current device property 'ro.product.model': magc6580_we_l
+2018-10-31 09:46:42:075 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell getprop ro.product.manufacturer'
+2018-10-31 09:46:47:220 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': alps
+2018-10-31 09:46:47:223 - warn: [AndroidDriver] No app sent in, not parsing package/activity
+2018-10-31 09:46:47:223 - info: [debug] [AndroidDriver] No app capability. Assuming it is already on the device
+2018-10-31 09:46:47:224 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-10-31 09:46:47:227 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2018-10-31 09:46:47:228 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 forward tcp\:4724 tcp\:4724'
+2018-10-31 09:46:47:264 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-10-31 09:46:47:265 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-10-31 09:46:47:265 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-10-31 09:46:47:265 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-10-31 09:46:47:267 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 push C\:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2018-10-31 09:47:07:273 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 push C\:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2018-10-31 09:47:21:439 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-10-31 09:47:21:440 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-10-31 09:47:21:441 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell ps'
+2018-10-31 09:47:23:687 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-10-31 09:47:23:688 - info: [debug] [UiAutomator] Starting UIAutomator
+2018-10-31 09:47:23:689 - info: [debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","10.0.0.37:5555","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.spt.carengine.settings","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+2018-10-31 09:47:25:232 - info: [debug] [UiAutomator] Moving to state 'online'
+2018-10-31 09:47:25:241 - info: [AndroidBootstrap] Android bootstrap socket is now connected
+2018-10-31 09:47:25:243 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell dumpsys window'
+2018-10-31 09:47:25:268 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+2018-10-31 09:47:25:870 - info: [AndroidDriver] Screen already unlocked, doing nothing
+2018-10-31 09:47:25:871 - info: [debug] [ADB] Device API level: 22
+2018-10-31 09:47:25:872 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell am start -W -n com.spt.carengine.settings/com.spt.carengine.settings.activity.MainActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-10-31 09:47:29:211 - info: [Appium] New AndroidDriver session created successfully, session b9f1dabb-ca38-4721-99f5-88b56c1e3b71 added to master session list
+2018-10-31 09:47:29:213 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1540950449212 (09:47:29 GMT+0800 (中国标准时间))
+2018-10-31 09:47:29:215 - info: [debug] [W3C] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","platformVersion":5.1,"deviceName":"10.0.0.37:5555","automationName":"Appium","noReset":true,"unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.spt.carengine.settings","appActivity":"com.spt.carengine.settings.activity.MainActivity"},"platformName":"Android","platformVersion":"5.1","deviceName":"10.0.0.37:5555","automationName":"Appium","noReset":true,"unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.spt.carengine.settings","appActivity":"com.spt.carengine.settings.activity.MainActivity","deviceUDID":"10.0.0.37:5555","deviceScreenSize":"1280x320","deviceModel":"magc6580_we_l","deviceManufacturer":"alps"}}
+2018-10-31 09:47:29:227 - info: [HTTP] <-- POST /wd/hub/session 200 110746 ms - 943
+2018-10-31 09:47:29:227 - info: [HTTP] 
+2018-10-31 09:47:49:243 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:47:49:243 - info: [HTTP] {"implicit":3000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:47:49:244 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,3000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:47:49:250 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":3000}}
+2018-10-31 09:47:49:250 - info: [debug] [BaseDriver] Set implicit wait to 3000ms
+2018-10-31 09:47:49:251 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:47:49:252 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 8 ms - 14
+2018-10-31 09:47:49:252 - info: [HTTP] 
+2018-10-31 09:47:49:253 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:47:49:254 - info: [HTTP] {"using":"xpath","value":"//*[@text='链接']","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:47:49:255 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='链接']","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:47:49:256 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:47:49:257 - info: [debug] [BaseDriver] Waiting up to 3000 ms for condition
+2018-10-31 09:47:49:258 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='链接']","context":"","multiple":false}}
+2018-10-31 09:47:55:818 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='链接']","context":"","multiple":false}}
+2018-10-31 09:47:55:819 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:47:55:819 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:47:55:820 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:47:55:822 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"1"}
+2018-10-31 09:47:55:824 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 6570 ms - 53
+2018-10-31 09:47:55:825 - info: [HTTP] 
+2018-10-31 09:47:55:833 - info: [HTTP] --> GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/1/displayed
+2018-10-31 09:47:55:833 - info: [HTTP] {}
+2018-10-31 09:47:55:835 - info: [debug] [W3C] Calling AppiumDriver.elementDisplayed() with args: ["1","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:47:55:839 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"1"}}
+2018-10-31 09:47:55:884 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@text='链接']' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:47:55:885 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=0]
+2018-10-31 09:47:55:885 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"1"}}
+2018-10-31 09:47:56:209 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:47:56:211 - info: [debug] [W3C] Responding to client with driver.elementDisplayed() result: true
+2018-10-31 09:47:56:213 - info: [HTTP] <-- GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/1/displayed 200 380 ms - 14
+2018-10-31 09:47:56:214 - info: [HTTP] 
+2018-10-31 09:47:56:217 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:47:56:217 - info: [HTTP] {"implicit":2000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:47:56:218 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,2000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:47:56:221 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":2000}}
+2018-10-31 09:47:56:222 - info: [debug] [BaseDriver] Set implicit wait to 2000ms
+2018-10-31 09:47:56:223 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"1"}}
+2018-10-31 09:47:56:223 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:47:56:223 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-10-31 09:47:56:224 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+2018-10-31 09:47:56:225 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:47:56:226 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 9 ms - 14
+2018-10-31 09:47:56:226 - info: [HTTP] 
+2018-10-31 09:47:56:230 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:47:56:230 - info: [HTTP] {"using":"xpath","value":"//*[@text='链接']","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:47:56:231 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='链接']","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:47:56:234 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:47:56:236 - info: [debug] [BaseDriver] Waiting up to 2000 ms for condition
+2018-10-31 09:47:56:237 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='链接']","context":"","multiple":false}}
+2018-10-31 09:47:56:284 - error: [Logcat] Logcat terminated with code 0, signal null
+2018-10-31 09:47:56:294 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='链接']","context":"","multiple":false}}
+2018-10-31 09:47:56:294 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:47:56:295 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:47:56:295 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@text='链接']' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:47:56:381 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=0]
+2018-10-31 09:47:56:388 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:47:56:389 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"2"}
+2018-10-31 09:47:56:391 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 160 ms - 53
+2018-10-31 09:47:56:391 - info: [HTTP] 
+2018-10-31 09:47:56:395 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/2/click
+2018-10-31 09:47:56:396 - info: [HTTP] {"id":"2","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:47:56:396 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["2","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:47:56:400 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+2018-10-31 09:47:56:401 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"2"}}
+2018-10-31 09:47:56:439 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+2018-10-31 09:47:56:439 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:47:56:439 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-31 09:47:56:737 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 09:47:56:740 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:47:56:742 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-10-31 09:47:56:743 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/2/click 200 347 ms - 14
+2018-10-31 09:47:56:743 - info: [HTTP] 
+2018-10-31 09:47:58:794 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:47:58:795 - info: [HTTP] {"implicit":3000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:47:58:795 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,3000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:47:58:797 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":3000}}
+2018-10-31 09:47:58:797 - info: [debug] [BaseDriver] Set implicit wait to 3000ms
+2018-10-31 09:47:58:797 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:47:58:798 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 3 ms - 14
+2018-10-31 09:47:58:798 - info: [HTTP] 
+2018-10-31 09:47:58:800 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:47:58:800 - info: [HTTP] {"using":"xpath","value":"//*[@text='WLAN']","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:47:58:800 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='WLAN']","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:47:58:801 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:47:58:801 - info: [debug] [BaseDriver] Waiting up to 3000 ms for condition
+2018-10-31 09:47:58:802 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='WLAN']","context":"","multiple":false}}
+2018-10-31 09:47:58:925 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='WLAN']","context":"","multiple":false}}
+2018-10-31 09:47:58:925 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:47:58:926 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:47:58:926 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@text='WLAN']' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:47:59:025 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=4]
+2018-10-31 09:47:59:055 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:47:59:056 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"3"}
+2018-10-31 09:47:59:057 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 257 ms - 53
+2018-10-31 09:47:59:058 - info: [HTTP] 
+2018-10-31 09:47:59:059 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"3"}}
+2018-10-31 09:47:59:065 - info: [HTTP] --> GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/3/displayed
+2018-10-31 09:47:59:067 - info: [HTTP] {}
+2018-10-31 09:47:59:069 - info: [debug] [W3C] Calling AppiumDriver.elementDisplayed() with args: ["3","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:47:59:072 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"3"}}
+2018-10-31 09:47:59:088 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"3"}}
+2018-10-31 09:47:59:088 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:47:59:088 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-10-31 09:47:59:096 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+2018-10-31 09:47:59:098 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:47:59:098 - info: [debug] [W3C] Responding to client with driver.elementDisplayed() result: true
+2018-10-31 09:47:59:099 - info: [HTTP] <-- GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/3/displayed 200 37 ms - 14
+2018-10-31 09:47:59:099 - info: [HTTP] 
+2018-10-31 09:47:59:101 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:47:59:101 - info: [HTTP] {"implicit":2000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:47:59:102 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,2000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:47:59:103 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":2000}}
+2018-10-31 09:47:59:103 - info: [debug] [BaseDriver] Set implicit wait to 2000ms
+2018-10-31 09:47:59:104 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:47:59:104 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 3 ms - 14
+2018-10-31 09:47:59:104 - info: [HTTP] 
+2018-10-31 09:47:59:106 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:47:59:106 - info: [HTTP] {"using":"xpath","value":"//*[@text='WLAN']","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:47:59:107 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='WLAN']","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:47:59:109 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:47:59:109 - info: [debug] [BaseDriver] Waiting up to 2000 ms for condition
+2018-10-31 09:47:59:109 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='WLAN']","context":"","multiple":false}}
+2018-10-31 09:47:59:144 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='WLAN']","context":"","multiple":false}}
+2018-10-31 09:47:59:145 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:47:59:145 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:47:59:145 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@text='WLAN']' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:47:59:190 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=4]
+2018-10-31 09:47:59:208 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"4"}}
+2018-10-31 09:47:59:209 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:47:59:211 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"4"}
+2018-10-31 09:47:59:212 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 105 ms - 53
+2018-10-31 09:47:59:212 - info: [HTTP] 
+2018-10-31 09:47:59:216 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/4/click
+2018-10-31 09:47:59:217 - info: [HTTP] {"id":"4","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:47:59:217 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["4","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:47:59:220 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+2018-10-31 09:47:59:248 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"4"}}
+2018-10-31 09:47:59:249 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:47:59:249 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-31 09:47:59:415 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 09:47:59:417 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:47:59:418 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-10-31 09:47:59:419 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/4/click 200 203 ms - 14
+2018-10-31 09:47:59:420 - info: [HTTP] 
+2018-10-31 09:48:00:473 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:00:474 - info: [HTTP] {"implicit":3000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:00:474 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,3000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:00:475 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":3000}}
+2018-10-31 09:48:00:475 - info: [debug] [BaseDriver] Set implicit wait to 3000ms
+2018-10-31 09:48:00:476 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:00:476 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 3 ms - 14
+2018-10-31 09:48:00:476 - info: [HTTP] 
+2018-10-31 09:48:00:478 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/appium/device/press_keycode
+2018-10-31 09:48:00:478 - info: [HTTP] {"keycode":4,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:00:479 - info: [debug] [W3C] Calling AppiumDriver.pressKeyCode() with args: [4,null,null,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71",null,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:00:481 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"pressKeyCode","params":{"keycode":4,"metastate":null}}
+2018-10-31 09:48:00:555 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"pressKeyCode","params":{"keycode":4,"metastate":null}}
+2018-10-31 09:48:00:556 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:00:556 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: pressKeyCode
+2018-10-31 09:48:00:583 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:00:585 - info: [debug] [W3C] Responding to client with driver.pressKeyCode() result: true
+2018-10-31 09:48:00:586 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/appium/device/press_keycode 200 107 ms - 14
+2018-10-31 09:48:00:586 - info: [HTTP] 
+2018-10-31 09:48:00:590 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 09:48:16:511 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:16:511 - info: [HTTP] {"implicit":3000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:16:511 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,3000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:16:513 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":3000}}
+2018-10-31 09:48:16:513 - info: [debug] [BaseDriver] Set implicit wait to 3000ms
+2018-10-31 09:48:16:513 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:16:513 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 2 ms - 14
+2018-10-31 09:48:16:513 - info: [HTTP] 
+2018-10-31 09:48:16:515 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:16:515 - info: [HTTP] {"using":"xpath","value":"//*[@text='行车']","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:16:515 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='行车']","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:16:516 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:16:516 - info: [debug] [BaseDriver] Waiting up to 3000 ms for condition
+2018-10-31 09:48:16:516 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='行车']","context":"","multiple":false}}
+2018-10-31 09:48:16:551 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='行车']","context":"","multiple":false}}
+2018-10-31 09:48:16:551 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:16:551 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:16:551 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@text='行车']' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:16:653 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=1]
+2018-10-31 09:48:16:674 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"5"}}
+2018-10-31 09:48:16:675 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:16:677 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"5"}
+2018-10-31 09:48:16:678 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 162 ms - 53
+2018-10-31 09:48:16:678 - info: [HTTP] 
+2018-10-31 09:48:16:682 - info: [HTTP] --> GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/5/displayed
+2018-10-31 09:48:16:682 - info: [HTTP] {}
+2018-10-31 09:48:16:683 - info: [debug] [W3C] Calling AppiumDriver.elementDisplayed() with args: ["5","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:16:686 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"5"}}
+2018-10-31 09:48:16:726 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"5"}}
+2018-10-31 09:48:16:726 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:16:727 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-10-31 09:48:16:730 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:16:731 - info: [debug] [W3C] Responding to client with driver.elementDisplayed() result: true
+2018-10-31 09:48:16:733 - info: [HTTP] <-- GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/5/displayed 200 50 ms - 14
+2018-10-31 09:48:16:733 - info: [HTTP] 
+2018-10-31 09:48:16:736 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:16:737 - info: [HTTP] {"implicit":2000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:16:737 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,2000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:16:740 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":2000}}
+2018-10-31 09:48:16:740 - info: [debug] [BaseDriver] Set implicit wait to 2000ms
+2018-10-31 09:48:16:741 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:16:742 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 6 ms - 14
+2018-10-31 09:48:16:743 - info: [HTTP] 
+2018-10-31 09:48:16:746 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:16:747 - info: [HTTP] {"using":"xpath","value":"//*[@text='行车']","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:16:748 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='行车']","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:16:750 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:16:751 - info: [debug] [BaseDriver] Waiting up to 2000 ms for condition
+2018-10-31 09:48:16:752 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='行车']","context":"","multiple":false}}
+2018-10-31 09:48:16:753 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+2018-10-31 09:48:16:781 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='行车']","context":"","multiple":false}}
+2018-10-31 09:48:16:782 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:16:782 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:16:782 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@text='行车']' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:16:843 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=1]
+2018-10-31 09:48:16:851 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"6"}}
+2018-10-31 09:48:16:853 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:16:854 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"6"}
+2018-10-31 09:48:16:856 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 109 ms - 53
+2018-10-31 09:48:16:856 - info: [HTTP] 
+2018-10-31 09:48:16:860 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/6/click
+2018-10-31 09:48:16:860 - info: [HTTP] {"id":"6","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:16:861 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["6","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:16:864 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"6"}}
+2018-10-31 09:48:16:880 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"6"}}
+2018-10-31 09:48:16:880 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:16:881 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-31 09:48:17:025 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 09:48:17:026 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:17:028 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-10-31 09:48:17:029 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/6/click 200 168 ms - 14
+2018-10-31 09:48:17:029 - info: [HTTP] 
+2018-10-31 09:48:19:087 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:19:087 - info: [HTTP] {"implicit":3000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:19:087 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,3000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:19:089 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":3000}}
+2018-10-31 09:48:19:089 - info: [debug] [BaseDriver] Set implicit wait to 3000ms
+2018-10-31 09:48:19:089 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:19:090 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 3 ms - 14
+2018-10-31 09:48:19:090 - info: [HTTP] 
+2018-10-31 09:48:19:091 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:19:091 - info: [HTTP] {"using":"xpath","value":"//*[@text='碰撞设置']","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:19:091 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='碰撞设置']","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:19:092 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:19:092 - info: [debug] [BaseDriver] Waiting up to 3000 ms for condition
+2018-10-31 09:48:19:093 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='碰撞设置']","context":"","multiple":false}}
+2018-10-31 09:48:19:146 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='碰撞设置']","context":"","multiple":false}}
+2018-10-31 09:48:19:146 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:19:146 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:19:146 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@text='碰撞设置']' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:19:228 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=4]
+2018-10-31 09:48:19:229 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:19:231 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"7"}
+2018-10-31 09:48:19:232 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 140 ms - 53
+2018-10-31 09:48:19:233 - info: [HTTP] 
+2018-10-31 09:48:19:236 - info: [HTTP] --> GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/7/displayed
+2018-10-31 09:48:19:237 - info: [HTTP] {}
+2018-10-31 09:48:19:238 - info: [debug] [W3C] Calling AppiumDriver.elementDisplayed() with args: ["7","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:19:241 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"7"}}
+2018-10-31 09:48:19:243 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"7"}}
+2018-10-31 09:48:19:254 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"7"}}
+2018-10-31 09:48:19:254 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:19:254 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-10-31 09:48:19:260 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+2018-10-31 09:48:19:262 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:19:263 - info: [debug] [W3C] Responding to client with driver.elementDisplayed() result: true
+2018-10-31 09:48:19:263 - info: [HTTP] <-- GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/7/displayed 200 27 ms - 14
+2018-10-31 09:48:19:264 - info: [HTTP] 
+2018-10-31 09:48:19:266 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:19:266 - info: [HTTP] {"implicit":2000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:19:266 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,2000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:19:268 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":2000}}
+2018-10-31 09:48:19:268 - info: [debug] [BaseDriver] Set implicit wait to 2000ms
+2018-10-31 09:48:19:268 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:19:269 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 3 ms - 14
+2018-10-31 09:48:19:269 - info: [HTTP] 
+2018-10-31 09:48:19:271 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:19:272 - info: [HTTP] {"using":"xpath","value":"//*[@text='碰撞设置']","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:19:272 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='碰撞设置']","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:19:274 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:19:274 - info: [debug] [BaseDriver] Waiting up to 2000 ms for condition
+2018-10-31 09:48:19:275 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='碰撞设置']","context":"","multiple":false}}
+2018-10-31 09:48:19:325 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//*[@text='碰撞设置']","context":"","multiple":false}}
+2018-10-31 09:48:19:326 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:19:326 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:19:326 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//*[@text='碰撞设置']' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:19:439 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=4]
+2018-10-31 09:48:19:440 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:19:442 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"8"}
+2018-10-31 09:48:19:443 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 171 ms - 53
+2018-10-31 09:48:19:443 - info: [HTTP] 
+2018-10-31 09:48:19:447 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/8/click
+2018-10-31 09:48:19:448 - info: [HTTP] {"id":"8","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:19:448 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["8","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:19:451 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"8"}}
+2018-10-31 09:48:19:470 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"8"}}
+2018-10-31 09:48:19:537 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"8"}}
+2018-10-31 09:48:19:538 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:19:538 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-31 09:48:19:872 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 09:48:19:874 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:19:875 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-10-31 09:48:19:876 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/8/click 200 428 ms - 14
+2018-10-31 09:48:19:876 - info: [HTTP] 
+2018-10-31 09:48:20:959 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:20:959 - info: [HTTP] {"implicit":3000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:20:959 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,3000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:20:960 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":3000}}
+2018-10-31 09:48:20:960 - info: [debug] [BaseDriver] Set implicit wait to 3000ms
+2018-10-31 09:48:20:961 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:20:961 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 2 ms - 14
+2018-10-31 09:48:20:961 - info: [HTTP] 
+2018-10-31 09:48:20:963 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:20:963 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:20:963 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:20:964 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:20:964 - info: [debug] [BaseDriver] Waiting up to 3000 ms for condition
+2018-10-31 09:48:20:964 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox","context":"","multiple":false}}
+2018-10-31 09:48:20:988 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox","context":"","multiple":false}}
+2018-10-31 09:48:20:988 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:20:988 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:20:988 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:21:057 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.CheckBox, INSTANCE=0]
+2018-10-31 09:48:21:253 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"9"}}
+2018-10-31 09:48:21:255 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:21:256 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"9"}
+2018-10-31 09:48:21:257 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 294 ms - 53
+2018-10-31 09:48:21:257 - info: [HTTP] 
+2018-10-31 09:48:21:261 - info: [HTTP] --> GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/9/displayed
+2018-10-31 09:48:21:261 - info: [HTTP] {}
+2018-10-31 09:48:21:262 - info: [debug] [W3C] Calling AppiumDriver.elementDisplayed() with args: ["9","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:21:264 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"9"}}
+2018-10-31 09:48:21:289 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"9"}}
+2018-10-31 09:48:21:290 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:21:290 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-10-31 09:48:21:306 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+2018-10-31 09:48:21:312 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:21:313 - info: [debug] [W3C] Responding to client with driver.elementDisplayed() result: true
+2018-10-31 09:48:21:314 - info: [HTTP] <-- GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/9/displayed 200 54 ms - 14
+2018-10-31 09:48:21:315 - info: [HTTP] 
+2018-10-31 09:48:21:318 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:21:319 - info: [HTTP] {"implicit":2000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:21:319 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,2000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:21:322 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":2000}}
+2018-10-31 09:48:21:323 - info: [debug] [BaseDriver] Set implicit wait to 2000ms
+2018-10-31 09:48:21:324 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:21:325 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 6 ms - 14
+2018-10-31 09:48:21:326 - info: [HTTP] 
+2018-10-31 09:48:21:329 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:21:330 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:21:330 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:21:334 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:21:335 - info: [debug] [BaseDriver] Waiting up to 2000 ms for condition
+2018-10-31 09:48:21:336 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox","context":"","multiple":false}}
+2018-10-31 09:48:21:354 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox","context":"","multiple":false}}
+2018-10-31 09:48:21:354 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:21:354 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:21:354 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:21:550 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.CheckBox, INSTANCE=0]
+2018-10-31 09:48:21:552 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:21:553 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"10"}
+2018-10-31 09:48:21:554 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 225 ms - 54
+2018-10-31 09:48:21:554 - info: [HTTP] 
+2018-10-31 09:48:21:557 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/10/click
+2018-10-31 09:48:21:558 - info: [HTTP] {"id":"10","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:21:558 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["10","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:21:561 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"10"}}
+2018-10-31 09:48:21:562 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"10"}}
+2018-10-31 09:48:21:590 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"10"}}
+2018-10-31 09:48:21:591 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:21:591 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-31 09:48:21:855 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 09:48:21:861 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:21:862 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-10-31 09:48:21:864 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/10/click 200 306 ms - 14
+2018-10-31 09:48:21:864 - info: [HTTP] 
+2018-10-31 09:48:22:949 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:22:949 - info: [HTTP] {"implicit":3000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:22:949 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,3000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:22:950 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":3000}}
+2018-10-31 09:48:22:950 - info: [debug] [BaseDriver] Set implicit wait to 3000ms
+2018-10-31 09:48:22:950 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:22:950 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 2 ms - 14
+2018-10-31 09:48:22:951 - info: [HTTP] 
+2018-10-31 09:48:22:952 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:22:952 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:22:952 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:22:953 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:22:953 - info: [debug] [BaseDriver] Waiting up to 3000 ms for condition
+2018-10-31 09:48:22:953 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]","context":"","multiple":false}}
+2018-10-31 09:48:22:994 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]","context":"","multiple":false}}
+2018-10-31 09:48:22:995 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:22:995 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:22:995 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:23:058 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=7]
+2018-10-31 09:48:23:065 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:23:066 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"11"}
+2018-10-31 09:48:23:066 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 114 ms - 54
+2018-10-31 09:48:23:066 - info: [HTTP] 
+2018-10-31 09:48:23:068 - info: [HTTP] --> GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/11/displayed
+2018-10-31 09:48:23:068 - info: [HTTP] {}
+2018-10-31 09:48:23:068 - info: [debug] [W3C] Calling AppiumDriver.elementDisplayed() with args: ["11","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:23:069 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"11"}}
+2018-10-31 09:48:23:084 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"11"}}
+2018-10-31 09:48:23:102 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"11"}}
+2018-10-31 09:48:23:102 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:23:102 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-10-31 09:48:23:106 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:23:106 - info: [debug] [W3C] Responding to client with driver.elementDisplayed() result: true
+2018-10-31 09:48:23:107 - info: [HTTP] <-- GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/11/displayed 200 39 ms - 14
+2018-10-31 09:48:23:107 - info: [HTTP] 
+2018-10-31 09:48:23:108 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:23:108 - info: [HTTP] {"implicit":2000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:23:108 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,2000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:23:109 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":2000}}
+2018-10-31 09:48:23:109 - info: [debug] [BaseDriver] Set implicit wait to 2000ms
+2018-10-31 09:48:23:109 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:23:110 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 1 ms - 14
+2018-10-31 09:48:23:110 - info: [HTTP] 
+2018-10-31 09:48:23:112 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:23:112 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:23:113 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:23:116 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:23:117 - info: [debug] [BaseDriver] Waiting up to 2000 ms for condition
+2018-10-31 09:48:23:117 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]","context":"","multiple":false}}
+2018-10-31 09:48:23:118 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+2018-10-31 09:48:23:135 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]","context":"","multiple":false}}
+2018-10-31 09:48:23:136 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:23:136 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:23:136 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:23:206 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=7]
+2018-10-31 09:48:23:227 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"12"}}
+2018-10-31 09:48:23:230 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:23:230 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"12"}
+2018-10-31 09:48:23:231 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 119 ms - 54
+2018-10-31 09:48:23:231 - info: [HTTP] 
+2018-10-31 09:48:23:234 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/12/click
+2018-10-31 09:48:23:234 - info: [HTTP] {"id":"12","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:23:235 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["12","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:23:237 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"12"}}
+2018-10-31 09:48:23:264 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"12"}}
+2018-10-31 09:48:23:290 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:23:291 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-31 09:48:23:544 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 09:48:23:546 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:23:546 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-10-31 09:48:23:547 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/12/click 200 312 ms - 14
+2018-10-31 09:48:23:547 - info: [HTTP] 
+2018-10-31 09:48:24:621 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:24:622 - info: [HTTP] {"implicit":3000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:24:622 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,3000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:24:623 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":3000}}
+2018-10-31 09:48:24:623 - info: [debug] [BaseDriver] Set implicit wait to 3000ms
+2018-10-31 09:48:24:623 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:24:623 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 2 ms - 14
+2018-10-31 09:48:24:623 - info: [HTTP] 
+2018-10-31 09:48:24:625 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:24:625 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:24:625 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:24:626 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:24:626 - info: [debug] [BaseDriver] Waiting up to 3000 ms for condition
+2018-10-31 09:48:24:626 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]","context":"","multiple":false}}
+2018-10-31 09:48:24:656 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]","context":"","multiple":false}}
+2018-10-31 09:48:24:656 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:24:656 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:24:656 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:24:751 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=8]
+2018-10-31 09:48:24:785 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"13"}}
+2018-10-31 09:48:24:787 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:24:788 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"13"}
+2018-10-31 09:48:24:790 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 164 ms - 54
+2018-10-31 09:48:24:790 - info: [HTTP] 
+2018-10-31 09:48:24:801 - info: [HTTP] --> GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/13/displayed
+2018-10-31 09:48:24:801 - info: [HTTP] {}
+2018-10-31 09:48:24:802 - info: [debug] [W3C] Calling AppiumDriver.elementDisplayed() with args: ["13","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:24:804 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"13"}}
+2018-10-31 09:48:24:830 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"13"}}
+2018-10-31 09:48:24:830 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:24:830 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-10-31 09:48:25:013 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:25:013 - info: [debug] [W3C] Responding to client with driver.elementDisplayed() result: true
+2018-10-31 09:48:25:014 - info: [HTTP] <-- GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/13/displayed 200 213 ms - 14
+2018-10-31 09:48:25:014 - info: [HTTP] 
+2018-10-31 09:48:25:016 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:25:016 - info: [HTTP] {"implicit":2000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:25:016 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,2000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:25:017 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":2000}}
+2018-10-31 09:48:25:018 - info: [debug] [BaseDriver] Set implicit wait to 2000ms
+2018-10-31 09:48:25:018 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+2018-10-31 09:48:25:018 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:25:019 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 3 ms - 14
+2018-10-31 09:48:25:019 - info: [HTTP] 
+2018-10-31 09:48:25:021 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:25:022 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:25:022 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:25:023 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:25:023 - info: [debug] [BaseDriver] Waiting up to 2000 ms for condition
+2018-10-31 09:48:25:023 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]","context":"","multiple":false}}
+2018-10-31 09:48:25:140 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]","context":"","multiple":false}}
+2018-10-31 09:48:25:140 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:25:140 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:25:140 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:25:159 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=8]
+2018-10-31 09:48:25:199 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"14"}}
+2018-10-31 09:48:25:203 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:25:204 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"14"}
+2018-10-31 09:48:25:205 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 184 ms - 54
+2018-10-31 09:48:25:206 - info: [HTTP] 
+2018-10-31 09:48:25:210 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/14/click
+2018-10-31 09:48:25:210 - info: [HTTP] {"id":"14","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:25:211 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["14","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:25:212 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"14"}}
+2018-10-31 09:48:25:272 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"14"}}
+2018-10-31 09:48:25:273 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:25:273 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-31 09:48:25:797 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 09:48:25:798 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:25:799 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-10-31 09:48:25:800 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/14/click 200 590 ms - 14
+2018-10-31 09:48:25:801 - info: [HTTP] 
+2018-10-31 09:48:26:874 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:26:874 - info: [HTTP] {"implicit":3000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:26:875 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,3000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:26:876 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":3000}}
+2018-10-31 09:48:26:876 - info: [debug] [BaseDriver] Set implicit wait to 3000ms
+2018-10-31 09:48:26:876 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:26:876 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 2 ms - 14
+2018-10-31 09:48:26:876 - info: [HTTP] 
+2018-10-31 09:48:26:878 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:26:878 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:26:878 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:26:879 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:26:879 - info: [debug] [BaseDriver] Waiting up to 3000 ms for condition
+2018-10-31 09:48:26:879 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]","context":"","multiple":false}}
+2018-10-31 09:48:26:904 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]","context":"","multiple":false}}
+2018-10-31 09:48:26:904 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:26:904 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:26:904 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:26:966 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=6]
+2018-10-31 09:48:26:984 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"15"}}
+2018-10-31 09:48:26:985 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:26:987 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"15"}
+2018-10-31 09:48:26:988 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 109 ms - 54
+2018-10-31 09:48:26:988 - info: [HTTP] 
+2018-10-31 09:48:26:992 - info: [HTTP] --> GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/15/displayed
+2018-10-31 09:48:26:992 - info: [HTTP] {}
+2018-10-31 09:48:26:994 - info: [debug] [W3C] Calling AppiumDriver.elementDisplayed() with args: ["15","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:26:997 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"15"}}
+2018-10-31 09:48:27:008 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"15"}}
+2018-10-31 09:48:27:009 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:27:009 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-10-31 09:48:27:027 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+2018-10-31 09:48:27:028 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:27:029 - info: [debug] [W3C] Responding to client with driver.elementDisplayed() result: true
+2018-10-31 09:48:27:030 - info: [HTTP] <-- GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/15/displayed 200 37 ms - 14
+2018-10-31 09:48:27:030 - info: [HTTP] 
+2018-10-31 09:48:27:032 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:27:033 - info: [HTTP] {"implicit":2000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:27:033 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,2000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:27:035 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":2000}}
+2018-10-31 09:48:27:035 - info: [debug] [BaseDriver] Set implicit wait to 2000ms
+2018-10-31 09:48:27:036 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:27:036 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 3 ms - 14
+2018-10-31 09:48:27:036 - info: [HTTP] 
+2018-10-31 09:48:27:039 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:27:039 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:27:039 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:27:042 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:27:042 - info: [debug] [BaseDriver] Waiting up to 2000 ms for condition
+2018-10-31 09:48:27:042 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]","context":"","multiple":false}}
+2018-10-31 09:48:27:064 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]","context":"","multiple":false}}
+2018-10-31 09:48:27:064 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:27:064 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:27:064 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:27:136 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=6]
+2018-10-31 09:48:27:150 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"16"}}
+2018-10-31 09:48:27:152 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:27:152 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"16"}
+2018-10-31 09:48:27:153 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 114 ms - 54
+2018-10-31 09:48:27:153 - info: [HTTP] 
+2018-10-31 09:48:27:154 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/16/click
+2018-10-31 09:48:27:154 - info: [HTTP] {"id":"16","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:27:155 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["16","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:27:156 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"16"}}
+2018-10-31 09:48:27:163 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"16"}}
+2018-10-31 09:48:27:167 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:27:167 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-31 09:48:27:549 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 09:48:27:550 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:27:551 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-10-31 09:48:27:552 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/16/click 200 397 ms - 14
+2018-10-31 09:48:27:552 - info: [HTTP] 
+2018-10-31 09:48:28:629 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:28:629 - info: [HTTP] {"implicit":3000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:28:629 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,3000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:28:631 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":3000}}
+2018-10-31 09:48:28:631 - info: [debug] [BaseDriver] Set implicit wait to 3000ms
+2018-10-31 09:48:28:631 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:28:632 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 2 ms - 14
+2018-10-31 09:48:28:632 - info: [HTTP] 
+2018-10-31 09:48:28:634 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:28:634 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:28:635 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:28:636 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:28:636 - info: [debug] [BaseDriver] Waiting up to 3000 ms for condition
+2018-10-31 09:48:28:636 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox","context":"","multiple":false}}
+2018-10-31 09:48:28:661 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox","context":"","multiple":false}}
+2018-10-31 09:48:28:661 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:28:661 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:28:662 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:28:731 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.CheckBox, INSTANCE=0]
+2018-10-31 09:48:28:749 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"17"}}
+2018-10-31 09:48:28:750 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:28:751 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"17"}
+2018-10-31 09:48:28:752 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 117 ms - 54
+2018-10-31 09:48:28:752 - info: [HTTP] 
+2018-10-31 09:48:28:754 - info: [HTTP] --> GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/17/displayed
+2018-10-31 09:48:28:754 - info: [HTTP] {}
+2018-10-31 09:48:28:754 - info: [debug] [W3C] Calling AppiumDriver.elementDisplayed() with args: ["17","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:28:755 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"17"}}
+2018-10-31 09:48:28:769 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"17"}}
+2018-10-31 09:48:28:785 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:28:785 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-10-31 09:48:28:790 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:28:791 - info: [debug] [W3C] Responding to client with driver.elementDisplayed() result: true
+2018-10-31 09:48:28:792 - info: [HTTP] <-- GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/17/displayed 200 38 ms - 14
+2018-10-31 09:48:28:793 - info: [HTTP] 
+2018-10-31 09:48:28:793 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+2018-10-31 09:48:28:797 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:28:797 - info: [HTTP] {"implicit":2000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:28:798 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,2000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:28:800 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":2000}}
+2018-10-31 09:48:28:800 - info: [debug] [BaseDriver] Set implicit wait to 2000ms
+2018-10-31 09:48:28:801 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:28:802 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 5 ms - 14
+2018-10-31 09:48:28:803 - info: [HTTP] 
+2018-10-31 09:48:28:806 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:28:806 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:28:807 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:28:809 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:28:810 - info: [debug] [BaseDriver] Waiting up to 2000 ms for condition
+2018-10-31 09:48:28:810 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox","context":"","multiple":false}}
+2018-10-31 09:48:28:832 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox","context":"","multiple":false}}
+2018-10-31 09:48:28:832 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:28:832 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:28:833 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='行车监控']/../android.widget.CheckBox' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:28:894 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.CheckBox, INSTANCE=0]
+2018-10-31 09:48:28:909 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"18"}}
+2018-10-31 09:48:28:910 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:28:912 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"18"}
+2018-10-31 09:48:28:913 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 107 ms - 54
+2018-10-31 09:48:28:913 - info: [HTTP] 
+2018-10-31 09:48:28:918 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/18/click
+2018-10-31 09:48:28:918 - info: [HTTP] {"id":"18","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:28:919 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["18","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:28:922 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"18"}}
+2018-10-31 09:48:28:935 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"18"}}
+2018-10-31 09:48:28:945 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:28:945 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-31 09:48:29:758 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 09:48:29:760 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:29:761 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-10-31 09:48:29:762 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/18/click 200 844 ms - 14
+2018-10-31 09:48:29:763 - info: [HTTP] 
+2018-10-31 09:48:39:873 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:39:874 - info: [HTTP] {"implicit":3000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:39:874 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,3000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:39:874 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":3000}}
+2018-10-31 09:48:39:875 - info: [debug] [BaseDriver] Set implicit wait to 3000ms
+2018-10-31 09:48:39:875 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:39:875 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 2 ms - 14
+2018-10-31 09:48:39:875 - info: [HTTP] 
+2018-10-31 09:48:39:877 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:39:877 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:39:877 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:39:878 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:39:878 - info: [debug] [BaseDriver] Waiting up to 3000 ms for condition
+2018-10-31 09:48:39:878 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox","context":"","multiple":false}}
+2018-10-31 09:48:40:159 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox","context":"","multiple":false}}
+2018-10-31 09:48:40:160 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:40:160 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:40:161 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:40:166 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:40:167 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"19"}
+2018-10-31 09:48:40:168 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 291 ms - 54
+2018-10-31 09:48:40:168 - info: [HTTP] 
+2018-10-31 09:48:40:172 - info: [HTTP] --> GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/19/displayed
+2018-10-31 09:48:40:172 - info: [HTTP] {}
+2018-10-31 09:48:40:173 - info: [debug] [W3C] Calling AppiumDriver.elementDisplayed() with args: ["19","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:40:175 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"19"}}
+2018-10-31 09:48:40:260 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.CheckBox, INSTANCE=2]
+2018-10-31 09:48:40:261 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"19"}}
+2018-10-31 09:48:40:277 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"19"}}
+2018-10-31 09:48:40:277 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:40:277 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-10-31 09:48:40:310 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+2018-10-31 09:48:40:314 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:40:315 - info: [debug] [W3C] Responding to client with driver.elementDisplayed() result: true
+2018-10-31 09:48:40:316 - info: [HTTP] <-- GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/19/displayed 200 144 ms - 14
+2018-10-31 09:48:40:317 - info: [HTTP] 
+2018-10-31 09:48:40:320 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:40:320 - info: [HTTP] {"implicit":2000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:40:321 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,2000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:40:323 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":2000}}
+2018-10-31 09:48:40:324 - info: [debug] [BaseDriver] Set implicit wait to 2000ms
+2018-10-31 09:48:40:324 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:40:326 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 5 ms - 14
+2018-10-31 09:48:40:326 - info: [HTTP] 
+2018-10-31 09:48:40:330 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:40:330 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:40:331 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:40:332 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:40:332 - info: [debug] [BaseDriver] Waiting up to 2000 ms for condition
+2018-10-31 09:48:40:332 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox","context":"","multiple":false}}
+2018-10-31 09:48:40:347 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox","context":"","multiple":false}}
+2018-10-31 09:48:40:347 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:40:347 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:40:347 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:40:419 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.CheckBox, INSTANCE=2]
+2018-10-31 09:48:40:439 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"20"}}
+2018-10-31 09:48:40:440 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:40:441 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"20"}
+2018-10-31 09:48:40:441 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 111 ms - 54
+2018-10-31 09:48:40:441 - info: [HTTP] 
+2018-10-31 09:48:40:443 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/20/click
+2018-10-31 09:48:40:443 - info: [HTTP] {"id":"20","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:40:443 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["20","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:40:444 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"20"}}
+2018-10-31 09:48:40:453 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"20"}}
+2018-10-31 09:48:40:459 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:40:459 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-31 09:48:40:664 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 09:48:40:666 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:40:667 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-10-31 09:48:40:668 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/20/click 200 225 ms - 14
+2018-10-31 09:48:40:668 - info: [HTTP] 
+2018-10-31 09:48:41:743 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:41:743 - info: [HTTP] {"implicit":3000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:41:743 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,3000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:41:744 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":3000}}
+2018-10-31 09:48:41:744 - info: [debug] [BaseDriver] Set implicit wait to 3000ms
+2018-10-31 09:48:41:745 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:41:745 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 2 ms - 14
+2018-10-31 09:48:41:745 - info: [HTTP] 
+2018-10-31 09:48:41:747 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:41:747 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:41:747 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:41:748 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:41:748 - info: [debug] [BaseDriver] Waiting up to 3000 ms for condition
+2018-10-31 09:48:41:748 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]","context":"","multiple":false}}
+2018-10-31 09:48:41:842 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]","context":"","multiple":false}}
+2018-10-31 09:48:41:843 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:41:843 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:41:843 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:42:059 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=12]
+2018-10-31 09:48:42:061 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:42:061 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"21"}
+2018-10-31 09:48:42:062 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 315 ms - 54
+2018-10-31 09:48:42:062 - info: [HTTP] 
+2018-10-31 09:48:42:065 - info: [HTTP] --> GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/21/displayed
+2018-10-31 09:48:42:065 - info: [HTTP] {}
+2018-10-31 09:48:42:065 - info: [debug] [W3C] Calling AppiumDriver.elementDisplayed() with args: ["21","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:42:067 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"21"}}
+2018-10-31 09:48:42:104 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"21"}}
+2018-10-31 09:48:42:132 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"21"}}
+2018-10-31 09:48:42:133 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:42:133 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-10-31 09:48:42:167 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+2018-10-31 09:48:42:169 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:42:170 - info: [debug] [W3C] Responding to client with driver.elementDisplayed() result: true
+2018-10-31 09:48:42:171 - info: [HTTP] <-- GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/21/displayed 200 106 ms - 14
+2018-10-31 09:48:42:172 - info: [HTTP] 
+2018-10-31 09:48:42:175 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:42:176 - info: [HTTP] {"implicit":2000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:42:176 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,2000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:42:179 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":2000}}
+2018-10-31 09:48:42:179 - info: [debug] [BaseDriver] Set implicit wait to 2000ms
+2018-10-31 09:48:42:180 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:42:181 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 6 ms - 14
+2018-10-31 09:48:42:185 - info: [HTTP] 
+2018-10-31 09:48:42:188 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:42:188 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:42:189 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:42:191 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:42:191 - info: [debug] [BaseDriver] Waiting up to 2000 ms for condition
+2018-10-31 09:48:42:192 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]","context":"","multiple":false}}
+2018-10-31 09:48:43:751 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]","context":"","multiple":false}}
+2018-10-31 09:48:43:751 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:43:753 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:43:753 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:43:830 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=12]
+2018-10-31 09:48:43:847 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"22"}}
+2018-10-31 09:48:43:849 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:43:852 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"22"}
+2018-10-31 09:48:43:854 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 1665 ms - 54
+2018-10-31 09:48:43:854 - info: [HTTP] 
+2018-10-31 09:48:43:857 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/22/click
+2018-10-31 09:48:43:858 - info: [HTTP] {"id":"22","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:43:858 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["22","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:43:861 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"22"}}
+2018-10-31 09:48:43:874 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"22"}}
+2018-10-31 09:48:43:874 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:43:874 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-31 09:48:44:200 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 09:48:44:202 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:44:203 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-10-31 09:48:44:204 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/22/click 200 346 ms - 14
+2018-10-31 09:48:44:205 - info: [HTTP] 
+2018-10-31 09:48:45:239 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:45:239 - info: [HTTP] {"implicit":3000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:45:239 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,3000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:45:240 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":3000}}
+2018-10-31 09:48:45:240 - info: [debug] [BaseDriver] Set implicit wait to 3000ms
+2018-10-31 09:48:45:241 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:45:242 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 2 ms - 14
+2018-10-31 09:48:45:242 - info: [HTTP] 
+2018-10-31 09:48:45:244 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:45:244 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:45:244 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:45:245 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:45:246 - info: [debug] [BaseDriver] Waiting up to 3000 ms for condition
+2018-10-31 09:48:45:246 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]","context":"","multiple":false}}
+2018-10-31 09:48:45:273 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]","context":"","multiple":false}}
+2018-10-31 09:48:45:274 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:45:274 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:45:274 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:45:344 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=13]
+2018-10-31 09:48:45:369 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"23"}}
+2018-10-31 09:48:45:370 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:45:371 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"23"}
+2018-10-31 09:48:45:372 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 128 ms - 54
+2018-10-31 09:48:45:372 - info: [HTTP] 
+2018-10-31 09:48:45:375 - info: [HTTP] --> GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/23/displayed
+2018-10-31 09:48:45:376 - info: [HTTP] {}
+2018-10-31 09:48:45:376 - info: [debug] [W3C] Calling AppiumDriver.elementDisplayed() with args: ["23","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:45:378 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"23"}}
+2018-10-31 09:48:45:656 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"23"}}
+2018-10-31 09:48:45:656 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:45:657 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-10-31 09:48:45:658 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:45:658 - info: [debug] [W3C] Responding to client with driver.elementDisplayed() result: true
+2018-10-31 09:48:45:659 - info: [HTTP] <-- GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/23/displayed 200 283 ms - 14
+2018-10-31 09:48:45:659 - info: [HTTP] 
+2018-10-31 09:48:45:660 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:45:660 - info: [HTTP] {"implicit":2000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:45:661 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,2000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:45:661 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":2000}}
+2018-10-31 09:48:45:661 - info: [debug] [BaseDriver] Set implicit wait to 2000ms
+2018-10-31 09:48:45:662 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:45:662 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 2 ms - 14
+2018-10-31 09:48:45:662 - info: [HTTP] 
+2018-10-31 09:48:45:663 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:45:663 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:45:663 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:45:664 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:45:664 - info: [debug] [BaseDriver] Waiting up to 2000 ms for condition
+2018-10-31 09:48:45:664 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]","context":"","multiple":false}}
+2018-10-31 09:48:45:743 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+2018-10-31 09:48:45:791 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]","context":"","multiple":false}}
+2018-10-31 09:48:45:792 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:45:792 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:45:792 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:45:849 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=13]
+2018-10-31 09:48:45:875 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"24"}}
+2018-10-31 09:48:45:875 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:45:878 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"24"}
+2018-10-31 09:48:45:879 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 215 ms - 54
+2018-10-31 09:48:45:879 - info: [HTTP] 
+2018-10-31 09:48:45:881 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/24/click
+2018-10-31 09:48:45:881 - info: [HTTP] {"id":"24","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:45:881 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["24","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:45:882 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"24"}}
+2018-10-31 09:48:45:898 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"24"}}
+2018-10-31 09:48:45:923 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:45:924 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-31 09:48:46:303 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 09:48:46:306 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:46:307 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-10-31 09:48:46:308 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/24/click 200 426 ms - 14
+2018-10-31 09:48:46:308 - info: [HTTP] 
+2018-10-31 09:48:47:370 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:47:370 - info: [HTTP] {"implicit":3000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:47:370 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,3000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:47:371 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":3000}}
+2018-10-31 09:48:47:371 - info: [debug] [BaseDriver] Set implicit wait to 3000ms
+2018-10-31 09:48:47:371 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:47:371 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 2 ms - 14
+2018-10-31 09:48:47:371 - info: [HTTP] 
+2018-10-31 09:48:47:373 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:47:373 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:47:373 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:47:374 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:47:374 - info: [debug] [BaseDriver] Waiting up to 3000 ms for condition
+2018-10-31 09:48:47:374 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]","context":"","multiple":false}}
+2018-10-31 09:48:47:448 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]","context":"","multiple":false}}
+2018-10-31 09:48:47:448 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:47:448 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:47:448 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:47:501 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=11]
+2018-10-31 09:48:47:518 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"25"}}
+2018-10-31 09:48:47:521 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:47:521 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"25"}
+2018-10-31 09:48:47:521 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 148 ms - 54
+2018-10-31 09:48:47:522 - info: [HTTP] 
+2018-10-31 09:48:47:523 - info: [HTTP] --> GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/25/displayed
+2018-10-31 09:48:47:524 - info: [HTTP] {}
+2018-10-31 09:48:47:524 - info: [debug] [W3C] Calling AppiumDriver.elementDisplayed() with args: ["25","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:47:525 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"25"}}
+2018-10-31 09:48:47:542 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"25"}}
+2018-10-31 09:48:47:552 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:47:552 - info: [debug] [W3C] Responding to client with driver.elementDisplayed() result: true
+2018-10-31 09:48:47:553 - info: [HTTP] <-- GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/25/displayed 200 29 ms - 14
+2018-10-31 09:48:47:553 - info: [HTTP] 
+2018-10-31 09:48:47:555 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:47:555 - info: [HTTP] {"implicit":2000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:47:556 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,2000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:47:557 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":2000}}
+2018-10-31 09:48:47:557 - info: [debug] [BaseDriver] Set implicit wait to 2000ms
+2018-10-31 09:48:47:557 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:47:558 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 3 ms - 14
+2018-10-31 09:48:47:558 - info: [HTTP] 
+2018-10-31 09:48:47:561 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:47:561 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:47:561 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:47:562 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:47:562 - info: [debug] [BaseDriver] Waiting up to 2000 ms for condition
+2018-10-31 09:48:47:562 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]","context":"","multiple":false}}
+2018-10-31 09:48:47:566 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:47:566 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-10-31 09:48:47:566 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+2018-10-31 09:48:47:612 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]","context":"","multiple":false}}
+2018-10-31 09:48:47:612 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:47:613 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:47:613 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='停车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:47:653 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=11]
+2018-10-31 09:48:47:693 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"26"}}
+2018-10-31 09:48:47:694 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:47:695 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"26"}
+2018-10-31 09:48:47:695 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 136 ms - 54
+2018-10-31 09:48:47:695 - info: [HTTP] 
+2018-10-31 09:48:47:697 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/26/click
+2018-10-31 09:48:47:697 - info: [HTTP] {"id":"26","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:47:697 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["26","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:47:699 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"26"}}
+2018-10-31 09:48:47:719 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"26"}}
+2018-10-31 09:48:47:719 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:47:719 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-31 09:48:48:242 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 09:48:48:250 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:48:251 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-10-31 09:48:48:251 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/26/click 200 554 ms - 14
+2018-10-31 09:48:48:252 - info: [HTTP] 
+2018-10-31 09:48:49:306 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:49:306 - info: [HTTP] {"implicit":3000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:49:306 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,3000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:49:307 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":3000}}
+2018-10-31 09:48:49:308 - info: [debug] [BaseDriver] Set implicit wait to 3000ms
+2018-10-31 09:48:49:308 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:49:309 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 2 ms - 14
+2018-10-31 09:48:49:309 - info: [HTTP] 
+2018-10-31 09:48:49:311 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:49:311 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:49:311 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:49:315 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:49:315 - info: [debug] [BaseDriver] Waiting up to 3000 ms for condition
+2018-10-31 09:48:49:315 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox","context":"","multiple":false}}
+2018-10-31 09:48:49:365 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox","context":"","multiple":false}}
+2018-10-31 09:48:49:365 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:49:365 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:49:365 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:49:420 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.CheckBox, INSTANCE=2]
+2018-10-31 09:48:49:422 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:49:422 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"27"}
+2018-10-31 09:48:49:423 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 112 ms - 54
+2018-10-31 09:48:49:423 - info: [HTTP] 
+2018-10-31 09:48:49:424 - info: [HTTP] --> GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/27/displayed
+2018-10-31 09:48:49:424 - info: [HTTP] {}
+2018-10-31 09:48:49:424 - info: [debug] [W3C] Calling AppiumDriver.elementDisplayed() with args: ["27","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:49:425 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"27"}}
+2018-10-31 09:48:49:446 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"27"}}
+2018-10-31 09:48:49:467 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getAttribute","params":{"attribute":"displayed","elementId":"27"}}
+2018-10-31 09:48:49:467 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:49:468 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getAttribute
+2018-10-31 09:48:49:475 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:49:476 - info: [debug] [W3C] Responding to client with driver.elementDisplayed() result: true
+2018-10-31 09:48:49:477 - info: [HTTP] <-- GET /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/27/displayed 200 52 ms - 14
+2018-10-31 09:48:49:478 - info: [HTTP] 
+2018-10-31 09:48:49:481 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:49:482 - info: [HTTP] {"implicit":2000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:49:482 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,2000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:49:484 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":2000}}
+2018-10-31 09:48:49:484 - info: [debug] [BaseDriver] Set implicit wait to 2000ms
+2018-10-31 09:48:49:485 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"true"}
+2018-10-31 09:48:49:486 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:49:487 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 5 ms - 14
+2018-10-31 09:48:49:487 - info: [HTTP] 
+2018-10-31 09:48:49:490 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element
+2018-10-31 09:48:49:490 - info: [HTTP] {"using":"xpath","value":"//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:49:491 - info: [debug] [W3C] Calling AppiumDriver.findElement() with args: ["xpath","//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:49:493 - info: [debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-10-31 09:48:49:493 - info: [debug] [BaseDriver] Waiting up to 2000 ms for condition
+2018-10-31 09:48:49:494 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox","context":"","multiple":false}}
+2018-10-31 09:48:49:565 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox","context":"","multiple":false}}
+2018-10-31 09:48:49:608 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:49:609 - info: [debug] [W3C] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"28"}
+2018-10-31 09:48:49:609 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element 200 119 ms - 54
+2018-10-31 09:48:49:609 - info: [HTTP] 
+2018-10-31 09:48:49:611 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/28/click
+2018-10-31 09:48:49:611 - info: [HTTP] {"id":"28","sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:49:611 - info: [debug] [W3C] Calling AppiumDriver.click() with args: ["28","b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:49:613 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"element:click","params":{"elementId":"28"}}
+2018-10-31 09:48:49:691 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:49:691 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+2018-10-31 09:48:49:691 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//android.widget.TextView[@text='停车监控']/../android.widget.CheckBox' using 'XPATH' with the contextId: '' multiple: false
+2018-10-31 09:48:49:691 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.CheckBox, INSTANCE=2]
+2018-10-31 09:48:49:691 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"ELEMENT":"28"}}
+2018-10-31 09:48:49:723 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"28"}}
+2018-10-31 09:48:49:723 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:49:723 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+2018-10-31 09:48:49:897 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 09:48:49:899 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:49:900 - info: [debug] [W3C] Responding to client with driver.click() result: true
+2018-10-31 09:48:49:901 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/element/28/click 200 289 ms - 14
+2018-10-31 09:48:49:901 - info: [HTTP] 
+2018-10-31 09:48:50:967 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts
+2018-10-31 09:48:50:967 - info: [HTTP] {"implicit":3000,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:50:967 - info: [debug] [W3C] Calling AppiumDriver.timeouts() with args: [null,null,null,null,3000,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:50:968 - info: [debug] [BaseDriver] W3C timeout argument: {"implicit":3000}}
+2018-10-31 09:48:50:968 - info: [debug] [BaseDriver] Set implicit wait to 3000ms
+2018-10-31 09:48:50:968 - info: [debug] [W3C] Responding to client with driver.timeouts() result: null
+2018-10-31 09:48:50:969 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/timeouts 200 2 ms - 14
+2018-10-31 09:48:50:969 - info: [HTTP] 
+2018-10-31 09:48:50:970 - info: [HTTP] --> POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/appium/device/press_keycode
+2018-10-31 09:48:50:970 - info: [HTTP] {"keycode":4,"sessionId":"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"}
+2018-10-31 09:48:50:971 - info: [debug] [W3C] Calling AppiumDriver.pressKeyCode() with args: [4,null,null,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71",null,"b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:50:971 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"action","action":"pressKeyCode","params":{"keycode":4,"metastate":null}}
+2018-10-31 09:48:50:995 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"pressKeyCode","params":{"keycode":4,"metastate":null}}
+2018-10-31 09:48:50:995 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+2018-10-31 09:48:50:995 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: pressKeyCode
+2018-10-31 09:48:51:022 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:51:023 - info: [debug] [W3C] Responding to client with driver.pressKeyCode() result: true
+2018-10-31 09:48:51:024 - info: [HTTP] <-- POST /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71/appium/device/press_keycode 200 53 ms - 14
+2018-10-31 09:48:51:024 - info: [HTTP] 
+2018-10-31 09:48:51:027 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+2018-10-31 09:48:55:726 - info: [HTTP] --> DELETE /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71
+2018-10-31 09:48:55:726 - info: [HTTP] {}
+2018-10-31 09:48:55:727 - info: [debug] [W3C] Calling AppiumDriver.deleteSession() with args: ["b9f1dabb-ca38-4721-99f5-88b56c1e3b71"]
+2018-10-31 09:48:55:727 - info: [debug] [BaseDriver] Event 'quitSessionRequested' logged at 1540950535727 (09:48:55 GMT+0800 (中国标准时间))
+2018-10-31 09:48:55:728 - info: [Appium] Removing session b9f1dabb-ca38-4721-99f5-88b56c1e3b71 from our master session list
+2018-10-31 09:48:55:729 - info: [debug] [AndroidDriver] Shutting down Android driver
+2018-10-31 09:48:55:731 - info: [debug] [AndroidDriver] Resetting IME to io.appium.android.ime/.UnicodeIME
+2018-10-31 09:48:55:731 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell ime set io.appium.android.ime/.UnicodeIME'
+2018-10-31 09:48:56:584 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell am force-stop com.spt.carengine.settings'
+2018-10-31 09:48:57:535 - info: [debug] [ADB] Pressing the HOME button
+2018-10-31 09:48:57:536 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell input keyevent 3'
+2018-10-31 09:48:58:393 - info: [debug] [AndroidBootstrap] Sending command to android: {"cmd":"shutdown"}
+2018-10-31 09:48:58:436 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+2018-10-31 09:48:58:437 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+2018-10-31 09:48:58:437 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+2018-10-31 09:48:58:437 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] [CDS]close[4724]
+2018-10-31 09:48:58:437 - info: [debug] [AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+2018-10-31 09:48:58:437 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: numtests=1
+2018-10-31 09:48:58:438 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: stream=.
+2018-10-31 09:48:58:438 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: id=UiAutomatorTestRunner
+2018-10-31 09:48:58:438 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: test=testRunServer
+2018-10-31 09:48:58:438 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: class=io.appium.android.bootstrap.Bootstrap
+2018-10-31 09:48:58:439 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS: current=1
+2018-10-31 09:48:58:439 - info: [debug] [AndroidBootstrap] [UIAUTO STDOUT] INSTRUMENTATION_STATUS_CODE: 0
+2018-10-31 09:48:58:443 - info: [debug] [AndroidBootstrap] Received command result from bootstrap
+2018-10-31 09:48:58:444 - info: [debug] [UiAutomator] Shutting down UiAutomator
+2018-10-31 09:48:58:444 - info: [debug] [UiAutomator] Moving to state 'stopping'
+2018-10-31 09:48:58:448 - info: [debug] [UiAutomator] UiAutomator shut down normally
+2018-10-31 09:48:58:448 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2018-10-31 09:48:58:449 - info: [debug] [ADB] Attempting to kill all uiautomator processes
+2018-10-31 09:48:58:449 - info: [debug] [ADB] Getting all processes with uiautomator
+2018-10-31 09:48:58:449 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell ps'
+2018-10-31 09:49:00:722 - info: [ADB] No uiautomator process found to kill, continuing...
+2018-10-31 09:49:00:722 - info: [debug] [UiAutomator] Moving to state 'stopped'
+2018-10-31 09:49:00:723 - info: [debug] [Logcat] Stopping logcat capture
+2018-10-31 09:49:00:723 - info: [debug] [Logcat] Logcat already stopped
+2018-10-31 09:49:00:723 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.37\:5555 shell am force-stop io.appium.unlock'
+2018-10-31 09:49:01:500 - info: [debug] [AndroidDriver] Not cleaning generated files. Add `clearSystemFiles` capability if wanted.
+2018-10-31 09:49:01:502 - info: [debug] [BaseDriver] Event 'quitSessionFinished' logged at 1540950541502 (09:49:01 GMT+0800 (中国标准时间))
+2018-10-31 09:49:01:502 - info: [debug] [W3C] Received response: null
+2018-10-31 09:49:01:502 - info: [debug] [W3C] But deleting session, so not returning
+2018-10-31 09:49:01:503 - info: [debug] [W3C] Responding to client with driver.deleteSession() result: null
+2018-10-31 09:49:01:503 - info: [HTTP] <-- DELETE /wd/hub/session/b9f1dabb-ca38-4721-99f5-88b56c1e3b71 200 5777 ms - 14
+2018-10-31 09:49:01:503 - info: [HTTP] 

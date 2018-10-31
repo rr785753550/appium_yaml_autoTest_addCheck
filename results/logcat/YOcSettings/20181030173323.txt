@@ -1,0 +1,19 @@
+--------- beginning of system
+--------- beginning of main
+10-30 17:33:24.566 D/YOcSettings(24505): [MainActivity] switchToFragment > fragmentName = com.yunovo.settings.NetworkFragment
+10-30 17:33:24.607 I/YOcSettings(24505): [NetworkFragment] wlan=null,wlan_hotspot=null,mobile=0,traffic=null,bt_phone=null,bt_master_slave_mode=null,bt_master_mode=null
+10-30 17:33:27.544 D/YOcSettings(24505): [MainActivity] switchToFragment > fragmentName = com.yunovo.settings.WLANFragment
+10-30 17:33:27.575 D/YOcSettings(24505): [WLANFragment] initWifiState  state = 3,  mWifiUtils.isWifiEnabled() = true
+10-30 17:33:27.575 D/YOcSettings(24505): [WLANFragment] handleWifiStateChanged > state = 3
+10-30 17:33:27.597 D/YOcSettings(24505): [WLANFragment] action = android.net.wifi.WIFI_STATE_CHANGED
+10-30 17:33:27.597 D/YOcSettings(24505): [WLANFragment] mWIFIReceiver  state = 3
+10-30 17:33:27.598 D/YOcSettings(24505): [WLANFragment] handleWifiStateChanged > state = 3
+10-30 17:33:27.598 D/YOcSettings(24505): [WLANFragment] updateWifiState >> state = 3
+10-30 17:33:27.599 D/YOcSettings(24505): [WLANFragment] action = android.net.wifi.STATE_CHANGE
+10-30 17:33:27.606 D/YOcSettings(24505): [WLANFragment] showScanWiFiView
+10-30 17:33:27.609 D/YOcSettings(24505): [WLANFragment] showScanWiFiView
+10-30 17:33:28.786 D/YOcSettings(24505): [MainActivity] switchToFragment > fragmentName = com.yunovo.settings.NetworkFragment
+10-30 17:33:28.791 I/YOcSettings(24505): [NetworkFragment] wlan=null,wlan_hotspot=null,mobile=0,traffic=null,bt_phone=null,bt_master_slave_mode=null,bt_master_mode=null
+10-30 17:36:08.596 I/YOcSettings(25358): [MainActivity] ,initData intent = Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.spt.carengine.settings/.activity.MainActivity }
+10-30 17:36:08.597 D/YOcSettings(25358): [MainActivity] switchToFragment > fragmentName = com.yunovo.settings.NetworkFragment
+10-30 17:36:08.653 I/YOcSettings(25358): [NetworkFragment] wlan=null,wlan_hotspot=null,mobile=0,traffic=null,bt_phone=null,bt_master_slave_mode=null,bt_master_mode=null

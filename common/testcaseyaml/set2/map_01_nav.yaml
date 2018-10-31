@@ -1,0 +1,18 @@
+# coding: utf-8
+testinfo:
+  title: 行车功能：MK21，一个‘-’代表一个功能
+  desc: 行车功能功能具体功能操作
+testcase1:
+  -
+    drivingMenu:
+      element_info: com.spt.carengine.settings:id/menu_driving_tv
+      element_type: id
+      element_operate: click
+      operate_times: 1
+#testcase2:
+#  -
+#    collisionSet:
+#      element_info: 碰撞设置
+#      element_type: text
+#      element_operate: click
+#      operate_times: 1

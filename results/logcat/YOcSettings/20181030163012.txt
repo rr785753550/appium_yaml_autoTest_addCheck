@@ -1,0 +1,16 @@
+--------- beginning of system
+--------- beginning of main
+10-30 16:30:13.659 D/YOcSettings( 8166): [MainActivity] switchToFragment > fragmentName = com.yunovo.settings.NetworkFragment
+10-30 16:30:13.706 I/YOcSettings( 8166): [NetworkFragment] wlan=null,wlan_hotspot=null,mobile=0,traffic=null,bt_phone=null,bt_master_slave_mode=null,bt_master_mode=null
+10-30 16:30:16.659 D/YOcSettings( 8166): [MainActivity] switchToFragment > fragmentName = com.yunovo.settings.WLANFragment
+10-30 16:30:16.696 D/YOcSettings( 8166): [WLANFragment] initWifiState  state = 3,  mWifiUtils.isWifiEnabled() = true
+10-30 16:30:16.697 D/YOcSettings( 8166): [WLANFragment] handleWifiStateChanged > state = 3
+10-30 16:30:16.717 D/YOcSettings( 8166): [WLANFragment] action = android.net.wifi.WIFI_STATE_CHANGED
+10-30 16:30:16.718 D/YOcSettings( 8166): [WLANFragment] mWIFIReceiver  state = 3
+10-30 16:30:16.719 D/YOcSettings( 8166): [WLANFragment] handleWifiStateChanged > state = 3
+10-30 16:30:16.719 D/YOcSettings( 8166): [WLANFragment] updateWifiState >> state = 3
+10-30 16:30:16.720 D/YOcSettings( 8166): [WLANFragment] action = android.net.wifi.STATE_CHANGE
+10-30 16:30:16.726 D/YOcSettings( 8166): [WLANFragment] showScanWiFiView
+10-30 16:30:16.733 D/YOcSettings( 8166): [WLANFragment] showScanWiFiView
+10-30 16:30:17.902 D/YOcSettings( 8166): [MainActivity] switchToFragment > fragmentName = com.yunovo.settings.NetworkFragment
+10-30 16:30:17.911 I/YOcSettings( 8166): [NetworkFragment] wlan=null,wlan_hotspot=null,mobile=0,traffic=null,bt_phone=null,bt_master_slave_mode=null,bt_master_mode=null

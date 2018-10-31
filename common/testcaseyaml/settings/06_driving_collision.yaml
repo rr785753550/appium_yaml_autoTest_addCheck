@@ -1,0 +1,79 @@
+testinfo:
+  title: K21设置-行车碰撞设置
+  condition: 无
+testcase:
+  step1:
+    element_info: 行车
+    element_type: text
+    element_operate: click
+    operate_times: 1
+    sleep_time: 2
+    operate_details: 进入行车界面
+  step2:
+    element_info: 碰撞设置
+    element_type: text
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 进入碰撞设置界面
+  step3:
+    element_info: //android.widget.TextView[@text='行车监控']/../android.widget.CheckBox
+    element_type: xpath
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 打开行车监控开关
+  step4:
+    element_info: //android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[2]
+    element_type: xpath
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 设置行车碰撞等级为中
+  step5:
+    element_info: //android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[3]
+    element_type: xpath
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 设置行车碰撞等级为高
+  step6:
+    element_info: //android.widget.TextView[@text='行车碰撞等级']/../android.widget.LinearLayout/android.widget.TextView[1]
+    element_type: xpath
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 设置行车碰撞等级为低
+  step7:
+    element_info: //android.widget.TextView[@text='行车监控']/../android.widget.CheckBox
+    element_type: xpath
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 关闭行车监控
+
+check:
+  result1:
+    check_content: fragmentName
+    expect_value: com.yunovo.settings.DrivingFragment
+  result2:
+    check_content: fragmentName
+    expect_value: com.yunovo.settings.CollisionFragment
+  result3:
+    check_content: setDrivingCollisionSwitch::value
+    expect_value: 'true'
+  result4:
+    check_content: onClick.....driving_monitor_level
+    expect_value: LOW
+  result5:
+    check_content: onClick.....driving_monitor_level
+    expect_value: MIDDLE
+  result6:
+    check_content: onClick.....driving_monitor_level
+    expect_value: HIGH
+  result7:
+    check_content: setDrivingCollisionSwitch::value
+    expect_value: 'false'
+output:
+  pass_output: 行车监控开关及碰撞等级操作--成功
+  fail_output: 行车监控开关及碰撞等级操作--失败
