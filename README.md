@@ -5,8 +5,11 @@
         否则无法调起
     1.3.如需增加新的app信息，可直接在deviceYaml中添加，具体添加规则需参考已添加的应用
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 9e86726d4cb87a43ba755a13bffad492096d1360
 2、common - > testcaseYaml
 
     2.1.yaml写入文件的格式已固定，请参考已写好的格式
@@ -53,9 +56,15 @@
         操作时若必选项无任何信息输入时，此必选项key的value值可为空，比如element_operate为back时会会用
 
 3、common -> emailReceiver：
+<<<<<<< HEAD
 
     ---用为存在收件人地址
 
+=======
+
+    ---用为存在收件人地址
+
+>>>>>>> 9e86726d4cb87a43ba755a13bffad492096d1360
 4、BaseOperate文件夹
 
     3.1. appiumServer.py 封装有启动appium和关闭appium服务操作
@@ -75,6 +84,17 @@
     4.2. logcat：用来存在测试过程中抓取的logcat
     4.3. report：用来生成测试报告
     4.4. screenshot： 用来存放错误截图
+<<<<<<< HEAD
 
 6. testcase文件夹：存放所有应用的测试用例，会通过调用commom/testcaseyaml中对应app的配置文件来执行，若一个app某个功能的对应控件或位置有变化，可直接通过改变testcaseyaml中对应的功能操作步骤即可
    main.py：主函数，运行testcase文件夹中所有的test
+=======
+
+6. testcase文件夹：
+    
+    存放所有应用的测试用例，会通过调用commom/testcaseyaml中对应app的配置文件来执行，若一个app某个功能的对应控件或位置有变化，可直接通过改变testcaseyaml中对应的功能操作步骤即可
+
+7.main.py：
+
+    主函数，运行testcase文件夹中所有的test
+>>>>>>> 9e86726d4cb87a43ba755a13bffad492096d1360

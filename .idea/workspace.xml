@@ -4,20 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/BaseOperate/Excel.py" line="50" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc313025-2a64-46c3-9b57-8bfb893d93a8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/common/testcaseyaml/set2/02_hotspot.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common/testcaseyaml/set2/03_network.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common/testcaseyaml/set2/map_01_nav.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common/testcaseyaml/set2/settings_01_all.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common/testcaseyaml/set2/settings_02_networkMenu.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common/testcaseyaml/set2/settings_03_drivingMenu.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common/testcaseyaml/set2/settings_04_deviceMenu.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common/testcaseyaml/set2/settings_05_systemMenu.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common/testcaseyaml/xiSettings/01_wifi.yaml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/common/testcaseyaml/xiSettings/02_bt.yaml" afterPath="" />
-    </list>
+    <list default="true" id="dc313025-2a64-46c3-9b57-8bfb893d93a8" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="681" />
     <option name="y" value="114" />
     <option name="width" value="1936" />
@@ -408,12 +395,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17123288" sideWeight="0.4961998" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17123288" sideWeight="0.4961998" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28152174" sideWeight="0.36722866" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28152174" sideWeight="0.6327713" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28152174" sideWeight="0.6327713" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
