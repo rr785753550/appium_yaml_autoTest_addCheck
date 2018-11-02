@@ -7,6 +7,9 @@ import time
 
 
 class run_testcaseYaml:
+    passNum = 0
+    failNum = 0
+
     def __init__(self, driver, yamlFile):
         self.driver = driver
         self.yamlFile = yamlFile
@@ -46,14 +49,20 @@ class run_testcaseYaml:
             actualValue_list = AnalysisLog().get_actualValue_list(logcatFile, self.yamlFile)
             print("actualValue_list:", actualValue_list)
             if expectValue_list == actualValue_list:
+                kill_logcat()
+                time.sleep(2)
+                os.remove(logcatFile)  # 如果相同，则删除logcat文件
                 resultOutput = pass_output
                 testConclusion = 'pass'
+                run_testcaseYaml.passNum += 1
                 break
             else:
                 time.sleep(1)
         if expectValue_list != actualValue_list:
+            kill_logcat()
             resultOutput = fail_output
             testConclusion = 'fail'
+            run_testcaseYaml.failNum += 1
         return actualValue_list, resultOutput, testConclusion
 
 

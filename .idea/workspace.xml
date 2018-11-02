@@ -4,7 +4,92 @@
     <bookmark url="file://$PROJECT_DIR$/BaseOperate/Excel.py" line="50" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc313025-2a64-46c3-9b57-8bfb893d93a8" name="Default" comment="" />
+    <list default="true" id="dc313025-2a64-46c3-9b57-8bfb893d93a8" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/BaseOperate/MachineInfo.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/BaseOperate/grabTop.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/BaseOperate/statisticsTop.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/BaseOperate/Excel.py" afterPath="$PROJECT_DIR$/BaseOperate/Excel.py" />
+      <change beforePath="$PROJECT_DIR$/BaseOperate/run.py" afterPath="$PROJECT_DIR$/BaseOperate/run.py" />
+      <change beforePath="$PROJECT_DIR$/common/testcaseyaml/settings/06_driving_collision.yaml" afterPath="$PROJECT_DIR$/common/testcaseyaml/settings/06_driving_collision.yaml" />
+      <change beforePath="$PROJECT_DIR$/common/testcaseyaml/settings/07_stop_collision.yaml" afterPath="$PROJECT_DIR$/common/testcaseyaml/settings/07_stop_collision.yaml" />
+      <change beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
+      <change beforePath="$PROJECT_DIR$/results/appiumLog/appium-20181029_182812.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/appiumLog/appium-20181030_180516.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/appiumLog/appium-20181030_181543.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/appiumLog/appium-20181031_093955.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/appiumLog/appium-20181031_094533.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/appiumLog/appium-20181031_095409.log" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181029173430.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181029182847.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181029182907.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030140818.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030142009.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030150752.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030150808.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030150828.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030150924.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030150935.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030150954.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030163012.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030163023.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030163041.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030163211.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030163222.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030163244.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030165755.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030165805.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030165825.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030171359.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030171408.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030171427.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030172443.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030172503.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030172527.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030173323.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030173614.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030175358.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030175410.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030175430.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030175755.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030175831.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030175842.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030175903.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030180018.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030180029.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030180050.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030180155.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030180206.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030180227.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030180537.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030180547.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030180606.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030181607.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030181617.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181030181635.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181031094041.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181031094052.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181031094113.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181031094749.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181031094816.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181031094839.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181031095438.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181031095448.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/YOcSettings/20181031095507.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/set/20181030144101.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/setting/20181030144045.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/setting/20181030144159.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/logcat/settings/20181030144218.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/report/Report-20181030_180015.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/report/Report-20181030_180153.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/report/Report-20181030_180534.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/report/Report-20181030_181605.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/report/Report-20181031_094000.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/report/Report-20181031_094538.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/results/report/Report-20181031_095414.xlsx" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testcase/test_settings.py" afterPath="$PROJECT_DIR$/testcase/test_settings.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,66 +101,53 @@
     <favorites_list name="appium_yaml_autoTest_addCheck" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="323">
+              <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_settings.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/test_settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="684">
+              <caret line="42" column="64" lean-forward="false" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="statisticsTop.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BaseOperate/statisticsTop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="126" column="38" lean-forward="false" selection-start-line="126" selection-start-column="38" selection-end-line="126" selection-end-column="38" />
               <folding>
-                <element signature="e#15#24#0" expanded="true" />
+                <element signature="e#16#33#0" expanded="true" />
+                <element signature="e#336#369#0" expanded="false" />
+                <element signature="e#380#422#0" expanded="false" />
+                <element signature="e#637#849#0" expanded="false" />
+                <element signature="e#883#1466#0" expanded="false" />
+                <element signature="e#1504#2173#0" expanded="false" />
+                <element signature="e#2211#2669#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sendEmail.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BaseOperate/sendEmail.py">
+      <file leaf-file-name="Excel.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BaseOperate/Excel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="grabLog.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BaseOperate/grabLog.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-437">
-              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="elementOperate.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BaseOperate/elementOperate.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-855">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="check_operateResult_bylog.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BaseOperate/check_operateResult_bylog.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
+            <state relative-caret-position="35">
+              <caret line="166" column="63" lean-forward="false" selection-start-line="166" selection-start-column="63" selection-end-line="166" selection-end-column="63" />
               <folding>
-                <element signature="e#202#294#0" expanded="false" />
+                <element signature="e#356#377#0" expanded="false" />
+                <element signature="e#8547#8575#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -112,40 +184,46 @@
         <option value="$PROJECT_DIR$/common/testcaseyaml/settings/02_hotspot.yaml" />
         <option value="$PROJECT_DIR$/BaseOperate/getDriver.py" />
         <option value="$PROJECT_DIR$/aa.py" />
-        <option value="$PROJECT_DIR$/common/testcaseyaml/settings/01_wifi.yaml" />
         <option value="$PROJECT_DIR$/BaseOperate/get_testcaseyaml_info.py" />
         <option value="$PROJECT_DIR$/a.yaml" />
         <option value="$PROJECT_DIR$/BaseOperate/statisticalResults.py" />
-        <option value="$PROJECT_DIR$/a.py" />
         <option value="$PROJECT_DIR$/common/testcaseyaml/xiSettings/01_wifi.yaml" />
         <option value="$PROJECT_DIR$/common/testcaseyaml/xiSettings/02_bt.py" />
         <option value="$PROJECT_DIR$/common/testcaseyaml/xiSettings/02_bt.yaml" />
         <option value="$PROJECT_DIR$/testcase/test_xisettings.py" />
         <option value="$PROJECT_DIR$/common/deviceYaml/desired_caps.yaml" />
         <option value="$PROJECT_DIR$/BaseOperate/a.py" />
-        <option value="$PROJECT_DIR$/common/testcaseyaml/settings/06_driving_collision.yaml" />
-        <option value="$PROJECT_DIR$/common/testcaseyaml/settings/07_stop_collision.yaml" />
         <option value="$PROJECT_DIR$/b.py" />
         <option value="$PROJECT_DIR$/BaseOperate/writeExcel.py" />
-        <option value="$PROJECT_DIR$/BaseOperate/run.py" />
-        <option value="$PROJECT_DIR$/BaseOperate/Excel.py" />
-        <option value="$PROJECT_DIR$/testcase/test_settings.py" />
         <option value="$PROJECT_DIR$/main2.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/BaseOperate/sendEmail.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/common/testcaseyaml/settings/07_stop_collision.yaml" />
+        <option value="$PROJECT_DIR$/common/testcaseyaml/settings/06_driving_collision.yaml" />
+        <option value="$PROJECT_DIR$/BaseOperate/statisticsInfo.py" />
+        <option value="$PROJECT_DIR$/BaseOperate/MachineInfo.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/BaseOperate/Statistics.py" />
+        <option value="$PROJECT_DIR$/BaseOperate/run.py" />
+        <option value="$PROJECT_DIR$/BaseOperate/Excel.py" />
+        <option value="$PROJECT_DIR$/common/testcaseyaml/settings/01_wifi.yaml" />
+        <option value="$PROJECT_DIR$/BaseOperate/topInfo.py" />
+        <option value="$PROJECT_DIR$/testcase/test_settings.py" />
+        <option value="$PROJECT_DIR$/BaseOperate/grabTop.py" />
+        <option value="$PROJECT_DIR$/a.py" />
+        <option value="$PROJECT_DIR$/BaseOperate/statisticsTop.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="681" />
-    <option name="y" value="114" />
-    <option name="width" value="1936" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="579" />
+    <option name="y" value="72" />
+    <option name="width" value="1779" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -159,6 +237,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="appium_yaml_autoTest_addCheck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appium_yaml_autoTest_addCheck" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="appium_yaml_autoTest_addCheck" type="b2602c69:ProjectViewProjectNode" />
+              <item name="appium_yaml_autoTest_addCheck" type="462c0819:PsiDirectoryNode" />
+              <item name="BaseOperate" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
@@ -170,13 +264,19 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="appium_yaml_autoTest_addCheck" type="cbb8eebc:String" user="appium_yaml_autoTest_addCheck" />
-              <item name="common" type="cbb8eebc:String" user="common" />
+              <item name="results" type="cbb8eebc:String" user="results" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="appium_yaml_autoTest_addCheck" type="cbb8eebc:String" user="appium_yaml_autoTest_addCheck" />
-              <item name="common" type="cbb8eebc:String" user="common" />
-              <item name="testcaseyaml" type="cbb8eebc:String" user="testcaseyaml" />
+              <item name="results" type="cbb8eebc:String" user="results" />
+              <item name="logcat" type="cbb8eebc:String" user="logcat" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="appium_yaml_autoTest_addCheck" type="cbb8eebc:String" user="appium_yaml_autoTest_addCheck" />
+              <item name="results" type="cbb8eebc:String" user="results" />
+              <item name="top" type="cbb8eebc:String" user="top" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
@@ -187,51 +287,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="appium_yaml_autoTest_addCheck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium_yaml_autoTest_addCheck" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_yaml_autoTest_addCheck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium_yaml_autoTest_addCheck" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_yaml_autoTest_addCheck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium_yaml_autoTest_addCheck" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="deviceYaml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_yaml_autoTest_addCheck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium_yaml_autoTest_addCheck" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="testcaseyaml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_yaml_autoTest_addCheck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium_yaml_autoTest_addCheck" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="testcaseyaml" type="462c0819:PsiDirectoryNode" />
-              <item name="xiSettings" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_yaml_autoTest_addCheck" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium_yaml_autoTest_addCheck" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../others/PythonStudy" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/PythonWorkSpace/appium_yaml_autoTest_addCheck/BaseOperate/run.py" />
   </component>
   <component name="RecentsManager">
@@ -261,8 +321,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="b" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.statisticsTop">
+    <configuration name="Statistics" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BaseOperate" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="appium_yaml_autoTest_addCheck" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BaseOperate/Statistics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -274,7 +352,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="appium_yaml_autoTest_addCheck" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/b.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="grabTop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BaseOperate" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="appium_yaml_autoTest_addCheck" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BaseOperate/grabTop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,43 +394,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="main2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="appium_yaml_autoTest_addCheck" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="test_settings" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testcase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="appium_yaml_autoTest_addCheck" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testcase/test_settings.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="writeExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="statisticsTop" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -346,26 +406,26 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="appium_yaml_autoTest_addCheck" />
-      <option name="SCRIPT_NAME" value="F:\PythonWorkSpace\appium_yaml_autoTest_addCheck\others\writeExcel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BaseOperate/statisticsTop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test_settings" />
-      <item index="1" class="java.lang.String" itemvalue="Python.main2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.writeExcel" />
-      <item index="3" class="java.lang.String" itemvalue="Python.b" />
-      <item index="4" class="java.lang.String" itemvalue="Python.main" />
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Statistics" />
+      <item index="2" class="java.lang.String" itemvalue="Python.a" />
+      <item index="3" class="java.lang.String" itemvalue="Python.grabTop" />
+      <item index="4" class="java.lang.String" itemvalue="Python.statisticsTop" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.main" />
-        <item index="1" class="java.lang.String" itemvalue="Python.main2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test_settings" />
-        <item index="3" class="java.lang.String" itemvalue="Python.b" />
-        <item index="4" class="java.lang.String" itemvalue="Python.writeExcel" />
+        <item index="0" class="java.lang.String" itemvalue="Python.statisticsTop" />
+        <item index="1" class="java.lang.String" itemvalue="Python.a" />
+        <item index="2" class="java.lang.String" itemvalue="Python.grabTop" />
+        <item index="3" class="java.lang.String" itemvalue="Python.main" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Statistics" />
       </list>
     </recent_temporary>
   </component>
@@ -395,17 +455,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="579" y="72" width="1779" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17123288" sideWeight="0.4961998" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18667433" sideWeight="0.4961998" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28152174" sideWeight="0.36722866" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28152174" sideWeight="0.6327713" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2300885" sideWeight="0.1447444" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2300885" sideWeight="0.8552556" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.49789253" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17123288" sideWeight="0.5038002" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -421,57 +482,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/testcaseyaml/set2/03_network.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/testcaseyaml/set2/02_hotspot.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aa.txt" />
-    <entry file="file://$PROJECT_DIR$/aa.py" />
-    <entry file="file://$PROJECT_DIR$/test_settings.py" />
-    <entry file="file://$PROJECT_DIR$/BaseOperate/getDriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="24" column="28" lean-forward="true" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/testcaseyaml/set2/settings_03_drivingMenu.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="64" column="119" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/others/run.py" />
-    <entry file="file://$PROJECT_DIR$/others/check_operateResult_byelement.py" />
-    <entry file="file://$PROJECT_DIR$/others/check_operateresult_bylog_phone.py" />
-    <entry file="file://$PROJECT_DIR$/others/check_operateresult_Method.py" />
-    <entry file="file://$PROJECT_DIR$/others/elementOperate.py" />
-    <entry file="file://$PROJECT_DIR$/others/meminfoMethod.py" />
-    <entry file="file://$PROJECT_DIR$/others/run_testcaseYaml1.py" />
-    <entry file="file://$PROJECT_DIR$/others/get_testcaseyaml_info.py" />
-    <entry file="file://D:/Programs/Python/Python36/Lib/HTMLTestRunner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="624" column="8" lean-forward="false" selection-start-line="624" selection-start-column="8" selection-end-line="624" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/a.yaml" />
     <entry file="file://D:/Programs/Python/Python36/Lib/unittest/runner.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -497,41 +512,8 @@
     <entry file="file://$PROJECT_DIR$/common/testcaseyaml/xiSettings/settings_03_drivingMenu.yaml" />
     <entry file="file://$PROJECT_DIR$/common/testcaseyaml/xiSettings/settings_02_networkMenu.yaml" />
     <entry file="file://$PROJECT_DIR$/common/testcaseyaml/xiSettings/settings1.yaml" />
-    <entry file="file://$PROJECT_DIR$/common/testcaseyaml/xiSettings/01_wifi.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/testcaseyaml/xiSettings/02_bt.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/testcaseyaml/settings/06_driving_collision.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/testcaseyaml/settings/07_stop_collision.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/testcaseyaml/settings/01_wifi.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="37" column="25" lean-forward="false" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/common/testcaseyaml/xiSettings/01_wifi.yaml" />
+    <entry file="file://$PROJECT_DIR$/common/testcaseyaml/xiSettings/02_bt.yaml" />
     <entry file="file://$PROJECT_DIR$/../CarmirrorTest/venv/Lib/site-packages/xlsxwriter/worksheet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -543,18 +525,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2052">
           <caret line="108" column="51" lean-forward="false" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/b.py" />
-    <entry file="file://$PROJECT_DIR$/BaseOperate/appiumServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BaseOperate/a.py" />
     <entry file="file://$PROJECT_DIR$/others/statisticalResults.py" />
     <entry file="file://$PROJECT_DIR$/others/writeExcel.py" />
@@ -572,35 +546,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CarmirrorTest/venv/Lib/site-packages/xlsxwriter/workbook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="59" column="8" lean-forward="false" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/test_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BaseOperate/Excel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testcase/test_xisettings.py" />
     <entry file="file://$PROJECT_DIR$/main2.py" />
-    <entry file="file://$PROJECT_DIR$/common/config.cfg">
+    <entry file="file://$PROJECT_DIR$/common/config.cfg" />
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="399">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/testcaseyaml/settings/07_stop_collision.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseOperate/appiumServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -608,37 +574,148 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseOperate/Statistics.py" />
+    <entry file="file://$PROJECT_DIR$/BaseOperate/elementOperate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="50" column="56" lean-forward="false" selection-start-line="50" selection-start-column="56" selection-end-line="50" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseOperate/sendEmail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="59" column="23" lean-forward="true" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseOperate/grabLog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="77" column="45" lean-forward="true" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseOperate/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="43" column="29" lean-forward="false" selection-start-line="43" selection-start-column="29" selection-end-line="43" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2017.3/system/python_stubs/1691161508/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="3617" column="8" lean-forward="false" selection-start-line="3617" selection-start-column="8" selection-end-line="3617" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CarmirrorTest/venv/Lib/site-packages/xlrd/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/testcaseyaml/settings/06_driving_collision.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1406">
+          <caret line="74" column="51" lean-forward="false" selection-start-line="74" selection-start-column="51" selection-end-line="74" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/test_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="42" column="64" lean-forward="false" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/top/top.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CarmirrorTest/venv/Lib/site-packages/xlwt/CompoundDoc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="261" column="0" lean-forward="false" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CarmirrorTest/venv/Lib/site-packages/xlrd/sheet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="530" column="8" lean-forward="false" selection-start-line="530" selection-start-column="8" selection-end-line="530" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BaseOperate/check_operateResult_bylog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="70" column="36" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
-          <folding>
-            <element signature="e#202#294#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BaseOperate/elementOperate.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-855">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="74">
+          <caret line="36" column="54" lean-forward="false" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BaseOperate/grabLog.py">
+    <entry file="file://$PROJECT_DIR$/../CarmirrorTest/venv/Lib/site-packages/matplotlib/pyplot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-437">
-          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        <state relative-caret-position="169">
+          <caret line="2809" column="35" lean-forward="false" selection-start-line="2809" selection-start-column="29" selection-end-line="2809" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BaseOperate/run.py">
+    <entry file="file://$PROJECT_DIR$/BaseOperate/xxx.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="24" column="30" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CarmirrorTest/venv/Lib/site-packages/xlwt/Workbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="54" column="8" lean-forward="false" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseOperate/text.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../CarmirrorTest/venv/Lib/site-packages/xlsxwriter/workbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="508" column="8" lean-forward="false" selection-start-line="508" selection-start-column="8" selection-end-line="508" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseOperate/test.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/logcat/YOcSettings/20181031161950.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -646,29 +723,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/BaseOperate/statisticsTop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="456">
+          <caret line="126" column="38" lean-forward="false" selection-start-line="126" selection-start-column="38" selection-end-line="126" selection-end-column="38" />
           <folding>
-            <element signature="e#15#24#0" expanded="true" />
+            <element signature="e#16#33#0" expanded="true" />
+            <element signature="e#336#369#0" expanded="false" />
+            <element signature="e#380#422#0" expanded="false" />
+            <element signature="e#637#849#0" expanded="false" />
+            <element signature="e#883#1466#0" expanded="false" />
+            <element signature="e#1504#2173#0" expanded="false" />
+            <element signature="e#2211#2669#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BaseOperate/sendEmail.py">
+    <entry file="file://$PROJECT_DIR$/a.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        <state relative-caret-position="532">
+          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/common/testcaseyaml/settings/01_wifi.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        <state relative-caret-position="589">
+          <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseOperate/grabTop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="42" column="44" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="42" selection-end-column="44" />
+          <folding>
+            <element signature="e#15#24#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseOperate/MachineInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BaseOperate/Excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="166" column="63" lean-forward="false" selection-start-line="166" selection-start-column="63" selection-end-line="166" selection-end-column="63" />
+          <folding>
+            <element signature="e#356#377#0" expanded="false" />
+            <element signature="e#8547#8575#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

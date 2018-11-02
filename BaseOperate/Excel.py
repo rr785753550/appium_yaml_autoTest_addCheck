@@ -2,12 +2,17 @@
 import time
 import xlsxwriter
 import os
+import datetime
 from BaseOperate.get_testcaseyaml_info import getyamlInfo
+from BaseOperate.MachineInfo import machine
+from BaseOperate.run import run_testcaseYaml
 
 
 class Report:
-    initRaw = 2
+    initRow = 2
     workbook = xlsxwriter.Workbook('')
+    startTime = datetime.datetime.now()
+    init_caseNum = 0
 
     # def __init__(self):
     #     self.keyValue = {}
@@ -62,7 +67,7 @@ class Report:
         # 设置第一行总标题
         worksheet1.merge_range('A1:D1', u'测试结果概况', subject_formate)
         # 所需显示的内容标题
-        title = ['测试机器', '测试模块', '软件版本', '测试日期', '用例总数', '通过总数', '失败总数', '测试耗时']
+        title = ['机器型号', '产品名称', '软件版本', '测试日期', '用例总数', '通过总数', '失败总数', '通过率']
         worksheet1.write('A2', title[0], content_formate)
         worksheet1.write('A3', title[1], content_formate)
         worksheet1.write('A4', title[2], content_formate)
@@ -72,20 +77,30 @@ class Report:
         worksheet1.write('C4', title[6], content_formate)
         worksheet1.write('C5', title[7], content_formate)
 
-    def worksheet1_write_data(self, workbook):
+    def worksheet1_write_data(self):
         content_formate = self.set_Workbookformat_content()
-        worksheet1 = workbook.get_worksheet_by_name("测试总结")
-        data = {'testDevice': '', 'testMode': '', 'software': '', 'testDate': '',
-                'sum': '', 'pass': '', 'fail': '', 'testSumTime': ''}
+        worksheet1 = Report.workbook.get_worksheet_by_name("测试总结")
+        data = {'deviceModel': '', 'productName': '', 'softwareVersion': '', 'testDate': '',
+                'sum': '', 'pass': '', 'fail': '', 'passPercent': ''}
         # 所需填写的结果
-        worksheet1.write('B2', data['testDevice'], content_formate)
-        worksheet1.write('B3', data['testMode'], content_formate)
-        worksheet1.write('B4', data['software'], content_formate)
+        data['deviceModel'] = machine().get_productModel()
+        data['productName'] = machine().get_productName()
+        data['softwareVersion'] = machine().get_softwareVersion()
+        data['testDate'] = str(Report.startTime)
+        data['sum'] = Report.init_caseNum
+        data['pass'] = run_testcaseYaml.passNum
+        data['fail'] = run_testcaseYaml.failNum
+        passPercent = '%.2f' % (int(data['pass']) / int(data['sum']) * 100)
+        data['passPercent'] = str(passPercent) + "%"
+        print(data)
+        worksheet1.write('B2', data['deviceModel'], content_formate)
+        worksheet1.write('B3', data['productName'], content_formate)
+        worksheet1.write('B4', data['softwareVersion'], content_formate)
         worksheet1.write('B5', data['testDate'], content_formate)
         worksheet1.write('D2', data['sum'], content_formate)
         worksheet1.write('D3', data['pass'], content_formate)
         worksheet1.write('D4', data['fail'], content_formate)
-        worksheet1.write('D5', data['testSumTime'], content_formate)
+        worksheet1.write('D5', data['passPercent'], content_formate)
 
     def create_worksheet2(self):
         subject_formate = self.set_Workbookformat_subject()
@@ -110,8 +125,9 @@ class Report:
         worksheet2.write('I2', title[8], content_formate)
 
     def worksheet2_write_data(self, yamlFile, actualResult_List, resultOutput, testConclusion):
-        Report.initRaw += 1
-        row = Report().initRaw
+        Report.initRow += 1
+        Report.init_caseNum += 1
+        row = Report().initRow
         content_formate = self.set_Workbookformat_content()
         worksheet2 = Report.workbook.get_worksheet_by_name("测试详情")
         # 所需填写的结果

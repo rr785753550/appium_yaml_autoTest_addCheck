@@ -1,0 +1,612 @@
+
+
+
+User 50%, System 21%, IOW 0%, IRQ 0%
+User 213 + Nice 0 + Sys 92 + Idle 115 + IOW 3 + IRQ 0 + SIRQ 3 = 426
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  2  17% S   109 1120964K  66924K  fg system   system_server
+17331  3  12% S    45 1043364K  74900K  fg u0_a57   cn.kuwo.kwmusiccar
+  202  0   8% S    22  86608K   2672K  fg system   /system/bin/surfaceflinger
+ 1320  0   5% S    67 1085096K  76352K  fg u0_a55   com.aispeech.aios
+  885  0   4% R    48 1018208K  42120K  fg u0_a15   com.android.systemui
+  950  0   4% S    24 963232K  28852K  fg system   cn.yunovo.car.service
+  220  3   3% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+23118  2   2% R     1   2592K   1028K  fg shell    top
+ 1601  3   1% S    18 966480K  24568K  fg system   com.car.canbus
+ 1295  2   1% S    20 969444K  28500K  fg system   com.spt.carengine.platform
+
+
+
+User 30%, System 13%, IOW 0%, IRQ 0%
+User 136 + Nice 0 + Sys 59 + Idle 246 + IOW 1 + IRQ 0 + SIRQ 0 = 442
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  2  13% S   109 1120964K  66996K  fg system   system_server
+17331  3   6% S    45 1050584K  74900K  fg u0_a57   cn.kuwo.kwmusiccar
+  885  2   5% S    48 1018172K  42128K  fg u0_a15   com.android.systemui
+ 1320  0   4% S    67 1085096K  76352K  fg u0_a55   com.aispeech.aios
+  220  3   3% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+23118  3   2% R     1   2600K   1044K  fg shell    top
+  202  0   2% S    22  86608K   2672K  fg system   /system/bin/surfaceflinger
+ 1601  0   0% S    18 966480K  25096K  fg system   com.car.canbus
+14618  2   0% S    96 1194664K 126320K  fg u0_a17   com.autonavi.amapauto
+ 1522  2   0% S    48 1033952K  44660K  fg system   com.aispeech.aios.adapter
+
+
+
+User 0%, System 0%, IOW 0%, IRQ 0%
+User 150 + Nice 0 + Sys 77 + Idle -1226130 + IOW 1053 + IRQ 0 + SIRQ 2 = -1224848
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  0   0% S   109 1121512K  67804K  fg system   system_server
+17331  1   0% S    45 1040080K  74040K  fg u0_a57   cn.kuwo.kwmusiccar
+ 1320  3   0% S    67 1085096K  76352K  fg u0_a55   com.aispeech.aios
+  885  1   0% S    48 1017664K  41612K  fg u0_a15   com.android.systemui
+  202  1   0% S    22  86608K   2672K  fg system   /system/bin/surfaceflinger
+  220  3   0% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+  950  2   0% S    24 963232K  28872K  fg system   cn.yunovo.car.service
+23118  2   0% R     1   2600K   1044K  fg shell    top
+ 1484  1   0% S    23 991696K  44424K  fg system   cn.yunovo.car.launcher
+  629  3   0% S    14  27856K    700K  fg root     /system/bin/blink
+
+
+
+User 0%, System 0%, IOW 3503%, IRQ 0%
+User 222 + Nice 2 + Sys 81 + Idle 1226478 + IOW -1052 + IRQ 0 + SIRQ 1 = 1225732
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  0   0% S   109 1121472K  67512K  fg system   system_server
+14618  2   0% S    98 1202736K 125772K  fg u0_a17   com.autonavi.amapauto
+ 1320  2   0% S    67 1085096K  76616K  fg u0_a55   com.aispeech.aios
+  885  2   0% S    48 1017664K  41608K  fg u0_a15   com.android.systemui
+  202  2   0% S    22  89408K   2672K  fg system   /system/bin/surfaceflinger
+17331  2   0% S    45 1040100K  74040K  fg u0_a57   cn.kuwo.kwmusiccar
+  220  3   0% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+23118  0   0% R     1   2600K   1044K  fg shell    top
+ 1484  0   0% S    23 987552K  44452K  fg system   cn.yunovo.car.launcher
+  950  1   0% S    24 963232K  28248K  fg system   cn.yunovo.car.service
+
+
+
+User 34%, System 14%, IOW 0%, IRQ 0%
+User 152 + Nice 0 + Sys 66 + Idle 222 + IOW 0 + IRQ 0 + SIRQ 1 = 441
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  0  11% S   109 1121472K  67420K  fg system   system_server
+ 1320  2   6% S    67 1085096K  76544K  fg u0_a55   com.aispeech.aios
+  885  2   5% S    48 1017664K  41596K  fg u0_a15   com.android.systemui
+14618  1   4% S    98 1211136K 125772K  fg u0_a17   com.autonavi.amapauto
+17331  0   3% S    45 1040140K  74232K  fg u0_a57   cn.kuwo.kwmusiccar
+  202  1   3% S    22  91408K   2672K  fg system   /system/bin/surfaceflinger
+  220  3   3% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+23118  2   2% R     1   2600K   1044K  fg shell    top
+  629  3   0% S    14  27856K    700K  fg root     /system/bin/blink
+ 1601  1   0% S    18 966480K  25624K  fg system   com.car.canbus
+
+
+
+User 25%, System 11%, IOW 0%, IRQ 0%
+User 106 + Nice 1 + Sys 49 + Idle 258 + IOW 0 + IRQ 0 + SIRQ 0 = 414
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  2  11% S   109 1121472K  67248K  fg system   system_server
+  885  1   5% R    48 1017156K  40992K  fg u0_a15   com.android.systemui
+ 1320  2   5% S    67 1085096K  76544K  fg u0_a55   com.aispeech.aios
+17331  0   3% S    45 1040160K  74232K  fg u0_a57   cn.kuwo.kwmusiccar
+  220  3   3% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+14618  3   3% S    98 1211136K 125772K  fg u0_a17   com.autonavi.amapauto
+23118  3   2% R     1   2600K   1044K  fg shell    top
+  950  0   1% S    24 963232K  28280K  fg system   cn.yunovo.car.service
+  202  3   1% S    22  91408K   2672K  fg system   /system/bin/surfaceflinger
+  629  3   0% S    14  27856K    700K  fg root     /system/bin/blink
+
+
+
+User 0%, System 0%, IOW 0%, IRQ 0%
+User 128 + Nice 4 + Sys 55 + Idle -1226158 + IOW 1054 + IRQ 0 + SIRQ 0 = -1224917
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  0   0% S   109 1121492K  67428K  fg system   system_server
+14618  0   0% R    98 1211136K 125904K  fg u0_a17   com.autonavi.amapauto
+ 1320  0   0% S    67 1085096K  76544K  fg u0_a55   com.aispeech.aios
+  885  0   0% S    48 1017156K  40984K  fg u0_a15   com.android.systemui
+  220  3   0% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+17331  2   0% S    45 1040180K  73800K  fg u0_a57   cn.kuwo.kwmusiccar
+23118  2   0% R     1   2600K   1044K  fg shell    top
+  202  0   0% S    22  91408K   2672K  fg system   /system/bin/surfaceflinger
+ 3309  1   0% S    25 1006240K  51860K  bg system   cn.yunovo.car.settings
+  629  3   0% S    14  27856K    700K  fg root     /system/bin/blink
+
+
+
+User 0%, System 0%, IOW 3503%, IRQ 0%
+User 196 + Nice 0 + Sys 84 + Idle 1226554 + IOW -1053 + IRQ 0 + SIRQ 0 = 1225781
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  1   0% S   109 1121992K  67892K  fg system   system_server
+  950  1   0% S    24 965832K  28512K  fg system   cn.yunovo.car.service
+14618  2   0% S    98 1196776K 125948K  bg u0_a17   com.autonavi.amapauto
+  202  1   0% S    22 103608K   2672K  fg system   /system/bin/surfaceflinger
+  885  1   0% R    48 1017156K  41120K  fg u0_a15   com.android.systemui
+ 1320  1   0% S    67 1085096K  76544K  fg u0_a55   com.aispeech.aios
+17331  3   0% S    45 1040200K  73800K  fg u0_a57   cn.kuwo.kwmusiccar
+  220  3   0% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+23118  2   0% R     1   2600K   1044K  fg shell    top
+  200  3   0% S     1   1324K    380K  fg system   /system/bin/servicemanager
+
+
+
+User 49%, System 33%, IOW 0%, IRQ 0%
+User 219 + Nice 0 + Sys 146 + Idle 74 + IOW 0 + IRQ 0 + SIRQ 1 = 440
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  1  22% S   109 1122408K  68404K  fg system   system_server
+  202  0  11% S    22  96208K   2684K  fg system   /system/bin/surfaceflinger
+  220  2   7% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+  950  0   7% S    24 963232K  28324K  fg system   cn.yunovo.car.service
+ 1320  1   7% S    67 1085116K  75732K  fg u0_a55   com.aispeech.aios
+  885  2   5% S    48 1022856K  43160K  fg u0_a15   com.android.systemui
+14618  3   5% S    96 1194724K 125944K  fg u0_a17   com.autonavi.amapauto
+17331  3   3% S    45 1040476K  74084K  fg u0_a57   cn.kuwo.kwmusiccar
+ 1484  3   3% S    23 995152K  44612K  fg system   cn.yunovo.car.launcher
+23118  2   3% R     1   2600K   1044K  fg shell    top
+
+
+
+User 42%, System 25%, IOW 0%, IRQ 1%
+User 199 + Nice 1 + Sys 120 + Idle 141 + IOW 0 + IRQ 0 + SIRQ 5 = 466
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  3  12% S   109 1121900K  67824K  fg system   system_server
+ 1320  1  10% S    67 1085116K  75732K  fg u0_a55   com.aispeech.aios
+  220  0   7% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+  885  3   5% S    48 1017872K  41908K  fg u0_a15   com.android.systemui
+14618  0   5% S    96 1194724K 125956K  fg u0_a17   com.autonavi.amapauto
+  202  3   4% S    22  96208K   2684K  fg system   /system/bin/surfaceflinger
+ 1522  0   3% S    48 1043552K  44756K  fg system   com.aispeech.aios.adapter
+  950  3   3% S    24 963232K  28372K  fg system   cn.yunovo.car.service
+23118  0   2% R     1   2600K   1044K  fg shell    top
+17331  0   0% S    45 1040496K  74084K  fg u0_a57   cn.kuwo.kwmusiccar
+
+
+
+User 47%, System 22%, IOW 0%, IRQ 0%
+User 201 + Nice 1 + Sys 96 + Idle 124 + IOW 0 + IRQ 0 + SIRQ 4 = 426
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  3  22% S   109 1121484K  67456K  fg system   system_server
+ 1320  3  12% S    67 1085116K  75984K  fg u0_a55   com.aispeech.aios
+  220  3   6% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+  885  3   5% S    48 1017664K  41688K  fg u0_a15   com.android.systemui
+  202  2   5% S    22  86608K   2684K  fg system   /system/bin/surfaceflinger
+ 1522  2   4% S    48 1035608K  46460K  fg system   com.aispeech.aios.adapter
+14618  3   3% S    96 1194724K 125976K  fg u0_a17   com.autonavi.amapauto
+23118  2   2% R     1   2600K   1044K  fg shell    top
+  950  3   2% S    24 963232K  28372K  fg system   cn.yunovo.car.service
+  629  1   1% S    14  27856K    700K  fg root     /system/bin/blink
+
+
+
+User 37%, System 22%, IOW 0%, IRQ 0%
+User 165 + Nice 1 + Sys 100 + Idle 168 + IOW 1 + IRQ 0 + SIRQ 2 = 437
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  0  16% S   109 1121900K  67880K  fg system   system_server
+  950  3   6% S    24 963232K  28160K  fg system   cn.yunovo.car.service
+  202  3   6% S    22  88672K   2684K  fg system   /system/bin/surfaceflinger
+  885  0   5% S    48 1017872K  42024K  fg u0_a15   com.android.systemui
+ 1320  3   4% S    67 1085116K  75984K  fg u0_a55   com.aispeech.aios
+  220  0   3% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+17331  0   3% S    45 1040704K  74316K  fg u0_a57   cn.kuwo.kwmusiccar
+ 1430  0   3% S    25 984568K  33028K  fg system   cn.yunovo.car.bt
+23118  1   2% R     1   2600K   1044K  fg shell    top
+ 1601  0   1% S    18 966480K  27132K  fg system   com.car.canbus
+
+
+
+User 38%, System 22%, IOW 0%, IRQ 0%
+User 164 + Nice 1 + Sys 97 + Idle 167 + IOW 0 + IRQ 0 + SIRQ 2 = 431
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  2  16% S   109 1121888K  68112K  fg system   system_server
+  202  0   7% S    22  86608K   2684K  fg system   /system/bin/surfaceflinger
+  885  1   6% S    48 1017664K  41816K  fg u0_a15   com.android.systemui
+ 1430  2   5% S    25 988824K  33040K  fg system   cn.yunovo.car.bt
+ 1320  2   5% S    67 1085116K  75984K  fg u0_a55   com.aispeech.aios
+17331  1   3% S    45 1040704K  74316K  fg u0_a57   cn.kuwo.kwmusiccar
+  220  0   3% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+  950  3   3% S    24 963232K  28136K  fg system   cn.yunovo.car.service
+23118  0   2% R     1   2600K   1044K  fg shell    top
+ 3309  2   0% S    25 1006240K  51860K  bg system   cn.yunovo.car.settings
+
+
+
+User 38%, System 23%, IOW 0%, IRQ 0%
+User 161 + Nice 2 + Sys 99 + Idle 164 + IOW 0 + IRQ 0 + SIRQ 0 = 426
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  2  17% S   109 1121472K  67608K  fg system   system_server
+  202  0   7% R    22  86608K   2684K  fg system   /system/bin/surfaceflinger
+ 1320  2   6% S    67 1085116K  76248K  fg u0_a55   com.aispeech.aios
+  885  1   6% S    48 1017184K  41304K  fg u0_a15   com.android.systemui
+ 1430  2   4% S    25 988824K  33232K  fg system   cn.yunovo.car.bt
+17331  0   4% S    45 1040744K  74316K  fg u0_a57   cn.kuwo.kwmusiccar
+  220  0   3% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+  950  2   3% S    24 963232K  28300K  fg system   cn.yunovo.car.service
+23118  3   2% R     1   2600K   1044K  fg shell    top
+  629  1   1% S    14  27856K    700K  fg root     /system/bin/blink
+
+
+
+User 36%, System 18%, IOW 0%, IRQ 0%
+User 166 + Nice 0 + Sys 83 + Idle 205 + IOW 0 + IRQ 0 + SIRQ 1 = 455
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  2  12% S   109 1121980K  68056K  fg system   system_server
+ 1320  2   6% S    67 1085116K  76248K  fg u0_a55   com.aispeech.aios
+  885  3   6% R    48 1017184K  41376K  fg u0_a15   com.android.systemui
+  202  3   5% S    22  86608K   2684K  fg system   /system/bin/surfaceflinger
+17331  0   3% S    45 1040764K  74316K  fg u0_a57   cn.kuwo.kwmusiccar
+  220  0   3% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+23118  3   2% R     1   2600K   1044K  fg shell    top
+ 1484  3   1% S    23 992896K  44612K  fg system   cn.yunovo.car.launcher
+  950  0   1% S    24 963232K  28300K  fg system   cn.yunovo.car.service
+ 1430  1   1% S    25 980076K  33652K  fg system   cn.yunovo.car.bt
+
+
+
+User 36%, System 15%, IOW 0%, IRQ 0%
+User 151 + Nice 4 + Sys 68 + Idle 205 + IOW 1 + IRQ 0 + SIRQ 0 = 429
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  2  14% S   109 1121980K  68028K  fg system   system_server
+  885  0   6% R    48 1017692K  41888K  fg u0_a15   com.android.systemui
+  202  2   6% S    22  86608K   2684K  fg system   /system/bin/surfaceflinger
+ 1484  1   5% S    23 996964K  44612K  fg system   cn.yunovo.car.launcher
+ 1320  2   4% S    67 1085116K  76248K  fg u0_a55   com.aispeech.aios
+17331  0   4% S    45 1040784K  74316K  fg u0_a57   cn.kuwo.kwmusiccar
+  220  0   4% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+23118  3   2% R     1   2600K   1044K  fg shell    top
+  950  2   1% S    24 963232K  28200K  fg system   cn.yunovo.car.service
+  629  1   1% S    14  27856K    700K  fg root     /system/bin/blink
+
+
+
+User 44%, System 22%, IOW 0%, IRQ 0%
+User 194 + Nice 0 + Sys 97 + Idle 145 + IOW 2 + IRQ 0 + SIRQ 1 = 439
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  3  18% S   109 1122688K  68196K  fg system   system_server
+ 1601  0  13% S    25 985276K  37108K  fg system   com.car.canbus
+  202  1   9% S    22  89264K   2684K  fg system   /system/bin/surfaceflinger
+  885  0   4% S    48 1017692K  41888K  fg u0_a15   com.android.systemui
+ 1320  2   4% D    67 1085096K  76412K  fg u0_a55   com.aispeech.aios
+17331  3   4% S    45 1040804K  74128K  fg u0_a57   cn.kuwo.kwmusiccar
+  220  0   4% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+ 1484  1   3% S    23 987364K  44880K  fg system   cn.yunovo.car.launcher
+23118  2   3% R     1   2600K   1044K  fg shell    top
+  950  2   1% S    24 963232K  28392K  fg system   cn.yunovo.car.service
+
+
+
+User 45%, System 34%, IOW 0%, IRQ 0%
+User 199 + Nice 22 + Sys 168 + Idle 89 + IOW 0 + IRQ 0 + SIRQ 4 = 482
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  1  31% S   109 1123216K  68840K  fg system   system_server
+  202  0   7% R    22  86864K   2684K  fg system   /system/bin/surfaceflinger
+  885  0   5% R    48 1018120K  42248K  fg u0_a15   com.android.systemui
+ 1320  0   4% S    67 1085096K  76412K  fg u0_a55   com.aispeech.aios
+17331  1   3% S    45 1040824K  74348K  fg u0_a57   cn.kuwo.kwmusiccar
+  950  2   3% S    24 963232K  28288K  fg system   cn.yunovo.car.service
+  220  0   3% S    23 134224K   6408K  fg media    /system/bin/mediaserver
+ 1601  3   3% S    25 980988K  37292K  fg system   com.car.canbus
+23118  3   2% R     1   2600K   1044K  fg shell    top
+ 1484  0   1% S    23 990276K  44940K  fg system   cn.yunovo.car.launcher
+
+
+
+User 51%, System 42%, IOW 0%, IRQ 0%
+User 216 + Nice 15 + Sys 192 + Idle 25 + IOW 3 + IRQ 0 + SIRQ 0 = 451
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  3  27% S   109 1121672K  67524K  fg system   system_server
+  220  1  13% S    28 135376K   6580K  fg media    /system/bin/mediaserver
+23148  0   9% S    12 975772K  34932K  bg system   cn.yunovo.car.camera
+  202  2   8% S    22  86608K   2684K  fg system   /system/bin/surfaceflinger
+  885  1   7% S    48 1018908K  42576K  fg u0_a15   com.android.systemui
+ 1320  2   6% S    67 1085096K  76412K  fg u0_a55   com.aispeech.aios
+17331  2   3% S    45 1040844K  74596K  fg u0_a57   cn.kuwo.kwmusiccar
+23118  2   2% R     1   2600K   1044K  fg shell    top
+ 1484  2   2% S    23 993732K  44952K  fg system   cn.yunovo.car.launcher
+   63  0   1% S     1      0K      0K  fg root     kswapd0
+
+
+
+User 46%, System 35%, IOW 0%, IRQ 0%
+User 191 + Nice 12 + Sys 154 + Idle 76 + IOW 3 + IRQ 0 + SIRQ 1 = 437
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  0  27% S   109 1121672K  67900K  fg system   system_server
+  220  0   9% S    23 129104K  12712K  fg media    /system/bin/mediaserver
+  202  3   8% S    22  86608K   2684K  fg system   /system/bin/surfaceflinger
+ 1320  2   7% S    67 1085096K  76440K  fg u0_a55   com.aispeech.aios
+ 1484  0   6% S    23 997732K  44944K  fg system   cn.yunovo.car.launcher
+  885  2   5% S    48 1018200K  42584K  fg u0_a15   com.android.systemui
+17331  2   4% S    45 1040864K  74620K  fg u0_a57   cn.kuwo.kwmusiccar
+23118  1   2% R     1   2600K   1044K  fg shell    top
+  950  2   1% S    24 963232K  28564K  fg system   cn.yunovo.car.service
+   63  3   1% S     1      0K      0K  fg root     kswapd0
+
+
+
+User 34%, System 12%, IOW 0%, IRQ 0%
+User 1084 + Nice 15 + Sys 404 + Idle 1665 + IOW 7 + IRQ 0 + SIRQ 13 = 3188
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  1  13% S   109 1121284K  67144K  fg system   system_server
+ 1320  0   7% S    67 1085096K  76216K  fg u0_a55   com.aispeech.aios
+  885  2   5% S    48 1017692K  42056K  fg u0_a15   com.android.systemui
+17331  1   4% S    45 1040568K  75432K  fg u0_a57   cn.kuwo.kwmusiccar
+  220  2   4% S    23 129104K  12692K  fg media    /system/bin/mediaserver
+  202  0   3% S    22  86608K   2684K  fg system   /system/bin/surfaceflinger
+ 1484  3   2% S    23 987904K  44896K  fg system   cn.yunovo.car.launcher
+  629  2   0% S    14  27856K    692K  fg root     /system/bin/blink
+  950  1   0% S    24 963232K  28436K  fg system   cn.yunovo.car.service
+ 1601  3   0% S    25 980136K  35248K  fg system   com.car.canbus
+
+
+
+User 34%, System 19%, IOW 0%, IRQ 0%
+User 143 + Nice 4 + Sys 83 + Idle 190 + IOW 1 + IRQ 0 + SIRQ 3 = 424
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  1  19% S   109 1121284K  67888K  fg system   system_server
+  885  1   6% S    48 1017692K  42060K  fg u0_a15   com.android.systemui
+ 1320  0   5% S    67 1085096K  76216K  fg u0_a55   com.aispeech.aios
+23179  0   5% S    18 979824K  36352K  fg system   cn.yunovo.car.manager
+17331  1   4% S    45 1040608K  75432K  fg u0_a57   cn.kuwo.kwmusiccar
+  220  2   4% S    23 129104K  12692K  fg media    /system/bin/mediaserver
+  202  1   4% S    22  86608K   2684K  fg system   /system/bin/surfaceflinger
+23118  0   3% R     1   2600K   1044K  fg shell    top
+  629  2   1% S    14  27856K    692K  fg root     /system/bin/blink
+ 1522  3   1% S    48 1032012K  45316K  fg system   com.aispeech.aios.adapter
+
+
+
+User 38%, System 27%, IOW 3%, IRQ 0%
+User 135 + Nice 28 + Sys 117 + Idle 133 + IOW 13 + IRQ 0 + SIRQ 1 = 427
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  0  15% S   109 1121284K  68204K  fg system   system_server
+23204  0  10% S    14 950756K  24156K  fg u0_a3    com.android.defcontainer
+ 1320  3   6% S    67 1085096K  76368K  fg u0_a55   com.aispeech.aios
+  885  1   5% S    48 1017692K  42048K  fg u0_a15   com.android.systemui
+17331  0   3% S    45 1040628K  75500K  fg u0_a57   cn.kuwo.kwmusiccar
+  991  3   3% S     3   3736K    520K  fg media_rw /system/bin/sdcard
+  220  2   3% S    23 129104K  12676K  fg media    /system/bin/mediaserver
+23118  0   2% R     1   2600K   1044K  fg shell    top
+  116  1   2% S     1      0K      0K  fg root     mmcqd/0
+  202  0   1% S    22  86608K   2684K  fg system   /system/bin/surfaceflinger
+
+
+
+User 44%, System 24%, IOW 0%, IRQ 0%
+User 138 + Nice 47 + Sys 103 + Idle 130 + IOW 2 + IRQ 0 + SIRQ 0 = 420
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  0  17% S   109 1121284K  69380K  fg system   system_server
+23204  0  13% S    14 950756K  24296K  fg u0_a3    com.android.defcontainer
+  885  2   6% S    48 1017692K  41996K  fg u0_a15   com.android.systemui
+ 1320  2   4% S    67 1085096K  75916K  fg u0_a55   com.aispeech.aios
+17331  2   4% S    45 1040648K  75412K  fg u0_a57   cn.kuwo.kwmusiccar
+  220  2   3% S    23 129104K  12648K  fg media    /system/bin/mediaserver
+ 3309  1   2% S    21 998308K  51936K  bg system   cn.yunovo.car.settings
+23118  3   2% R     1   2600K   1044K  fg shell    top
+  991  3   2% S     3   3736K    520K  fg media_rw /system/bin/sdcard
+  200  0   1% S     1   1324K    380K  fg system   /system/bin/servicemanager
+
+
+
+User 40%, System 23%, IOW 0%, IRQ 0%
+User 126 + Nice 52 + Sys 102 + Idle 155 + IOW 3 + IRQ 0 + SIRQ 0 = 438
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  3  17% S   109 1121284K  69388K  fg system   system_server
+23204  0  13% S    14 950756K  24312K  fg u0_a3    com.android.defcontainer
+  885  0   5% S    48 1016120K  40416K  fg u0_a15   com.android.systemui
+17331  2   3% S    45 1040668K  74172K  fg u0_a57   cn.kuwo.kwmusiccar
+ 1320  2   3% S    67 1085096K  75916K  fg u0_a55   com.aispeech.aios
+  220  2   3% S    23 129104K  12648K  fg media    /system/bin/mediaserver
+23118  3   2% R     1   2600K   1044K  fg shell    top
+  200  2   2% S     1   1324K    380K  fg system   /system/bin/servicemanager
+  991  3   2% S     3   3736K    520K  fg media_rw /system/bin/sdcard
+  202  2   1% S    22  86608K   2684K  fg system   /system/bin/surfaceflinger
+
+
+
+User 40%, System 19%, IOW 0%, IRQ 0%
+User 124 + Nice 44 + Sys 80 + Idle 168 + IOW 0 + IRQ 0 + SIRQ 2 = 418
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  3  16% S   109 1121284K  69336K  fg system   system_server
+23204  0  11% S    14 950756K  24464K  fg u0_a3    com.android.defcontainer
+  885  3   6% R    48 1016120K  40408K  fg u0_a15   com.android.systemui
+ 1320  2   4% S    67 1085096K  75916K  fg u0_a55   com.aispeech.aios
+  220  2   4% S    23 129104K  12648K  fg media    /system/bin/mediaserver
+17331  3   4% S    45 1040688K  74172K  fg u0_a57   cn.kuwo.kwmusiccar
+  200  1   2% S     1   1324K    380K  fg system   /system/bin/servicemanager
+23118  0   2% R     1   2600K   1044K  fg shell    top
+  991  3   1% S     3   3736K    520K  fg media_rw /system/bin/sdcard
+23179  3   1% S    18 979824K  36860K  fg system   cn.yunovo.car.manager
+
+
+
+User 0%, System 0%, IOW 0%, IRQ 0%
+User 136 + Nice 1 + Sys 31 + Idle -1226453 + IOW 1057 + IRQ 0 + SIRQ 2 = -1225226
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  1   0% S   109 1121284K  69812K  fg system   system_server
+ 1320  2   0% S    67 1085096K  75916K  fg u0_a55   com.aispeech.aios
+  885  2   0% S    48 1016120K  40400K  fg u0_a15   com.android.systemui
+17331  1   0% S    45 1040708K  74172K  fg u0_a57   cn.kuwo.kwmusiccar
+  220  2   0% S    23 129104K  12648K  fg media    /system/bin/mediaserver
+23118  2   0% R     1   2600K   1044K  fg shell    top
+  629  0   0% S    14  27856K    692K  fg root     /system/bin/blink
+14618  2   0% S    96 1194744K 122376K  fg u0_a17   com.autonavi.amapauto
+ 1601  3   0% S    25 980136K  35788K  fg system   com.car.canbus
+ 3309  1   0% R    21 998308K  51936K  bg system   cn.yunovo.car.settings
+
+
+
+User 0%, System 0%, IOW 3502%, IRQ 0%
+User 142 + Nice 3 + Sys 46 + Idle 1226956 + IOW -1056 + IRQ 0 + SIRQ 0 = 1226091
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  1   0% S   109 1121284K  68176K  fg system   system_server
+ 1320  2   0% S    67 1085096K  75916K  fg u0_a55   com.aispeech.aios
+  885  3   0% S    48 1016120K  40300K  fg u0_a15   com.android.systemui
+17331  1   0% S    45 1040728K  74172K  fg u0_a57   cn.kuwo.kwmusiccar
+  220  2   0% S    23 129104K  12648K  fg media    /system/bin/mediaserver
+23118  1   0% R     1   2600K   1044K  fg shell    top
+ 3309  0   0% S    21 998308K  49724K  bg system   cn.yunovo.car.settings
+  202  1   0% S    22  86608K   2684K  fg system   /system/bin/surfaceflinger
+  629  0   0% S    14  27856K    692K  fg root     /system/bin/blink
+14618  1   0% S    96 1194744K 122376K  fg u0_a17   com.autonavi.amapauto
+
+
+
+User 0%, System 0%, IOW 0%, IRQ 0%
+User 115 + Nice 13 + Sys 68 + Idle -1226496 + IOW 1058 + IRQ 0 + SIRQ 2 = -1225240
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  0   0% S   109 1121284K  67972K  fg system   system_server
+ 1320  2   0% S    67 1085096K  75048K  fg u0_a55   com.aispeech.aios
+  885  0   0% S    48 1016120K  40304K  fg u0_a15   com.android.systemui
+17331  0   0% S    45 1040748K  74172K  fg u0_a57   cn.kuwo.kwmusiccar
+  220  2   0% S    23 129104K  12648K  fg media    /system/bin/mediaserver
+23118  0   0% R     1   2600K   1044K  fg shell    top
+  629  1   0% S    14  27856K    692K  fg root     /system/bin/blink
+  202  0   0% S    22  86608K   2684K  fg system   /system/bin/surfaceflinger
+ 1601  0   0% S    25 980136K  36052K  fg system   com.car.canbus
+  991  3   0% S     3   3736K    520K  fg media_rw /system/bin/sdcard
+
+
+
+User 34%, System 16%, IOW 0%, IRQ 0%
+User 111 + Nice 3 + Sys 55 + Idle 162 + IOW 0 + IRQ 0 + SIRQ 0 = 331
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  1  13% S   109 1121284K  67572K  fg system   system_server
+ 1320  2  10% S    67 1085096K  75264K  fg u0_a55   com.aispeech.aios
+  885  1   7% S    48 1016120K  40296K  fg u0_a15   com.android.systemui
+  220  2   5% S    23 129104K  12648K  fg media    /system/bin/mediaserver
+17331  1   4% S    45 1040768K  74172K  fg u0_a57   cn.kuwo.kwmusiccar
+23118  2   3% R     1   2600K   1044K  fg shell    top
+  629  1   1% S    14  27856K    692K  fg root     /system/bin/blink
+  950  2   0% S    24 963232K  28540K  fg system   cn.yunovo.car.service
+14618  1   0% S    96 1194744K 122376K  fg u0_a17   com.autonavi.amapauto
+ 1601  0   0% S    25 980136K  36316K  fg system   com.car.canbus
+
+
+
+User 32%, System 12%, IOW 0%, IRQ 0%
+User 105 + Nice 2 + Sys 42 + Idle 174 + IOW 0 + IRQ 0 + SIRQ 3 = 326
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  2  14% S   109 1121284K  67548K  fg system   system_server
+  885  2   7% S    48 1016120K  40284K  fg u0_a15   com.android.systemui
+ 1320  2   6% S    67 1085096K  75264K  fg u0_a55   com.aispeech.aios
+17331  0   5% S    45 1040788K  74236K  fg u0_a57   cn.kuwo.kwmusiccar
+  220  2   5% S    23 129104K  12648K  fg media    /system/bin/mediaserver
+23118  0   3% R     1   2600K   1044K  fg shell    top
+  629  1   0% S    14  27856K    692K  fg root     /system/bin/blink
+  202  2   0% S    22  86608K   2684K  fg system   /system/bin/surfaceflinger
+ 1502  1   0% S    49 995496K  28216K  fg radio    com.android.phone
+14618  2   0% S    96 1194744K 122376K  fg u0_a17   com.autonavi.amapauto
+
+
+
+User 0%, System 0%, IOW 3502%, IRQ 0%
+User 163 + Nice 2 + Sys 70 + Idle 1227156 + IOW -1056 + IRQ 0 + SIRQ 2 = 1226337
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  2   0% S   109 1121792K  68088K  fg system   system_server
+  885  2   0% S    48 1016120K  40272K  fg u0_a15   com.android.systemui
+17331  0   0% S    45 1040828K  74236K  fg u0_a57   cn.kuwo.kwmusiccar
+  202  0   0% S    22  86608K   2684K  fg system   /system/bin/surfaceflinger
+ 1320  0   0% S    67 1085096K  75528K  fg u0_a55   com.aispeech.aios
+  220  2   0% S    23 129104K  12648K  fg media    /system/bin/mediaserver
+  950  2   0% S    24 963232K  28412K  fg system   cn.yunovo.car.service
+23118  1   0% R     1   2600K   1044K  fg shell    top
+ 1484  1   0% S    23 992704K  44880K  fg system   cn.yunovo.car.launcher
+22583  2   0% S    15 963916K  36120K  fg u0_a57   cn.kuwo.kwmusiccar:remote
+
+
+
+User 47%, System 21%, IOW 0%, IRQ 0%
+User 212 + Nice 0 + Sys 95 + Idle 132 + IOW 2 + IRQ 0 + SIRQ 4 = 445
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  0  18% S   109 1121792K  68060K  fg system   system_server
+14618  3  12% S    98 1206840K 122784K  fg u0_a17   com.autonavi.amapauto
+  202  1   8% S    22  91408K   2684K  fg system   /system/bin/surfaceflinger
+  885  2   6% S    48 1016120K  40260K  fg u0_a15   com.android.systemui
+ 1320  1   4% S    67 1085096K  75528K  fg u0_a55   com.aispeech.aios
+17331  1   4% S    45 1040848K  74236K  fg u0_a57   cn.kuwo.kwmusiccar
+  220  2   3% S    23 129104K  12648K  fg media    /system/bin/mediaserver
+23118  2   2% R     1   2600K   1044K  fg shell    top
+  950  2   1% S    24 963232K  28776K  fg system   cn.yunovo.car.service
+  629  1   1% S    14  27856K    692K  fg root     /system/bin/blink
+
+
+
+User 37%, System 16%, IOW 0%, IRQ 0%
+User 162 + Nice 1 + Sys 74 + Idle 202 + IOW 0 + IRQ 0 + SIRQ 1 = 440
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  3  14% S   109 1121792K  68312K  fg system   system_server
+14618  1   7% S    98 1211640K 122856K  fg u0_a17   com.autonavi.amapauto
+  885  0   6% R    48 1016664K  40824K  fg u0_a15   com.android.systemui
+17331  1   4% S    45 1040868K  74400K  fg u0_a57   cn.kuwo.kwmusiccar
+  220  2   3% S    23 129104K  12648K  fg media    /system/bin/mediaserver
+ 1320  1   3% S    67 1085096K  75528K  fg u0_a55   com.aispeech.aios
+  202  1   2% S    22  91408K   2684K  fg system   /system/bin/surfaceflinger
+23118  1   2% R     1   2600K   1044K  fg shell    top
+  950  2   1% S    24 963232K  28892K  fg system   cn.yunovo.car.service
+  629  2   0% S    14  27856K    692K  fg root     /system/bin/blink
+
+
+
+User 38%, System 14%, IOW 0%, IRQ 0%
+User 3199 + Nice 23 + Sys 1249 + Idle 3860 + IOW 28 + IRQ 0 + SIRQ 30 = 8389
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+14618  1  14% S   100 1216908K 126116K  fg u0_a17   com.autonavi.amapauto
+  700  2  12% S   109 1121792K  67988K  fg system   system_server
+ 1320  1   5% S    67 1085032K  75552K  fg u0_a55   com.aispeech.aios
+  885  2   5% S    48 1016156K  40616K  fg u0_a15   com.android.systemui
+  220  2   5% S    23 129104K  12636K  fg media    /system/bin/mediaserver
+17331  0   4% S    45 1039924K  73004K  fg u0_a57   cn.kuwo.kwmusiccar
+  202  0   1% S    22  91408K   2684K  fg system   /system/bin/surfaceflinger
+  629  2   0% S    14  27856K    692K  fg root     /system/bin/blink
+  950  1   0% S    24 963232K  28604K  fg system   cn.yunovo.car.service
+ 1601  2   0% S    25 980136K  36076K  fg system   com.car.canbus
+
+
+
+User 38%, System 16%, IOW 0%, IRQ 0%
+User 166 + Nice 0 + Sys 70 + Idle 193 + IOW 1 + IRQ 0 + SIRQ 2 = 432
+
+  PID PR CPU% S  #THR     VSS     RSS PCY UID      Name
+  700  1  12% S   109 1121792K  68184K  fg system   system_server
+14618  0  10% S   100 1216908K 126120K  fg u0_a17   com.autonavi.amapauto
+ 1320  1   7% S    67 1085032K  75552K  fg u0_a55   com.aispeech.aios
+  885  1   6% S    48 1016156K  40616K  fg u0_a15   com.android.systemui
+  220  2   5% S    23 129104K  12636K  fg media    /system/bin/mediaserver
+17331  1   4% S    45 1039944K  73004K  fg u0_a57   cn.kuwo.kwmusiccar
+23118  1   2% R     1   2600K   1044K  fg shell    top
+  202  3   1% S    22  91408K   2684K  fg system   /system/bin/surfaceflinger
+  629  2   0% S    14  27856K    692K  fg root     /system/bin/blink
+ 3309  1   0% S    21 998308K  50656K  bg system   cn.yunovo.car.settings

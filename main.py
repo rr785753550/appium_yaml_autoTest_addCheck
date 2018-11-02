@@ -1,9 +1,6 @@
 # coding:utf-8
-import os
 import unittest
-import HTMLTestRunner
-import time
-import threading
+import datetime
 from BaseOperate.grabLog import kill_logcat
 from BaseOperate.appiumServer import *
 from BaseOperate.Excel import Report
@@ -32,6 +29,7 @@ if __name__ == "__main__":
     unittest.TextTestRunner().run(suit)
     stop_appium(4723)
     kill_logcat()
+    Report().worksheet1_write_data()
     Report().closeWorkbook()
     sendreport()  # 发送测试报告
     print('运行完成退出')
