@@ -1,0 +1,87 @@
+testinfo:
+  title: K21设置-屏保功能
+  condition: 无
+testcase:
+  step1:
+    element_info: 熄屏设置
+    element_type: text
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 进入“熄屏设置”界面
+  step2:
+    element_info: com.spt.carengine.settings:id/i_know
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 进入屏保界面弹出提示弹框，点击“我了解”
+  step3:
+    element_info: //android.widget.TextView[@text='屏保开关']/../android.widget.CheckBox
+    element_type: xpath
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 打开“屏保开关”
+  step4:
+    element_info: //android.widget.TextView[@text='行车模式']/../android.widget.CheckBox
+    element_type: xpath
+    element_operate: click
+    operate_times: 2
+    sleep_time: 1
+    operate_details: 开关“行车模式”开关
+  step5:
+    element_info: //android.widget.TextView[@text='省电模式']/../android.widget.CheckBox
+    element_type: xpath
+    element_operate: click
+    operate_times: 2
+    sleep_time: 1
+    operate_details: 开关“省电模式”开关
+  step6:
+    element_info: com.spt.carengine.settings:id/thirty_second
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 设置屏保时间为30s
+  step7:
+    element_info: com.spt.carengine.settings:id/one_minute
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 设置屏保时间为1min
+  step8:
+    element_info: com.spt.carengine.settings:id/three_minutes
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 设置屏保时间为3min
+  step9:
+    element_info: //android.widget.TextView[@text='屏保开关']/../android.widget.CheckBox
+    element_type: xpath
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 关闭“屏保开关”
+  step10:
+    element_info:
+    element_type:
+    element_operate: back
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 返回到上一层界面
+check:
+  result1:
+    check_content:
+    expect_value:
+  result2:
+    check_content:
+    expect_value:
+  result3:
+    check_content:
+    expect_value:
+output:
+  pass_output:
+  fail_output:

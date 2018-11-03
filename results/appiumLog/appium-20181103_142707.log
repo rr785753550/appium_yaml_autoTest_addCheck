@@ -1,0 +1,135 @@
+2018-11-03 14:27:10:024 - info: [Appium] Welcome to Appium v1.9.0 (REV 3a570989d26d3900724629b63efb4087b5b26452)
+2018-11-03 14:27:10:025 - info: [Appium] Non-default server args:
+2018-11-03 14:27:10:025 - info: [Appium]   address: 127.0.0.1
+2018-11-03 14:27:10:026 - info: [Appium]   log: F:\PythonWorkSpace\appium_yaml_autoTest_addCheck\results/appiumLog/appium-20181103_142707.log
+2018-11-03 14:27:10:026 - info: [Appium]   localTimezone: true
+2018-11-03 14:27:10:050 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:4723
+2018-11-03 14:27:12:829 - info: [HTTP] --> POST /wd/hub/session
+2018-11-03 14:27:12:830 - info: [HTTP] {"capabilities":{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:platformVersion":5.1,"appium:deviceName":"10.0.0.66:5555","appium:automationName":"Appium","appium:noReset":true,"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:appPackage":"com.spt.carengine.settings","appium:appActivity":"com.spt.carengine.settings.activity.MainActivity"}},"desiredCapabilities":{"platformName":"Android","platformVersion":5.1,"deviceName":"10.0.0.66:5555","automationName":"Appium","noReset":true,"unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.spt.carengine.settings","appActivity":"com.spt.carengine.settings.activity.MainActivity"}}
+2018-11-03 14:27:12:834 - info: [debug] [MJSONWP] Calling AppiumDriver.createSession() with args: [{"platformName":"Android","platformVersion":5.1,"deviceName":"10.0.0.66:5555","automationName":"Appium","noReset":true,"unicodeKeyboard":true,"resetKeyboard":true,"appPackage":"com.spt.carengine.settings","appActivity":"com.spt.carengine.settings.activity.MainActivity"},null,{"firstMatch":[{}],"alwaysMatch":{"platformName":"Android","appium:platformVersion":5.1,"appium:deviceName":"10.0.0.66:5555","appium:automationName":"Appium","appium:noReset":true,"appium:unicodeKeyboard":true,"appium:resetKeyboard":true,"appium:appPackage":"com.spt.carengine.settings","appium:appActivity":"com.spt.carengine.settings.activity.MainActivity"}}]
+2018-11-03 14:27:12:837 - info: [debug] [BaseDriver] Event 'newSessionRequested' logged at 1541226432837 (14:27:12 GMT+0800 (中国标准时间))
+2018-11-03 14:27:12:851 - info: [Appium] Creating new AndroidDriver (v3.7.0) session
+2018-11-03 14:27:12:852 - info: [Appium] Capabilities:
+2018-11-03 14:27:12:852 - info: [Appium]   platformName: Android
+2018-11-03 14:27:12:852 - info: [Appium]   platformVersion: 5.1
+2018-11-03 14:27:12:853 - info: [Appium]   deviceName: 10.0.0.66:5555
+2018-11-03 14:27:12:853 - info: [Appium]   automationName: Appium
+2018-11-03 14:27:12:853 - info: [Appium]   noReset: true
+2018-11-03 14:27:12:853 - info: [Appium]   unicodeKeyboard: true
+2018-11-03 14:27:12:854 - info: [Appium]   resetKeyboard: true
+2018-11-03 14:27:12:854 - info: [Appium]   appPackage: com.spt.carengine.settings
+2018-11-03 14:27:12:854 - info: [Appium]   appActivity: com.spt.carengine.settings.activity.MainActivity
+2018-11-03 14:27:12:862 - info: [debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"platformName":"Android","... were provided
+2018-11-03 14:27:12:862 - info: [debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2018-11-03 14:27:12:868 - info: [BaseDriver] Session created with session id: 02500941-9bec-459e-b5e9-0b6f1737dc35
+2018-11-03 14:27:12:955 - info: [AndroidDriver] Java version is: 1.8.0_181
+2018-11-03 14:27:12:957 - info: [ADB] Checking whether adb is present
+2018-11-03 14:27:12:960 - info: [ADB] Found 1 'build-tools' folders under 'F:\adt-bundle-windows-x86_64-20140624\sdk' (newest first):
+2018-11-03 14:27:12:961 - info: [ADB]     F:/adt-bundle-windows-x86_64-20140624/sdk/build-tools/android-4.4W
+2018-11-03 14:27:12:961 - info: [ADB] Using adb.exe from F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe
+2018-11-03 14:27:12:962 - info: [AndroidDriver] Retrieving device list
+2018-11-03 14:27:12:962 - info: [debug] [ADB] Trying to find a connected android device
+2018-11-03 14:27:12:963 - info: [debug] [ADB] Getting connected devices...
+2018-11-03 14:27:12:981 - info: [debug] [ADB] 1 device(s) connected
+2018-11-03 14:27:12:982 - info: [AndroidDriver] Looking for a device with Android '5.1'
+2018-11-03 14:27:12:982 - info: [debug] [ADB] Setting device id to 10.0.0.66:5555
+2018-11-03 14:27:12:982 - info: [ADB] Getting device platform version
+2018-11-03 14:27:12:983 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell getprop ro.build.version.release'
+2018-11-03 14:27:13:116 - info: [debug] [ADB] Current device property 'ro.build.version.release': 5.1
+2018-11-03 14:27:13:116 - info: [AndroidDriver] Using device: 10.0.0.66:5555
+2018-11-03 14:27:13:117 - info: [debug] [ADB] Setting device id to 10.0.0.66:5555
+2018-11-03 14:27:13:117 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell getprop ro.build.version.sdk'
+2018-11-03 14:27:13:182 - info: [debug] [ADB] Current device property 'ro.build.version.sdk': 22
+2018-11-03 14:27:13:182 - info: [debug] [ADB] Device API level: 22
+2018-11-03 14:27:13:182 - info: [AndroidDriver] App file was not listed, instead we're going to run com.spt.carengine.settings directly on the device
+2018-11-03 14:27:13:182 - info: [debug] [AndroidDriver] Checking whether package is present on the device
+2018-11-03 14:27:13:182 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell pm list packages com.spt.carengine.settings'
+2018-11-03 14:27:13:836 - info: [AndroidDriver] Starting Android session
+2018-11-03 14:27:13:837 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 wait-for-device'
+2018-11-03 14:27:13:853 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell echo ping'
+2018-11-03 14:27:13:893 - info: [debug] [AndroidDriver] Pushing settings apk to device...
+2018-11-03 14:27:13:894 - info: [debug] [ADB] Getting install status for io.appium.settings
+2018-11-03 14:27:13:894 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell pm list packages io.appium.settings'
+2018-11-03 14:27:14:450 - info: [debug] [ADB] App is installed
+2018-11-03 14:27:14:451 - info: [debug] [ADB] Getting package info for 'io.appium.settings'
+2018-11-03 14:27:14:451 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell dumpsys package io.appium.settings'
+2018-11-03 14:27:15:183 - info: [ADB] Checking whether aapt is present
+2018-11-03 14:27:15:185 - info: [ADB] Using aapt.exe from F:\adt-bundle-windows-x86_64-20140624\sdk\build-tools\android-4.4W\aapt.exe
+2018-11-03 14:27:15:195 - info: [debug] [ADB] The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+2018-11-03 14:27:15:195 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell ps'
+2018-11-03 14:27:21:369 - info: [debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2018-11-03 14:27:21:371 - info: [debug] [ADB] Device API level: 22
+2018-11-03 14:27:21:372 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell settings put secure mock_location 1'
+2018-11-03 14:27:22:214 - warn: [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-11-03 14:27:22:215 - warn: [AndroidDriver] Got language: 'null' and country: 'null'
+2018-11-03 14:27:22:218 - info: [debug] [Logcat] Starting logcat capture
+2018-11-03 14:27:22:327 - info: [debug] [AndroidDriver] Enabling Unicode keyboard support
+2018-11-03 14:27:22:327 - info: [debug] [AndroidDriver] Pushing unicode ime to device...
+2018-11-03 14:27:22:328 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 install C\:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-ime\\bin\\UnicodeIME-debug.apk'
+2018-11-03 14:27:56:457 - info: [debug] [ADB] Install command stdout: pkg: /data/local/tmp/UnicodeIME-debug.apk
+2018-11-03 14:27:56:457 - info: [debug] [ADB] Success
+2018-11-03 14:27:56:459 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell settings get secure default_input_method'
+2018-11-03 14:28:00:234 - info: [debug] [AndroidDriver] Unsetting previous IME com.google.android.inputmethod.pinyin/.PinyinIME
+2018-11-03 14:28:00:235 - info: [debug] [AndroidDriver] Setting IME to 'io.appium.android.ime/.UnicodeIME'
+2018-11-03 14:28:00:236 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell ime enable io.appium.android.ime/.UnicodeIME'
+2018-11-03 14:28:02:351 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell ime set io.appium.android.ime/.UnicodeIME'
+2018-11-03 14:28:03:351 - info: [debug] [AndroidDriver] Pushing unlock helper app to device...
+2018-11-03 14:28:03:351 - info: [debug] [ADB] Getting install status for io.appium.unlock
+2018-11-03 14:28:03:351 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell pm list packages io.appium.unlock'
+2018-11-03 14:28:06:101 - info: [debug] [ADB] App is installed
+2018-11-03 14:28:06:102 - info: [debug] [ADB] Getting package info for 'io.appium.unlock'
+2018-11-03 14:28:06:103 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell dumpsys package io.appium.unlock'
+2018-11-03 14:28:06:287 - info: [debug] [ADB] The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+2018-11-03 14:28:06:288 - info: [ADB] Getting device platform version
+2018-11-03 14:28:06:289 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell getprop ro.build.version.release'
+2018-11-03 14:28:09:780 - info: [debug] [ADB] Current device property 'ro.build.version.release': 5.1
+2018-11-03 14:28:09:781 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell wm size'
+2018-11-03 14:28:11:586 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell getprop ro.product.model'
+2018-11-03 14:28:12:046 - info: [debug] [ADB] Current device property 'ro.product.model': magc6580_we_l
+2018-11-03 14:28:12:047 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell getprop ro.product.manufacturer'
+2018-11-03 14:28:13:881 - info: [debug] [ADB] Current device property 'ro.product.manufacturer': alps
+2018-11-03 14:28:13:883 - warn: [AndroidDriver] No app sent in, not parsing package/activity
+2018-11-03 14:28:13:884 - info: [debug] [AndroidDriver] No app capability. Assuming it is already on the device
+2018-11-03 14:28:13:885 - info: [debug] [AndroidBootstrap] Watching for bootstrap disconnect
+2018-11-03 14:28:13:888 - info: [debug] [ADB] Forwarding system: 4724 to device: 4724
+2018-11-03 14:28:13:889 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 forward tcp\:4724 tcp\:4724'
+2018-11-03 14:28:13:922 - info: [debug] [UiAutomator] Starting UiAutomator
+2018-11-03 14:28:13:923 - info: [debug] [UiAutomator] Moving to state 'starting'
+2018-11-03 14:28:13:923 - info: [debug] [UiAutomator] Parsing uiautomator jar
+2018-11-03 14:28:13:924 - info: [debug] [UiAutomator] Found jar name: 'AppiumBootstrap.jar'
+2018-11-03 14:28:13:924 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 push C\:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2018-11-03 14:28:33:943 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 push C\:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/'
+2018-11-03 14:28:53:972 - error: [UiAutomator] Error: Error executing adbExec. Original error: 'Command 'F\:\\adt-bundle-windows-x86_64-20140624\\sdk\\platform-tools\\adb.exe -P 5037 -s 10.0.0.66\:5555 push C\:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/' timed out after 20000ms'; Stderr: ''; Code: 'null'
+2018-11-03 14:28:53:975 - error: [UiAutomator]     at ADB.execFunc$ (C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-adb\lib\tools\system-calls.js:327:13)
+2018-11-03 14:28:53:975 - error: [UiAutomator]     at tryCatch (C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-11-03 14:28:53:976 - error: [UiAutomator]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-11-03 14:28:53:976 - error: [UiAutomator]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-11-03 14:28:53:976 - error: [UiAutomator]     at GeneratorFunctionPrototype.invoke (C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-11-03 14:28:53:977 - error: [UiAutomator]     at <anonymous>
+2018-11-03 14:28:53:987 - error: [AndroidBootstrap] Error: Error occured while starting AndroidBootstrap. Original error: Error: Error executing adbExec. Original error: 'Command 'F\:\\adt-bundle-windows-x86_64-20140624\\sdk\\platform-tools\\adb.exe -P 5037 -s 10.0.0.66\:5555 push C\:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/' timed out after 20000ms'; Stderr: ''; Code: 'null'
+2018-11-03 14:28:53:987 - error: [AndroidBootstrap]     at Object.wrappedLogger.errorAndThrow (C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:78:13)
+2018-11-03 14:28:53:988 - error: [AndroidBootstrap]     at AndroidBootstrap.start$ (C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-bootstrap\lib\bootstrap.js:109:11)
+2018-11-03 14:28:53:988 - error: [AndroidBootstrap]     at tryCatch (C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-11-03 14:28:53:988 - error: [AndroidBootstrap]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-11-03 14:28:53:989 - error: [AndroidBootstrap]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-11-03 14:28:53:989 - error: [AndroidBootstrap]     at GeneratorFunctionPrototype.invoke (C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-11-03 14:28:53:989 - error: [AndroidBootstrap]     at <anonymous>
+2018-11-03 14:28:53:991 - info: [debug] [AndroidDriver] Shutting down Android driver
+2018-11-03 14:28:53:993 - info: [debug] [AndroidDriver] Resetting IME to com.google.android.inputmethod.pinyin/.PinyinIME
+2018-11-03 14:28:53:993 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell ime set com.google.android.inputmethod.pinyin/.PinyinIME'
+2018-11-03 14:28:56:946 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell am force-stop com.spt.carengine.settings'
+2018-11-03 14:28:59:578 - info: [debug] [ADB] Pressing the HOME button
+2018-11-03 14:28:59:579 - info: [debug] [ADB] Running 'F:\adt-bundle-windows-x86_64-20140624\sdk\platform-tools\adb.exe -P 5037 -s 10.0.0.66\:5555 shell input keyevent 3'
+2018-11-03 14:29:06:597 - info: [debug] [UiAutomator] Shutting down UiAutomator
+2018-11-03 14:29:06:597 - info: [debug] [UiAutomator] Moving to state 'stopping'
+2018-11-03 14:29:06:615 - info: [debug] [BaseDriver] Event 'newSessionStarted' logged at 1541226546615 (14:29:06 GMT+0800 (中国标准时间))
+2018-11-03 14:29:06:616 - error: [W3C] Encountered internal error running command: Error: Error occured while starting AndroidBootstrap. Original error: Error: Error executing adbExec. Original error: 'Command 'F\:\\adt-bundle-windows-x86_64-20140624\\sdk\\platform-tools\\adb.exe -P 5037 -s 10.0.0.66\:5555 push C\:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-android-bootstrap\\bootstrap\\bin\\AppiumBootstrap.jar /data/local/tmp/' timed out after 20000ms'; Stderr: ''; Code: 'null'
+2018-11-03 14:29:06:617 - error: [W3C]     at Object.wrappedLogger.errorAndThrow (C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-support\lib\logging.js:78:13)
+2018-11-03 14:29:06:617 - error: [W3C]     at AndroidBootstrap.start$ (C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-bootstrap\lib\bootstrap.js:109:11)
+2018-11-03 14:29:06:618 - error: [W3C]     at tryCatch (C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:67:40)
+2018-11-03 14:29:06:618 - error: [W3C]     at GeneratorFunctionPrototype.invoke [as _invoke] (C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:315:22)
+2018-11-03 14:29:06:618 - error: [W3C]     at GeneratorFunctionPrototype.prototype.(anonymous function) [as throw] (C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:100:21)
+2018-11-03 14:29:06:619 - error: [W3C]     at GeneratorFunctionPrototype.invoke (C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\babel-runtime\regenerator\runtime.js:136:37)
+2018-11-03 14:29:06:619 - error: [W3C]     at <anonymous>
+2018-11-03 14:29:06:664 - info: [HTTP] <-- POST /wd/hub/session 500 113820 ms - 2203
+2018-11-03 14:29:06:664 - info: [HTTP] 

@@ -1,0 +1,31 @@
+testinfo:
+  title: K21设置-流量管理功能
+  condition: 无
+testcase:
+  step1:
+    element_info: 流量管理
+    element_type: text
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 进入流量管理界面
+  step2:
+    element_info:
+    element_type:
+    element_operate: back
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 返回到上一层界面
+check:
+  result1:
+    check_content:
+    expect_value:
+  result2:
+    check_content:
+    expect_value:
+  result3:
+    check_content:
+    expect_value:
+output:
+  pass_output:
+  fail_output:

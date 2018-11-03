@@ -23,9 +23,8 @@ def read_deviceYaml():
 def appInfo(appName):
     data = read_deviceYaml()
     appInfo = {}
-    appName = data[appName]
-    appInfo['appPackage'] = appName['appPackage']
-    appInfo['appActivity'] = appName['appActivity']
+    appInfo['appPackage'] = data[appName]['appPackage']
+    appInfo['appActivity'] = data[appName]['appActivity']
     return appInfo
 
 
@@ -35,7 +34,7 @@ def mdriver(appName):
     appiumConfig = data['appiumConfig']
     desired_caps = {}
     desired_caps['platformName'] = deviceInfo['platformName']
-    desired_caps['platformVersion'] = deviceInfo['platformVersion']
+    desired_caps['platformVersion'] = str(deviceInfo['platformVersion'])
     desired_caps['deviceName'] = deviceInfo['deviceName']
     desired_caps['automationName'] = appiumConfig['automationName']
     desired_caps['noReset'] = appiumConfig['noReset']
@@ -45,3 +44,6 @@ def mdriver(appName):
     serviceInfo = data['serviceInfo']
     driver = webdriver.Remote('http://' + str(serviceInfo['ip']) + ':' + str(serviceInfo['port']) + '/wd/hub', desired_caps)
     return driver
+
+
+mdriver('settings')

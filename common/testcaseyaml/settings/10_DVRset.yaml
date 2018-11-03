@@ -1,0 +1,66 @@
+testinfo:
+  title: K21设置-DVR设置功能
+  condition: 无
+testcase:
+  step1:
+    element_info: DVR设置
+    element_type: text
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 进入“DVR设置”界面
+  step2:
+    element_info: com.spt.carengine.record:id/switch_voice
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 打开录音
+  step3:
+    element_info: com.spt.carengine.record:id/one_min_tv
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 设置录音时间为1min
+  step4:
+    element_info: com.spt.carengine.record:id/three_min_tv
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 设置录音时间为3min
+  step5:
+    element_info: com.spt.carengine.record:id/five_min_tv
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 设置录音时间为5min
+  step6:
+    element_info: com.spt.carengine.record:id/switch_voice
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 关闭录音
+  step7:
+    element_info: 录像开关
+    element_type: text
+    element_operate: click
+    operate_times: 2
+    sleep_time: 1
+    operate_details: 开关录像功能
+check:
+  result1:
+    check_content:
+    expect_value:
+  result2:
+    check_content:
+    expect_value:
+  result3:
+    check_content:
+    expect_value:
+output:
+  pass_output:
+  fail_output:

@@ -22,26 +22,35 @@ class Settings(unittest.TestCase):
         cls.tag = "YOcSettings"
         print("settings Start")
 
-
     @classmethod
     def tearDownClass(cls):
         cls.driver.quit()
         print("settings End")
 
-    def test_01_wifi(self):
-        yamlFile = os.path.join(self.app_yamlFolder, '01_wifi.yaml')
-        actualResult, resultOutput, testConclusion = run_testcaseYaml(self.driver, yamlFile).run_testcase(self.tag)
-        Report().worksheet2_write_data(yamlFile, actualResult, resultOutput, testConclusion)
+    def test_settings(self):
+        yamlFile_list = os.listdir(self.app_yamlFolder)
+        yamlFile_list.sort()
+        # print(yamlFile_list)
+        for file in yamlFile_list:
+            yamlFile = os.path.join(self.app_yamlFolder, file)
+            print(yamlFile)
+            actualResult, resultOutput, testConclusion = run_testcaseYaml(self.driver, yamlFile).run_testcase(self.tag)
+            Report().worksheet2_write_data(yamlFile, actualResult, resultOutput, testConclusion)
 
-    def test_06_drivingCollision(self):
-        yamlFile = os.path.join(self.app_yamlFolder, '06_driving_collision.yaml')
-        actualResult, resultOutput, testConclusion = run_testcaseYaml(self.driver, yamlFile).run_testcase(self.tag)
-        Report().worksheet2_write_data(yamlFile, actualResult, resultOutput, testConclusion)
-
-    def test_o7_stopCollision(self):
-        yamlFile = os.path.join(self.app_yamlFolder, '07_stop_collision.yaml')
-        actualResult, resultOutput, testConclusion = run_testcaseYaml(self.driver, yamlFile).run_testcase(self.tag)
-        Report().worksheet2_write_data(yamlFile, actualResult, resultOutput, testConclusion)
+    # def test_01_wifi(self):
+    #     yamlFile = os.path.join(self.app_yamlFolder, '01_wifi.yaml')
+    #     actualResult, resultOutput, testConclusion = run_testcaseYaml(self.driver, yamlFile).run_testcase(self.tag)
+    #     Report().worksheet2_write_data(yamlFile, actualResult, resultOutput, testConclusion)
+    #
+    # def test_06_drivingCollision(self):
+    #     yamlFile = os.path.join(self.app_yamlFolder, '06_driving_collision.yaml')
+    #     actualResult, resultOutput, testConclusion = run_testcaseYaml(self.driver, yamlFile).run_testcase(self.tag)
+    #     Report().worksheet2_write_data(yamlFile, actualResult, resultOutput, testConclusion)
+    #
+    # def test_o7_stopCollision(self):
+    #     yamlFile = os.path.join(self.app_yamlFolder, '07_stop_collision.yaml')
+    #     actualResult, resultOutput, testConclusion = run_testcaseYaml(self.driver, yamlFile).run_testcase(self.tag)
+    #     Report().worksheet2_write_data(yamlFile, actualResult, resultOutput, testConclusion)
 
 
 if __name__ == "__main__":

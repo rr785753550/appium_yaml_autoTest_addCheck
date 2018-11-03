@@ -1,7 +1,7 @@
 deviceInfo:
   platformName: Android
   platformVersion: 5.1
-  deviceName: 10.0.0.37:5555
+  deviceName: 10.0.0.66:5555
 
 appiumConfig:
   automationName: Appium
