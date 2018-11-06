@@ -1,6 +1,0 @@
-2018-11-03 14:26:10:105 - info: [Appium] Welcome to Appium v1.9.0 (REV 3a570989d26d3900724629b63efb4087b5b26452)
-2018-11-03 14:26:10:106 - info: [Appium] Non-default server args:
-2018-11-03 14:26:10:106 - info: [Appium]   address: 127.0.0.1
-2018-11-03 14:26:10:106 - info: [Appium]   log: F:\PythonWorkSpace\appium_yaml_autoTest_addCheck\results/appiumLog/appium-20181103_142546.log
-2018-11-03 14:26:10:106 - info: [Appium]   localTimezone: true
-2018-11-03 14:26:10:296 - info: [Appium] Appium REST http interface listener started on 127.0.0.1:4723

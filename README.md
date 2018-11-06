@@ -31,7 +31,7 @@
 
         element_info：   必选项，定位元素的详细信息
         element_type：   必选项，操作控件属性id、xpath、text、class、position代表info为一个坐标点、
-        element_operate: 必选项，控件操作 click、send_keys、back、swipe_up、swipe_down、
+        element_operate: 必选项，控件操作 click、send_keys、back、swipe_up、swipe_down、swipe_left、swipe_right
         operate_times: 必选项，操作的次数（如，操作为click、back、swipe_up/down时必写）
         sleep_time:     等待时间
         operate_details： 操作详情

@@ -6,6 +6,7 @@ import datetime
 from BaseOperate.get_testcaseyaml_info import getyamlInfo
 from BaseOperate.MachineInfo import machine
 from BaseOperate.run import run_testcaseYaml
+from BaseOperate.grabTop import top
 
 
 class Report:
@@ -127,7 +128,7 @@ class Report:
     def worksheet2_write_data(self, yamlFile, actualResult_List, resultOutput, testConclusion):
         Report.initRow += 1
         Report.init_caseNum += 1
-        row = Report().initRow
+        row = Report.initRow
         content_formate = self.set_Workbookformat_content()
         worksheet2 = Report.workbook.get_worksheet_by_name("测试详情")
         # 所需填写的结果
@@ -152,46 +153,57 @@ class Report:
                 step += str(i) + '.' + getyamlInfo(yamlFile).get_operate_details(key) + '\n'
                 i += 1
         data['caseSteps']['value'] = step
-        # 传入测试检查点
+        # 传入测试检查点和期待结果
         check = ""
-        i = 1
-        caseLength = len(getyamlInfo(yamlFile).get_checkDate())
-        if i <= caseLength:
-            for key in getyamlInfo(yamlFile).get_checkDate().keys():
-                check += str(i) + '.' + getyamlInfo(yamlFile).get_check_content(key) + '\n'
-                i += 1
-        data['caseCheck']['value'] = check
-        # 传入期待结果
         expectResult = ""
         i = 1
         caseLength = len(getyamlInfo(yamlFile).get_checkDate())
         if i <= caseLength:
             for key in getyamlInfo(yamlFile).get_checkDate().keys():
-                expectResult += str(i) + '.' + getyamlInfo(yamlFile).get_expect_value(key) + '\n'
+                if getyamlInfo(yamlFile).get_check_content(key) is not None:
+                    check += str(i) + '.' + getyamlInfo(yamlFile).get_check_content(key) + '\n'
+                else:
+                    check = '空'
+                if getyamlInfo(yamlFile).get_expect_value(key) is not None:
+                    expectResult += str(i) + '.' + getyamlInfo(yamlFile).get_expect_value(key) + '\n'
+                else:
+                    expectResult = "空"
                 i += 1
-        elif caseLength == 0:
-            expectResult = "空"
+        data['caseCheck']['value'] = check
         data['expectResult']['value'] = expectResult
-
         # 传入实际结果
         actualResult = ""
-        actualResult_length = len(actualResult_List)
-        if actualResult_length == 0:
+        if actualResult_List is None:
             actualResult = "空"
         else:
-            for i in range(actualResult_length):
+            for i in range(len(actualResult_List)):
                 actualResult += str(i + 1) + '.' + actualResult_List[i] + '\n'
         data['actualResult']['value'] = actualResult
 
         # 传入运行结果
+        print(resultOutput)
         data['resultOutput']['value'] = resultOutput
         # 传入测试结论
+        print(testConclusion)
         data['testConclusion']['value'] = testConclusion
 
         for key in data.keys():
             location = data[key]['position']
             value = data[key]['value']
             worksheet2.write(location, value, content_formate)
+
+    def create_worksheet3(self):
+        worksheet3 = Report.workbook.add_worksheet("top")  # 创建sheet表单对象
+
+    def worksheet3_write_data(self):
+        top().top_list_xls(Report.workbook)
+
+    def create_worksheet4(self):
+        worksheet4 = Report.workbook.add_worksheet("topChart")  # 创建sheet表单对象
+
+    def worksheet4_write_data(self):
+        from BaseOperate.topChart import Add_topChart
+        Add_topChart().excel_insert_topChart(Report.workbook)
 
     def closeWorkbook(self):
         Report.workbook.close()

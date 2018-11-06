@@ -44,6 +44,3 @@ def mdriver(appName):
     serviceInfo = data['serviceInfo']
     driver = webdriver.Remote('http://' + str(serviceInfo['ip']) + ':' + str(serviceInfo['port']) + '/wd/hub', desired_caps)
     return driver
-
-
-mdriver('settings')

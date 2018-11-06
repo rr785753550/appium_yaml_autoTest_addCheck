@@ -23,6 +23,7 @@ class run_testcaseYaml:
         # grabLogat().phone_get_logcat(logcatFile)
         logcatFile = grabLogat().pc_create_logcatFile(tag)
         grabLogat().pc_getTag_logcat(tag, logcatFile)
+        time.sleep(3)
         # 执行用例
         testcaseList = getyamlInfo(self.yamlFile).get_testcaseData()  # 将某个yaml文件testcase信息生成为列表
         # print(testcaseList)
@@ -31,10 +32,13 @@ class run_testcaseYaml:
 
         # get期待的结果列表
         checkList = getyamlInfo(self.yamlFile).get_checkDate()
-        # print(checkList)
+        print(checkList)
         expectValue_list = []
         for check in checkList.keys():
             expect_value = getyamlInfo(self.yamlFile).get_expect_value(check)
+            if expect_value is None:
+                expectValue_list = None
+                break
             expectValue_list.append(expect_value)
         print("expectValue_list:", expectValue_list)
 
@@ -48,7 +52,11 @@ class run_testcaseYaml:
             # get实际测试结果
             actualValue_list = AnalysisLog().get_actualValue_list(logcatFile, self.yamlFile)
             print("actualValue_list:", actualValue_list)
-            if expectValue_list == actualValue_list:
+            if actualValue_list is None or expectValue_list is None:    # 以防yaml中未传入任何数据无法判断
+                time.sleep(2)
+                resultOutput = "期待结果或实际结果列表为空，无法自动判断"
+                testConclusion = "NA"
+            elif expectValue_list == actualValue_list and (actualValue_list is not None) and (expectValue_list is not None):
                 kill_logcat()
                 time.sleep(2)
                 os.remove(logcatFile)  # 如果相同，则删除logcat文件
@@ -66,12 +74,10 @@ class run_testcaseYaml:
         return actualValue_list, resultOutput, testConclusion
 
 
-
-
 # if __name__ == "__main__":
 #     tag = "YOcSettings"
 #     from BaseOperate.getDriver import mdriver
 #     driver = mdriver('settings')
-#     yamlFile = "F:\\PythonWorkSpace\\appium_yaml_autoTest_addCheck\\common\\testcaseyaml\\settings\\01_wifi.yaml"
+#     yamlFile = "F:\\PythonWorkSpace\\appium_yaml_autoTest_addCheck\\common\\testcaseyaml\\settings\\02_hotspot.yaml"
 #     output = run_testcaseYaml(driver, yamlFile).run_testcase(tag)
 #     print(output)

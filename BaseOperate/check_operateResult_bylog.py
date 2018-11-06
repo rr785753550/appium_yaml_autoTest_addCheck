@@ -43,6 +43,8 @@ class AnalysisLog:
         check_content_list2 = list(set(check_content_list))        # 去除列表中内容相同的元素
         check_content_list2.sort(key=check_content_list.index)     # 对列表按原有列表顺序进行排序
         # print(check_content_list2)
+        if check_content_list2 == [None]:
+            return None
         return check_content_list2
 
     def get_results_list(self, logFile, yamlpath):
@@ -50,6 +52,8 @@ class AnalysisLog:
         logData = self.get_logData(logFile)
         # print(logData)
         check_contentList = self.get_check_content_List(yamlpath)
+        if check_contentList is None:
+            return None
         # print(check_contentList)
         for i in range(len(check_contentList)):
             for j in range(len(logData)):
@@ -61,6 +65,8 @@ class AnalysisLog:
 
     def get_actualValue_list(self, logFile, yamlpath):
         resultsList = self.get_results_list(logFile, yamlpath)
+        if resultsList is None:
+            return None
         actualValue_list = []
         for item in resultsList:
             tmp = item.split(" ")  # 转化为列表
@@ -121,13 +127,17 @@ class AnalysisLog:
         #     temp2 = split_temp1[-1][0: -1]
         #     print(temp2)
 
-
 # if __name__ == "__main__":
-    # logcatFile, logcatName = grabLogat().phone_create_logcatFile('settings')
-    # grabLogat().phone_get_logcat(logcatFile)
-    # time.sleep(5)
-    # pc_logcatFile = AnalysisLog().pull_logFile(phone_logFile=logcatFile, phone_logName=logcatName, appName='settings')
-    # time.sleep(10)
-    # line = AnalysisLog().get_logData(pc_logcatFile)
-    # print(line)
-    # kill_logcat()
+#     # logcatFile, logcatName = grabLogat().phone_create_logcatFile('settings')
+#     # grabLogat().phone_get_logcat(logcatFile)
+#     # time.sleep(5)
+#     # pc_logcatFile = AnalysisLog().pull_logFile(phone_logFile=logcatFile, phone_logName=logcatName, appName='settings')
+#     # time.sleep(10)
+#     # line = AnalysisLog().get_logData(pc_logcatFile)
+#     # print(line)
+#     # kill_logcat()
+#     yamlpath = "F:\\PythonWorkSpace\\appium_yaml_autoTest_addCheck\\common\\testcaseyaml\\settings\\02_hotspot.yaml"
+#     print(AnalysisLog().get_check_content_List(yamlpath))
+#     logcatFile = "F:\\PythonWorkSpace\\appium_yaml_autoTest_addCheck\\results\\logcat\\YOcSettings\\20181031162014.txt"
+#     print(AnalysisLog().get_results_list(logcatFile, yamlpath))
+#     print(AnalysisLog().get_actualValue_list(logcatFile, yamlpath))

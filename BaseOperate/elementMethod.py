@@ -97,7 +97,6 @@ class Element:
         y1 = elementStartY + elementHeight * 0.75
         y2 = elementStartY + elementHeight * 0.25
         self.driver.swipe(x1, y1, x1, y2, 1000)
-        time.sleep(1)
 
     def swipeDown_element(self, element):
         """向上滑动元素"""
@@ -110,7 +109,6 @@ class Element:
         y1 = iconStartY + iconHeight * 0.25
         y2 = iconStartY + iconHeight * 0.75
         self.driver.swipe(x1, y1, x1, y2, 1000)
-        time.sleep(1)
 
     def swipeLeft_element(self, element):
         """向左滑动元素"""
@@ -119,11 +117,10 @@ class Element:
         iconStartY = elementRect['y']
         iconWidth = elementRect['width']
         iconHeight = elementRect['height']
-        x1 = iconStartX + iconWidth / 2
-        y1 = iconStartY + iconHeight * 0.75
-        y2 = iconStartY + iconHeight * 0.25
-        self.driver.swipe(x1, y1, x1, y2, 1000)
-        time.sleep(1)
+        x1 = iconStartX + iconWidth * 0.75
+        x2 = iconStartX + iconWidth * 0.25
+        y1 = iconStartY + iconHeight / 2
+        self.driver.swipe(x1, y1, x2, y1, 1000)
 
     def swipeRight_element(self, element):
         """向右滑动元素"""
@@ -132,11 +129,10 @@ class Element:
         iconStartY = elementRect['y']
         iconWidth = elementRect['width']
         iconHeight = elementRect['height']
-        x1 = iconStartX + iconWidth / 2
-        y1 = iconStartY + iconHeight * 0.25
-        y2 = iconStartY + iconHeight * 0.75
-        self.driver.swipe(x1, y1, x1, y2, 1000)
-        time.sleep(1)
+        x1 = iconStartX + iconWidth * 0.25
+        x2 = iconStartX + iconWidth * 0.75
+        y1 = iconStartY + iconHeight / 2
+        self.driver.swipe(x1, y1, x2, y1, 1000)
 
     def seekBar_tapLocation(self, element):
         """点击seekBar的中间位置"""

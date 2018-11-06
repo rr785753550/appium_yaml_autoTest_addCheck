@@ -4,7 +4,7 @@ testinfo:
 testcase:
   step1:
     element_info: 关于本机
-    element_type: id
+    element_type: text
     element_operate: click
     operate_times: 1
     sleep_time: 1

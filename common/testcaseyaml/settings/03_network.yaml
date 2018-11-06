@@ -18,7 +18,7 @@ testcase:
     operate_details: 操作移动数据网络漫游开关
   step3:
     element_info: 偏好设置
-    element_type: class
+    element_type: text
     element_operate: click
     operate_times: 1
     sleep_time: 1

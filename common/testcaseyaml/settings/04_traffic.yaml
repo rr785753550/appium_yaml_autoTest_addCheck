@@ -9,13 +9,6 @@ testcase:
     operate_times: 1
     sleep_time: 1
     operate_details: 进入流量管理界面
-  step2:
-    element_info:
-    element_type:
-    element_operate: back
-    operate_times: 1
-    sleep_time: 1
-    operate_details: 返回到上一层界面
 check:
   result1:
     check_content:

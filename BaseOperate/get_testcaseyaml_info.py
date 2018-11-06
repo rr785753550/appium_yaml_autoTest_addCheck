@@ -41,11 +41,6 @@ class getyamlInfo:
         # print(testcase_data)
         return testcase_data
 
-    def get_checkDate(self):
-        # 获取check中的操作信息
-        check_data = self.get_yamlData()['check']
-        return check_data
-
     def get_element_info(self, key):
         data = self.get_yamlData()
         element_info = data['testcase'][key]['element_info']
@@ -89,6 +84,11 @@ class getyamlInfo:
         else:
             pass
 
+    def get_checkDate(self):
+        # 获取check中的操作信息
+        check_data = self.get_yamlData()['check']
+        return check_data
+
     def get_check_content(self, key):
         data = self.get_yamlData()
         check_content = data['check'][key]['check_content']
@@ -115,8 +115,8 @@ class getyamlInfo:
         return fail_output
 
 
-# if __name__ == "__main__":
-#     yamlpath = "E:\\PycharmProjects\\appium_yaml_autoTest_addCheck\\common\\testcaseyaml\\settings\\01_wifi.yaml"
+if __name__ == "__main__":
+    yamlpath = "F:\\PythonWorkSpace\\appium_yaml_autoTest_addCheck\\common\\testcaseyaml\\settings\\02_hotspot.yaml"
 #     print(getyamlInfo(yamlpath).get_yamlData())
 #     print(getyamlInfo(yamlpath).get_testcaseData())
 #     print(getyamlInfo(yamlpath).get_checkDate())
@@ -130,12 +130,9 @@ class getyamlInfo:
 #         operate_details = getyamlInfo(yamlpath).get_operate_details(key)
 #         send_content = getyamlInfo(yamlpath).get_send_content(key)
 #         print(element_info, element_type, element_operate, operate_times, sleep_time, operate_details, send_content)
-#     checkKeys = getyamlInfo(yamlpath).get_checkDate().keys()
-#     for key in checkKeys:
-#         check_content = getyamlInfo(yamlpath).get_check_content(key)
-#         check_method = getyamlInfo(yamlpath).get_check_method(key)
-#         expect_value = getyamlInfo(yamlpath).get_expect_value(key)
-#         pass_output = getyamlInfo(yamlpath).get_pass_output(key)
-#         fail_output = getyamlInfo(yamlpath).get_fail_output(key)
-#         print(check_content, check_method, expect_value, pass_output, fail_output)
+    checkKeys = getyamlInfo(yamlpath).get_checkDate().keys()
+    for key in checkKeys:
+        check_content = getyamlInfo(yamlpath).get_check_content(key)
+        expect_value = getyamlInfo(yamlpath).get_expect_value(key)
+        print(check_content, expect_value)
 

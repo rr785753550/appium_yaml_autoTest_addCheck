@@ -103,6 +103,52 @@ class Operate:
                     self.findele.swipeUp_element(element)
                     sleep(sleep_time)
 
+        elif element_operate == "swipe_left":
+            self.driver.implicitly_wait(3)
+            if element_type == "id":
+                element = self.findele.find_id(element_info)
+                for j in range(operate_times):
+                    self.findele.swipeLeft_element(element)
+                    sleep(sleep_time)
+            elif element_type == "text":
+                element = self.findele.find_text(element_info)
+                for j in range(operate_times):
+                    self.findele.swipeLeft_element(element)
+                    sleep(sleep_time)
+            elif element_type == "class":
+                element = self.findele.find_class(element_info)
+                for j in range(operate_times):
+                    self.findele.swipeLeft_element(element)
+                    sleep(sleep_time)
+            elif element_type == "xpath":
+                element = self.findele.find_xpath(element_info)
+                for j in range(operate_times):
+                    self.findele.swipeLeft_element(element)
+                    sleep(sleep_time)
+
+        elif element_operate == "swipe_right":
+            self.driver.implicitly_wait(3)
+            if element_type == "id":
+                element = self.findele.find_id(element_info)
+                for j in range(operate_times):
+                    self.findele.swipeRight_element(element)
+                    sleep(sleep_time)
+            elif element_type == "text":
+                element = self.findele.find_text(element_info)
+                for j in range(operate_times):
+                    self.findele.swipeRight_element(element)
+                    sleep(sleep_time)
+            elif element_type == "class":
+                element = self.findele.find_class(element_info)
+                for j in range(operate_times):
+                    self.findele.swipeRight_element(element)
+                    sleep(sleep_time)
+            elif element_type == "xpath":
+                element = self.findele.find_xpath(element_info)
+                for j in range(operate_times):
+                    self.findele.swipeRight_element(element)
+                    sleep(sleep_time)
+
         elif element_operate == "send_keys":
             self.driver.implicitly_wait(3)
             sendContent = self.yaml.get_send_content(key)

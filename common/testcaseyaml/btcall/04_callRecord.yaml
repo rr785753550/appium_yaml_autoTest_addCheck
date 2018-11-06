@@ -1,0 +1,38 @@
+testinfo:
+  title: 蓝牙电话功能： 通话记录
+  condition: 连接蓝牙
+testcase:
+  step1:
+    element_info: com.spt.carengine.btcall:id/ib_Log
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 进入“蓝牙通话记录”界面
+  step2:
+    element_info: com.spt.carengine.btcall:id/calllog_item_background
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 2
+    operate_details: 拨打通话记录中最新的一条记录
+  step3:
+    element_info: com.spt.carengine.btcall:id/btn_call_hang
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 挂断电话
+check:
+  result1:
+    check_content:
+    expect_value:
+  result2:
+    check_content:
+    expect_value:
+  result3:
+    check_content:
+    expect_value:
+output:
+  pass_output:
+  fail_output:

@@ -1,0 +1,115 @@
+testinfo:
+  title: 蓝牙电话：拨号盘功能
+  condition: 无
+testcase:
+  step1:
+    element_info: com.spt.carengine.btcall:id/ib_Dial
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 进入“拨号盘”界面
+  step2:
+    element_info: com.spt.carengine.btcall:id/num_1
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 0.5
+    operate_details: 点击拨号盘数字：1
+  step3:
+    element_info: com.spt.carengine.btcall:id/num_2
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 0.5
+    operate_details: 点击拨号盘数字：2
+  step4:
+    element_info: com.spt.carengine.btcall:id/num_3
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 0.5
+    operate_details: 点击拨号盘数字：3
+  step5:
+    element_info: com.spt.carengine.btcall:id/num_4
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 0.5
+    operate_details: 点击拨号盘数字：4
+  step6:
+    element_info: com.spt.carengine.btcall:id/num_5
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 0.5
+    operate_details: 点击拨号盘数字：5
+  step7:
+    element_info: com.spt.carengine.btcall:id/num_6
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 0.5
+    operate_details: 点击拨号盘数字：6
+  step8:
+    element_info: com.spt.carengine.btcall:id/num_7
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 0.5
+    operate_details: 点击拨号盘数字：7
+  step9:
+    element_info: com.spt.carengine.btcall:id/num_8
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 0.5
+    operate_details: 点击拨号盘数字：8
+  step10:
+    element_info: com.spt.carengine.btcall:id/num_9
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 0.5
+    operate_details: 点击拨号盘数字：9
+  step11:
+    element_info: com.spt.carengine.btcall:id/num_xin
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 0.5
+    operate_details: 点击拨号盘按键：*
+  step12:
+    element_info: com.spt.carengine.btcall:id/num_0
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 0.5
+    operate_details: 点击拨号盘按键：0
+  step13:
+    element_info: com.spt.carengine.btcall:id/num_jin
+    element_type: id
+    element_operate: click
+    operate_times: 1
+    sleep_time: 0.5
+    operate_details: 点击拨号盘按键：#
+  step14:
+    element_info: com.spt.carengine.btcall:id/btn_bt_delete
+    element_type: id
+    element_operate: click
+    operate_times: 12
+    sleep_time: 0.5
+    operate_details: 清除所输入的内容
+check:
+  result1:
+    check_content:
+    expect_value:
+  result2:
+    check_content:
+    expect_value:
+  result3:
+    check_content:
+    expect_value:
+output:
+  pass_output:
+  fail_output:

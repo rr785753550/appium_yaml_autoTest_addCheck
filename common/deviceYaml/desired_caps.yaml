@@ -1,7 +1,7 @@
 deviceInfo:
   platformName: Android
   platformVersion: 5.1
-  deviceName: 10.0.0.66:5555
+  deviceName: 10.0.0.81:5555
 
 appiumConfig:
   automationName: Appium
@@ -21,6 +21,6 @@ autonavi:
   appPackage: com.autonavi.minimap
   appActivity: com.autonavi.set2.activity.SplashActivity
 
-xiset:
-  appPackage: com.android.settings
-  appActivity: com.android.settings.MainSettings
+btcall:
+  appPackage: com.spt.carengine.btcall
+  appActivity: com.spt.carengine.btcall.BtMainActivity
