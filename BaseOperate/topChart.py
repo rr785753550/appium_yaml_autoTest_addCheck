@@ -1,4 +1,4 @@
-import xlsxwriter
+# coding: utf-8
 
 
 class Add_topChart:

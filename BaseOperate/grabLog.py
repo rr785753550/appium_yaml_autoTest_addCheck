@@ -6,7 +6,7 @@ import time
 
 
 class grabLogat():
-    def pc_create_logcatFile(self, tag):
+    def pc_create_logcatFile(self):
         PATH = lambda p: os.path.abspath(
             os.path.join(os.path.dirname(__file__), p)
         )
@@ -18,16 +18,9 @@ class grabLogat():
         else:
             os.mkdir(logcatFolder)
             # print("创建logcat主文件夹")
-        tag_logcatFolder = os.path.join(logcatFolder, str(tag))
-        if os.path.exists(tag_logcatFolder):
-            # print("appName的logcat子文件夹已存在，无需创建")
-            pass
-        else:
-            os.mkdir(tag_logcatFolder)
-            # print("创建appName的logcat子文件夹")
         now = time.strftime("%Y%m%d%H%M%S", time.localtime(time.time()))
         logcatName = now + ".txt"
-        logcatFile = os.path.join(tag_logcatFolder, logcatName)
+        logcatFile = os.path.join(logcatFolder, logcatName)
         return logcatFile
 
     def pc_getTag_logcat(self, tag, logcatFile):

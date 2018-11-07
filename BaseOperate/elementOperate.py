@@ -48,7 +48,7 @@ class Operate:
         elif element_operate == "tap":
             self.driver.implicitly_wait(3)
             for j in range(operate_times):
-                self.findele.find_position(element_info)
+                self.findele.tap_position(element_info)
                 sleep(sleep_time)
 
         elif element_operate == "back":
@@ -148,6 +148,12 @@ class Operate:
                 for j in range(operate_times):
                     self.findele.swipeRight_element(element)
                     sleep(sleep_time)
+
+        elif element_operate == "swipe_position":
+            self.driver.implicitly_wait(3)
+            for j in range(operate_times):
+                self.findele.swipe_position(element_info)
+                sleep(sleep_time)
 
         elif element_operate == "send_keys":
             self.driver.implicitly_wait(3)

@@ -74,12 +74,26 @@ class Element:
             self.get_screenshot()
             return False
 
-    def find_position(self, position):
-        """通过tap点击坐标元素，yaml中坐标写法:(x1, y1), (x2, y2)"""
+    def tap_position(self, position):
+        """通过tap点击坐标元素，yaml中坐标写法:(x1, y1), (x2, y2)或(x1, x2)"""
+        position = position + ','   # 添加此行的目的是为了防止如果position只有一个时，导致无法整体转化为tuple类型
         str_tuple = ast.literal_eval(position)
+        print(str_tuple)
         tuple_list = list(str_tuple)
+        print(tuple_list)
         tapElement = self.driver.tap(tuple_list, 500)
         return tapElement
+
+    def swipe_position(self, position):
+        """通过swipe从(x1, y1)滑动到(x2, y2)，yaml中坐标写法：(x1, y1), (x2, y2)"""
+        str_tuple = ast.literal_eval(position)
+        # print(str_tuple)
+        x1 = str_tuple[0][0]
+        y1 = str_tuple[0][1]
+        x2 = str_tuple[1][0]
+        y2 = str_tuple[1][1]
+        # print(x1, y1, x2, y2)
+        self.driver.swipe(x1, y1, x2, y2, 500)
 
     def get_elementRec(self, element):
         """获取元素的Rec数据，即x, y, width, height"""
@@ -133,6 +147,8 @@ class Element:
         x2 = iconStartX + iconWidth * 0.75
         y1 = iconStartY + iconHeight / 2
         self.driver.swipe(x1, y1, x2, y1, 1000)
+
+
 
     def seekBar_tapLocation(self, element):
         """点击seekBar的中间位置"""

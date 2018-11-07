@@ -115,8 +115,8 @@ class getyamlInfo:
         return fail_output
 
 
-if __name__ == "__main__":
-    yamlpath = "F:\\PythonWorkSpace\\appium_yaml_autoTest_addCheck\\common\\testcaseyaml\\settings\\02_hotspot.yaml"
+# if __name__ == "__main__":
+#     yamlpath = "F:\\PythonWorkSpace\\appium_yaml_autoTest_addCheck\\common\\testcaseyaml\\settings\\02_hotspot.yaml"
 #     print(getyamlInfo(yamlpath).get_yamlData())
 #     print(getyamlInfo(yamlpath).get_testcaseData())
 #     print(getyamlInfo(yamlpath).get_checkDate())
@@ -130,9 +130,9 @@ if __name__ == "__main__":
 #         operate_details = getyamlInfo(yamlpath).get_operate_details(key)
 #         send_content = getyamlInfo(yamlpath).get_send_content(key)
 #         print(element_info, element_type, element_operate, operate_times, sleep_time, operate_details, send_content)
-    checkKeys = getyamlInfo(yamlpath).get_checkDate().keys()
-    for key in checkKeys:
-        check_content = getyamlInfo(yamlpath).get_check_content(key)
-        expect_value = getyamlInfo(yamlpath).get_expect_value(key)
-        print(check_content, expect_value)
+#     checkKeys = getyamlInfo(yamlpath).get_checkDate().keys()
+#     for key in checkKeys:
+#         check_content = getyamlInfo(yamlpath).get_check_content(key)
+#         expect_value = getyamlInfo(yamlpath).get_expect_value(key)
+#         print(check_content, expect_value)
 

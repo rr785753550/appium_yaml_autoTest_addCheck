@@ -5,7 +5,7 @@ import os
 import datetime
 from BaseOperate.get_testcaseyaml_info import getyamlInfo
 from BaseOperate.MachineInfo import machine
-from BaseOperate.run import run_testcaseYaml
+from BaseOperate.run1 import run_testcaseYaml
 from BaseOperate.grabTop import top
 
 
@@ -14,11 +14,6 @@ class Report:
     workbook = xlsxwriter.Workbook('')
     startTime = datetime.datetime.now()
     init_caseNum = 0
-
-    # def __init__(self):
-    #     self.keyValue = {}
-    #     self.position = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
-    #     self.key = ['caseTitle', 'caseCondition', 'caseSteps', 'caseCheck', 'caseResult', 'remarks', 'screenshot']
 
     def create_workbook(self):
         now = time.strftime("%Y%m%d_%H%M%S", time.localtime(time.time()))
@@ -125,74 +120,10 @@ class Report:
         worksheet2.write('H2', title[7], content_formate)
         worksheet2.write('I2', title[8], content_formate)
 
-    # def worksheet2_write_data(self, yamlFile, actualResult_List, resultOutput, testConclusion):
-    def worksheet2_write_data(self, yamlFile, result_tuple):
-        actualResult_List, resultOutput, testConclusion = result_tuple
-        Report.initRow += 1
+    def worksheet2_write_data(self, yamlFile):
         Report.init_caseNum += 1
-        row = Report.initRow
-        content_formate = self.set_Workbookformat_content()
-        worksheet2 = Report.workbook.get_worksheet_by_name("测试详情")
-        # 所需填写的结果
-        data = {'caseTitle': {'position': 'A' + str(row), 'value': ''},
-                'caseCondition': {'position': 'B' + str(row), 'value': ''},
-                'caseSteps': {'position': 'C' + str(row), 'value': ''},
-                'caseCheck': {'position': 'D' + str(row), 'value': ''},
-                'expectResult': {'position': 'E' + str(row), 'value': ''},
-                'actualResult': {'position': 'F' + str(row), 'value': ''},
-                'resultOutput': {'position': 'G' + str(row), 'value': ''},
-                'testConclusion': {'position': 'H' + str(row), 'value': ''},
-                'screenshot': {'position': 'I' + str(row), 'value': ''}}
-        # 传入case标题和条件
-        data['caseTitle']['value'] = getyamlInfo(yamlFile).get_title()
-        data['caseCondition']['value'] = getyamlInfo(yamlFile).get_condition()
-        # 传入测试步骤
-        step = ""
-        i = 1
-        caseLength = len(getyamlInfo(yamlFile).get_testcaseData())
-        if i <= caseLength:
-            for key in getyamlInfo(yamlFile).get_testcaseData().keys():
-                step += str(i) + '.' + getyamlInfo(yamlFile).get_operate_details(key) + '\n'
-                i += 1
-        data['caseSteps']['value'] = step
-        # 传入测试检查点和期待结果
-        check = ""
-        expectResult = ""
-        i = 1
-        caseLength = len(getyamlInfo(yamlFile).get_checkDate())
-        if i <= caseLength:
-            for key in getyamlInfo(yamlFile).get_checkDate().keys():
-                if getyamlInfo(yamlFile).get_check_content(key) is not None:
-                    check += str(i) + '.' + getyamlInfo(yamlFile).get_check_content(key) + '\n'
-                else:
-                    check = '空'
-                if getyamlInfo(yamlFile).get_expect_value(key) is not None:
-                    expectResult += str(i) + '.' + getyamlInfo(yamlFile).get_expect_value(key) + '\n'
-                else:
-                    expectResult = "空"
-                i += 1
-        data['caseCheck']['value'] = check
-        data['expectResult']['value'] = expectResult
-        # 传入实际结果
-        actualResult = ""
-        if actualResult_List is None:
-            actualResult = "空"
-        else:
-            for i in range(len(actualResult_List)):
-                actualResult += str(i + 1) + '.' + actualResult_List[i] + '\n'
-        data['actualResult']['value'] = actualResult
-
-        # 传入运行结果
-        print(resultOutput)
-        data['resultOutput']['value'] = resultOutput
-        # 传入测试结论
-        print(testConclusion)
-        data['testConclusion']['value'] = testConclusion
-
-        for key in data.keys():
-            location = data[key]['position']
-            value = data[key]['value']
-            worksheet2.write(location, value, content_formate)
+        from BaseOperate.writeTestcase_excel import writeTestcase
+        writeTestcase().worksheet2_write_data1(Report.workbook, yamlFile)
 
     def create_worksheet3(self):
         worksheet3 = Report.workbook.add_worksheet("top")  # 创建sheet表单对象
