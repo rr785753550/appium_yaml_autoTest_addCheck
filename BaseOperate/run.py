@@ -9,27 +9,26 @@ import time
 class run_testcaseYaml:
     passNum = 0
     failNum = 0
+    logcatFile = grabLogat().pc_create_logcatFile()
 
-    def __init__(self, driver, yamlFile):
-        self.driver = driver
+    def __init__(self, yamlFile):
         self.yamlFile = yamlFile
-        # self.tag = logcatTag
 
-    def run_testcase(self, tag):
+    def run_testcase(self, driver, tag):
         kill_logcat()
         time.sleep(2)
-        # 执行logcat
+        # 运行脚本之前先执行logcat
         # logcatFile = grabLogat().phone_create_logcatFile(appName)
         # grabLogat().phone_get_logcat(logcatFile)
-        logcatFile = grabLogat().pc_create_logcatFile()
-        grabLogat().pc_getTag_logcat(tag, logcatFile)
+        grabLogat().pc_getTag_logcat(tag, self.logcatFile)
         time.sleep(3)
         # 执行用例
         testcaseList = getyamlInfo(self.yamlFile).get_testcaseData()  # 将某个yaml文件testcase信息生成为列表
         # print(testcaseList)
         for step in testcaseList.keys():
-            Operate(self.driver, self.yamlFile).operate_element(step)
+            Operate(driver, self.yamlFile).operate_element(step)
 
+    def get_run_results(self):
         # get期待的结果列表
         checkList = getyamlInfo(self.yamlFile).get_checkDate()
         print(checkList)
@@ -50,7 +49,7 @@ class run_testcaseYaml:
         testConclusion = ''
         for i in range(3):
             # get实际测试结果
-            actualValue_list = AnalysisLog().get_actualValue_list(logcatFile, self.yamlFile)
+            actualValue_list = AnalysisLog().get_actualValue_list(self.logcatFile, self.yamlFile)
             print("actualValue_list:", actualValue_list)
             if actualValue_list is None or expectValue_list is None:    # 以防yaml中未传入任何数据无法判断
                 time.sleep(2)
@@ -59,7 +58,7 @@ class run_testcaseYaml:
             elif expectValue_list == actualValue_list and (actualValue_list is not None) and (expectValue_list is not None):
                 kill_logcat()
                 time.sleep(2)
-                os.remove(logcatFile)  # 如果相同，则删除logcat文件
+                os.remove(self.logcatFile)  # 如果相同，则删除logcat文件
                 resultOutput = pass_output
                 testConclusion = 'pass'
                 run_testcaseYaml.passNum += 1
@@ -76,10 +75,15 @@ class run_testcaseYaml:
         return result_tuple
 
 
-# if __name__ == "__main__":
-#     tag = "YOcSettings"
-#     from BaseOperate.getDriver import mdriver
-#     driver = mdriver('settings')
-#     yamlFile = "F:\\PythonWorkSpace\\appium_yaml_autoTest_addCheck\\common\\testcaseyaml\\settings\\02_hotspot.yaml"
-#     output = run_testcaseYaml(driver, yamlFile).run_testcase(tag)
-#     print(output)
+if __name__ == "__main__":
+    tag = "YOcSettings"
+    from BaseOperate.getDriver import mdriver
+    driver = mdriver('settings')
+    yamlFile = "F:\\PythonWorkSpace\\appium_yaml_autoTest_addCheck\\common\\testcaseyaml\\settings\\01_wifi.yaml"
+    try:
+        run_testcaseYaml(yamlFile).run_testcase(driver, tag)
+    finally:
+        output = run_testcaseYaml(yamlFile).get_run_results()
+        print(output)
+        print(output[0])
+

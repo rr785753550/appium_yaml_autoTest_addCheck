@@ -1,13 +1,10 @@
 # coding:utf-8
 import threading
 import unittest
-import datetime
 from BaseOperate.grabLog import kill_logcat
 from BaseOperate.appiumServer import *
-from BaseOperate.Excel1 import Report
+from BaseOperate.Excel import Report
 from BaseOperate.grabTop import top
-
-# report_path = ".\\report\\"
 from BaseOperate.sendEmail import sendreport
 
 testcase_path = os.path.join(os.getcwd(), 'testcase/')
@@ -15,7 +12,7 @@ testcase_path = os.path.join(os.getcwd(), 'testcase/')
 
 def create_suite():  # 创建测试套件
     suit = unittest.TestSuite()
-    discover = unittest.defaultTestLoader.discover(testcase_path, pattern="test_settings1.py")
+    discover = unittest.defaultTestLoader.discover(testcase_path, pattern="test_*.py")
     for test_suit in discover:
         for test_case in test_suit:
             suit.addTest(test_case)
@@ -51,5 +48,5 @@ if __name__ == "__main__":
     Report().worksheet3_write_data()
     Report().worksheet4_write_data()
     Report().closeWorkbook()
-    # sendreport()  # 发送测试报告
-    # print('运行完成退出')
+    sendreport()  # 发送测试报告
+    print('运行完成退出')

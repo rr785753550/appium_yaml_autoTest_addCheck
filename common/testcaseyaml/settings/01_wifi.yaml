@@ -3,7 +3,7 @@ testinfo:
   condition: 无
 testcase:
   step1:
-    element_info: 链接11
+    element_info: 链接
     element_type: text
     element_operate: click
     operate_times: 1

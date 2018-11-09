@@ -31,11 +31,17 @@ class Launcher(unittest.TestCase):
         yamlFile_list.sort()
         # print(yamlFile_list)
         for file in yamlFile_list:
-            yamlFile = os.path.join(self.app_yamlFolder, file)
-            print(yamlFile)
-            result_tuple = run_testcaseYaml(self.driver, yamlFile).run_testcase(self.tag)
-            # print(result_tuple)
-            # Report().worksheet2_write_data(yamlFile, result_tuple)
+            try:
+                yamlFile = os.path.join(self.app_yamlFolder, file)
+                print(yamlFile)
+                try:
+                    run_testcaseYaml(yamlFile).run_testcase(self.driver, self.tag)
+                except:
+                    pass
+            finally:
+                result_tuple = run_testcaseYaml(yamlFile).get_run_results()
+                print(result_tuple)
+                Report().worksheet2_write_data(yamlFile, result_tuple)
 
 
 if __name__ == "__main__":
