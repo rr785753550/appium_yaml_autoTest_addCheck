@@ -15,28 +15,28 @@ testcase:
     element_operate: click
     operate_times: 1
     sleep_time: 1
-    operate_details: 操作移动数据网络漫游开关
+    operate_details: 关闭“操作移动数据网络漫游开关”
   step3:
+    element_info: 移动数据网络漫游
+    element_type: text
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 打开“操作移动数据网络漫游开关”
+  step4:
+    element_info: 确定
+    element_type: text
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 弹出注意弹框点击“确定”
+  step5:
     element_info: 偏好设置
     element_type: text
     element_operate: click
     operate_times: 1
     sleep_time: 1
     operate_details: 进入"偏好设置"界面
-  step4:
-    element_info:
-    element_type:
-    element_operate: back
-    operate_times: 1
-    sleep_time: 1
-    operate_details: 返回到上一层
-  step5:
-    element_info: 首选网络类型
-    element_type: text
-    element_operate: click
-    operate_times: 1
-    sleep_time: 1
-    operate_details: 进入"首选网络类型"界面
   step6:
     element_info:
     element_type:
@@ -45,34 +45,48 @@ testcase:
     sleep_time: 1
     operate_details: 返回到上一层
   step7:
-    element_info: android:id/list
-    element_type: id
-    element_operate: swipe_up
-    operate_times: 1
-    sleep_time: 1
-    operate_details: 向上滑动控件
-  step8:
-    element_info: 接入点名称 (APN)
+    element_info: 首选网络类型
     element_type: text
     element_operate: click
     operate_times: 1
     sleep_time: 1
-    operate_details: 进入"接入点名称"界面
-  step9:
+    operate_details: 进入"首选网络类型"界面
+  step8:
     element_info:
     element_type:
     element_operate: back
     operate_times: 1
     sleep_time: 1
     operate_details: 返回到上一层
+  step9:
+    element_info: android:id/list
+    element_type: id
+    element_operate: swipe_up
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 向上滑动控件
   step10:
+    element_info: 接入点名称 (APN)
+    element_type: text
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 进入"接入点名称"界面
+  step11:
+    element_info:
+    element_type:
+    element_operate: back
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 返回到上一层
+  step12:
     element_info: 网络运营商
     element_type: text
     element_operate: click
     operate_times: 1
     sleep_time: 1
     operate_details: 进入"网络运营商"界面
-  step11:
+  step13:
     element_info:
     element_type:
     element_operate: back

@@ -5,7 +5,7 @@ import os
 import time
 
 
-class grabLogat():
+class Logat():
     def pc_create_logcatFile(self):
         PATH = lambda p: os.path.abspath(
             os.path.join(os.path.dirname(__file__), p)
@@ -53,26 +53,25 @@ class grabLogat():
             # os.popen(cmd)
             subprocess.Popen(cmd, shell=True)
 
-
-def kill_logcat():
-    pstopOutput = subprocess.Popen("adb shell ps | findstr logcat ", shell=True, stdout=subprocess.PIPE,
-                                   stderr=subprocess.PIPE).stdout.readlines()
-    # print(pstopOutput)
-    if len(pstopOutput) == 0:
-        pass
-        # print("No logcat process!")
-    else:
-        for list in pstopOutput:
-            list = list.split()  # 以空字符为分隔符，将列表进行分隔
-            # print(list)
-            pid = list[1].decode()
-            killPid = "adb shell kill %s " % pid
-            os.popen(killPid)
-        # print("logcat process was killed!")
+    def kill_logcat(self):
+        pstopOutput = subprocess.Popen("adb shell ps | findstr logcat ", shell=True, stdout=subprocess.PIPE,
+                                       stderr=subprocess.PIPE).stdout.readlines()
+        # print(pstopOutput)
+        if len(pstopOutput) == 0:
+            pass
+            # print("No logcat process!")
+        else:
+            for list in pstopOutput:
+                list = list.split()  # 以空字符为分隔符，将列表进行分隔
+                # print(list)
+                pid = list[1].decode()
+                killPid = "adb shell kill %s " % pid
+                os.popen(killPid)
+            # print("logcat process was killed!")
 
 
 # if __name__ == '__main__':
 #     logcatFile = grabLogat().pc_create_logcatFile('YOcSettings')
 #     grabLogat().pc_getTag_logcat('YOcSettings', logcatFile)
 #     time.sleep(5)
-#     kill_logcat()
+#     grabLogat().kill_logcat()

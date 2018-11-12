@@ -41,7 +41,7 @@ def email_content():
     emailContent1 = MIMEText("附件为自动化测试报告，请查收", 'plain', 'utf-8')
     message.attach(emailContent1)
 
-    # 添加邮件附件1:report.xls
+    # 添加邮件附件1:report.xlsx
     enclosure1 = MIMEText(open(report_File, 'rb').read(), 'base64', 'utf-8')
     enclosure1["Content-Type"] = 'application/octet-stream'
     enclosure1["Content-Disposition"] = 'attachment; filename="report.xlsx"'

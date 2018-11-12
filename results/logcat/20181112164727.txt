@@ -1,0 +1,24 @@
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+* daemon not running. starting it now on port 5037 *
+* daemon not running. starting it now on port 5037 *
+* daemon not running. starting it now on port 5037 *
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+--------- beginning of system
+--------- beginning of main
+ *
+* daemon not running. starting it now on port 5037 *
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+* daemon not running. starting it now on port 5037 *
+--------- beginning of system
+--------- beginning of main

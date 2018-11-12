@@ -1,21 +1,21 @@
 testinfo:
-  title: 车镜：通过状态栏进入设置界面
+  title: 车镜K21-Launcher：系统设置卡片
   condition: 无
 testcase:
   step1:
-    element_info: (1245, 152), (625,152)
-    element_type: position
-    element_operate: swipe_position
-    operate_times: 1
-    sleep_time: 1
-    operate_details: 打开“状态栏”
-  step2:
-    element_info: (161, 293)
+    element_info: (960, 175), (1138, 309)
     element_type: position
     element_operate: tap
     operate_times: 1
     sleep_time: 1
-    operate_details: 通过状态栏快速进入“系统设置”界面
+    operate_details: 打开“系统设置”应用
+  step2:
+    element_info:
+    element_type:
+    element_operate: back
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 退出“系统设置”应用
 check:
   result1:
     check_content:

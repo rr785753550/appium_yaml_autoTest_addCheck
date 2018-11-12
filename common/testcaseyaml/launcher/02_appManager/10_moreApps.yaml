@@ -1,0 +1,122 @@
+testinfo:
+  title: 车镜K21-Launcher：“更多应用”界面操作
+  condition: 无
+testcase:
+  step1:
+    element_info: (966, 25), (1145, 450)
+    element_type: position
+    element_operate: tap
+    operate_times: 1
+    sleep_time: 2
+    operate_details: 打开“更多应用”界面
+  step2:
+    element_info: 蓝牙电话
+    element_type: text
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 打开“蓝牙电话”应用
+  step3:
+    element_info:
+    element_type:
+    element_operate: back
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 退出“蓝牙电话”应用
+  step4:
+    element_info: 高德地图
+    element_type: text
+    element_operate: click
+    operate_times: 1
+    sleep_time: 3
+    operate_details: 打开“高德地图”应用
+  step5:
+    element_info:
+    element_type:
+    element_operate: back
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 退出“高德地图”应用
+  step6:
+    element_info: 音乐
+    element_type: text
+    element_operate: click
+    operate_times: 1
+    sleep_time: 3
+    operate_details: 打开“音乐”应用
+  step7:
+    element_info:
+    element_type:
+    element_operate: back
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 调出“退出酷我”弹框
+  step8:
+    element_info: 退出酷我
+    element_type: text
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 退出“音乐”应用
+  step9:
+    element_info: 天气
+    element_type: text
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 打开“天气”应用
+  step10:
+    element_info:
+    element_type:
+    element_operate: back
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 退出“天气”应用
+  step11:
+    element_info: 系统设置
+    element_type: text
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 打开“系统设置”应用
+  step12:
+    element_info:
+    element_type:
+    element_operate: back
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 退出“系统设置”应用
+  step13:
+    element_info: DVR设置
+    element_type: text
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 打开“DVR设置”应用
+  step14:
+    element_info:
+    element_type:
+    element_operate: back
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 退出“DVR设置”应用
+  step15:
+    element_info:
+    element_type:
+    element_operate: back
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 退出“更多应用”界面
+check:
+  result1:
+    check_content:
+    expect_value:
+  result2:
+    check_content:
+    expect_value:
+  result3:
+    check_content:
+    expect_value:
+output:
+  pass_output:
+  fail_output:

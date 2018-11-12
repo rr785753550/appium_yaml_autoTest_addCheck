@@ -27,9 +27,9 @@ testcase:
     element_info: 自动确定时区
     element_type: text
     element_operate: click
-    operate_times: 1
+    operate_times: 2
     sleep_time: 1
-    operate_details: 开关“自动确定时区”
+    operate_details: 开关“自动确定时区”2次
   step5:
     element_info:
     element_type:

@@ -27,13 +27,10 @@ btcall:
 
 launcher:
   appPackage: com.spt.carengine
-#  appActivity: com.spt.carengine.activity.MainActivity
-  appActivity: com.spt.carengine.activity.MainSecondActivity
+  appActivity: com.spt.carengine.activity.MainActivity
+#  appActivity: com.spt.carengine.activity.MainSecondActivity
 
 fmsend:
   appPackage: com.spt.carengine.fmsend
   appActivity: com.spt.carengine.fmsend.FMSendActivity
 
-#xingcheji:
-#  appPackage: com.spt.carengine.record
-#  appActivity: com.spt.carengine.record.activity.DVRMainActivity

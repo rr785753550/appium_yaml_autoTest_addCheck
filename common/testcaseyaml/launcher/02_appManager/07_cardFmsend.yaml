@@ -1,0 +1,38 @@
+testinfo:
+  title: 车镜K21-Launcher：FM发射卡片
+  condition: 无
+testcase:
+  step1:
+    element_info: (890, 187), (343, 187)
+    element_type: position
+    element_operate: swipe_position
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 向左滑动屏幕进入第二页应用管理界面
+  step2:
+    element_info: //*[@class='android.widget.HorizontalScrollView']/android.widget.LinearLayout/android.widget.RelativeLayout[3]
+    element_type: xpath
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 打开“FM发射卡片”应用
+  step3:
+    element_info:
+    element_type:
+    element_operate: back
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 退出“FM发射卡片”应用
+check:
+  result1:
+    check_content:
+    expect_value:
+  result2:
+    check_content:
+    expect_value:
+  result3:
+    check_content:
+    expect_value:
+output:
+  pass_output:
+  fail_output:

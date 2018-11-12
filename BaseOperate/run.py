@@ -1,26 +1,27 @@
 # coding: utf-8
 from BaseOperate.get_testcaseyaml_info import getyamlInfo
 from BaseOperate.elementOperate import Operate
-from BaseOperate.grabLog import *
+from BaseOperate.grabLog import Logat
 from BaseOperate.check_operateResult_bylog import AnalysisLog
 import time
+import os
 
 
-class run_testcaseYaml:
+class runYaml:
     passNum = 0
     failNum = 0
-    logcatFile = grabLogat().pc_create_logcatFile()
+    logcatFile = Logat().pc_create_logcatFile()
 
     def __init__(self, yamlFile):
         self.yamlFile = yamlFile
 
     def run_testcase(self, driver, tag):
-        kill_logcat()
+        Logat().kill_logcat()
         time.sleep(2)
         # 运行脚本之前先执行logcat
         # logcatFile = grabLogat().phone_create_logcatFile(appName)
         # grabLogat().phone_get_logcat(logcatFile)
-        grabLogat().pc_getTag_logcat(tag, self.logcatFile)
+        Logat().pc_getTag_logcat(tag, self.logcatFile)
         time.sleep(3)
         # 执行用例
         testcaseList = getyamlInfo(self.yamlFile).get_testcaseData()  # 将某个yaml文件testcase信息生成为列表
@@ -56,34 +57,34 @@ class run_testcaseYaml:
                 resultOutput = "期待结果或实际结果列表为空，无法自动判断"
                 testConclusion = "NA"
             elif expectValue_list == actualValue_list and (actualValue_list is not None) and (expectValue_list is not None):
-                kill_logcat()
+                Logat().kill_logcat()
                 time.sleep(2)
                 os.remove(self.logcatFile)  # 如果相同，则删除logcat文件
                 resultOutput = pass_output
                 testConclusion = 'pass'
-                run_testcaseYaml.passNum += 1
+                runYaml.passNum += 1
                 break
             else:
                 time.sleep(1)
         if expectValue_list != actualValue_list:
-            kill_logcat()
+            Logat().kill_logcat()
             resultOutput = fail_output
             testConclusion = 'fail'
-            run_testcaseYaml.failNum += 1
+            runYaml.failNum += 1
         result_tuple = actualValue_list, resultOutput, testConclusion
         # return actualValue_list, resultOutput, testConclusion
         return result_tuple
 
 
-if __name__ == "__main__":
-    tag = "YOcSettings"
-    from BaseOperate.getDriver import mdriver
-    driver = mdriver('settings')
-    yamlFile = "F:\\PythonWorkSpace\\appium_yaml_autoTest_addCheck\\common\\testcaseyaml\\settings\\01_wifi.yaml"
-    try:
-        run_testcaseYaml(yamlFile).run_testcase(driver, tag)
-    finally:
-        output = run_testcaseYaml(yamlFile).get_run_results()
-        print(output)
-        print(output[0])
+# if __name__ == "__main__":    # 调试时使用
+#     tag = "YOcSettings"
+#     from BaseOperate.getDriver import mdriver
+#     driver = mdriver('settings')
+#     yamlFile = "F:\\PythonWorkSpace\\appium_yaml_autoTest_addCheck\\common\\testcaseyaml\\settings\\01_wifi.yaml"
+#     try:
+#         run_testcaseYaml(yamlFile).run_testcase(driver, tag)
+#     finally:
+#         output = run_testcaseYaml(yamlFile).get_run_results()
+#         print(output)
+#         print(output[0])
 

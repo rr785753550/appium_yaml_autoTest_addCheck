@@ -4,7 +4,7 @@ import xlsxwriter
 import os
 import datetime
 from BaseOperate.MachineInfo import machine
-from BaseOperate.run import run_testcaseYaml
+from BaseOperate.run import runYaml
 from BaseOperate.grabTop import top
 
 
@@ -83,8 +83,8 @@ class Report:
         data['softwareVersion'] = machine().get_softwareVersion()
         data['testDate'] = str(Report.startTime)
         data['sum'] = Report.init_caseNum
-        data['pass'] = run_testcaseYaml.passNum
-        data['fail'] = run_testcaseYaml.failNum
+        data['pass'] = runYaml.passNum
+        data['fail'] = runYaml.failNum
         passPercent = '%.2f' % (int(data['pass']) / int(data['sum']) * 100)
         data['passPercent'] = str(passPercent) + "%"
         print(data)

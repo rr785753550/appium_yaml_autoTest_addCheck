@@ -5,7 +5,6 @@
         find_type：属性id、xpath、text、class
         operate_type: click、sendkeys
         send_content：send_keys
-        index：ids时用
 """
 from BaseOperate.elementMethod import Element
 from BaseOperate.check_operateResult_bylog import *
@@ -45,19 +44,25 @@ class Operate:
                     self.findele.find_xpath(element_info).click()
                     sleep(sleep_time)
 
-        elif element_operate == "tap":
+        elif element_operate == "tap":  # 对坐标执行tap操作
             self.driver.implicitly_wait(3)
             for j in range(operate_times):
                 self.findele.tap_position(element_info)
                 sleep(sleep_time)
 
-        elif element_operate == "back":
+        elif element_operate == "back":     # 对driver执行back操作
             self.driver.implicitly_wait(3)
             for j in range(operate_times):
                 self.driver.press_keycode(4)
                 sleep(sleep_time)
 
-        elif element_operate == "swipe_up":
+        elif element_operate == "home":
+            self.driver.implicitly_wait(3)
+            for j in range(operate_times):
+                self.driver.press_keycode(3)
+                sleep(sleep_time)
+
+        elif element_operate == "swipe_up":     # 对元素执行向上滑动操作
             self.driver.implicitly_wait(3)
             if element_type == "id":
                 element = self.findele.find_id(element_info)
@@ -149,7 +154,7 @@ class Operate:
                     self.findele.swipeRight_element(element)
                     sleep(sleep_time)
 
-        elif element_operate == "swipe_position":
+        elif element_operate == "swipe_position":   # 从坐标1滑动到坐标2
             self.driver.implicitly_wait(3)
             for j in range(operate_times):
                 self.findele.swipe_position(element_info)

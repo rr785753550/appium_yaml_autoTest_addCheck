@@ -20,9 +20,10 @@ testcase:
     element_info: com.spt.carengine.btcall:id/btn_call_hang
     element_type: id
     element_operate: click
-    operate_times: 1
+    operate_times: 2
     sleep_time: 1
     operate_details: 挂断电话
+    # bug:必须操作两次才可挂断电话
 check:
   result1:
     check_content:

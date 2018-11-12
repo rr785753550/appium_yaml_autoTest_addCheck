@@ -1,7 +1,5 @@
 # coding: utf-8
 from BaseOperate.get_testcaseyaml_info import getyamlInfo
-import subprocess, os, time
-from BaseOperate.grabLog import grabLogat, kill_logcat
 
 
 # 针对把log保存的pc端时读取方式
@@ -83,50 +81,6 @@ class AnalysisLog:
         return actualValue_list
 
 
-        # resultsList_1 = []      # 从check_content的位置截取resultsList内容
-        # for item in resultsList:
-        #     for key in checkKeys:
-        #         check_content = getyamlInfo(yamlpath).get_check_content(key)
-        #         if check_content in item:
-        #             startPoint = item.find(check_content)
-        #             # print(startPoint)
-        #             tmp = item[startPoint: -1]
-        #             print(tmp)
-        #             resultsList_1.append(tmp)
-        # print(resultsList_1)
-        # 筛选出对应的check_content为ke，结果为value（这种方法不行，若key值相同时，则仅会保留一个，无法全部保留）
-        # resultDict = {}
-        # for item in resultsList_1:
-        #     if "," in item:
-        #         tmp = item.split(",")
-        #         print(tmp)
-        #         resultDict[tmp[0]] = tmp[-1]
-        #     elif " : " in item:
-        #         tmp = item.split(" : ")
-        #         print(tmp)
-        #         resultDict[tmp[0]] = tmp[-1]
-        #     elif " = " in item:
-        #         tmp = item.split(" = ")
-        #         print(tmp)
-        #         resultDict[tmp[0]] = tmp[-1]
-        # print(resultDict)
-
-
-
-
-
-
-        # for temp in resultsList:   # 对resulteList进行分隔获得所需的value
-        #     # print(list1)
-        #     split_temp = temp.split("): ")
-        #     print(split_temp)
-        #     temp1 = split_temp[1]
-        #     print(temp1)
-        #     split_temp1 = temp1.split(" ")
-        #     print(split_temp1)
-        #     temp2 = split_temp1[-1][0: -1]
-        #     print(temp2)
-
 # if __name__ == "__main__":
 #     # logcatFile, logcatName = grabLogat().phone_create_logcatFile('settings')
 #     # grabLogat().phone_get_logcat(logcatFile)
@@ -135,7 +89,7 @@ class AnalysisLog:
 #     # time.sleep(10)
 #     # line = AnalysisLog().get_logData(pc_logcatFile)
 #     # print(line)
-#     # kill_logcat()
+#     # grabLogat().kill_logcat()
 #     yamlpath = "F:\\PythonWorkSpace\\appium_yaml_autoTest_addCheck\\common\\testcaseyaml\\settings\\02_hotspot.yaml"
 #     print(AnalysisLog().get_check_content_List(yamlpath))
 #     logcatFile = "F:\\PythonWorkSpace\\appium_yaml_autoTest_addCheck\\results\\logcat\\YOcSettings\\20181031162014.txt"

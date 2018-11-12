@@ -1,0 +1,31 @@
+testinfo:
+  title: 车镜k21-Launcher：通过状态栏进入设置界面
+  condition: 无
+testcase:
+  step1:
+    element_info: (1245, 152), (625,152)
+    element_type: position
+    element_operate: swipe_position
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 打开“状态栏”
+  step2:
+    element_info: (161, 293)
+    element_type: position
+    element_operate: tap
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 通过状态栏快速进入“系统设置”界面
+check:
+  result1:
+    check_content:
+    expect_value:
+  result2:
+    check_content:
+    expect_value:
+  result3:
+    check_content:
+    expect_value:
+output:
+  pass_output:
+  fail_output:

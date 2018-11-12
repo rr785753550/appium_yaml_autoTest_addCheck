@@ -148,8 +148,6 @@ class Element:
         y1 = iconStartY + iconHeight / 2
         self.driver.swipe(x1, y1, x2, y1, 1000)
 
-
-
     def seekBar_tapLocation(self, element):
         """点击seekBar的中间位置"""
         elementRect = element.rect

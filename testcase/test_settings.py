@@ -2,9 +2,8 @@
 import unittest
 import os
 from time import sleep
-from BaseOperate.run import run_testcaseYaml
+from BaseOperate.run import runYaml
 from BaseOperate.getDriver import mdriver
-from BaseOperate.grabLog import kill_logcat
 from BaseOperate.Excel import Report
 
 
@@ -36,29 +35,29 @@ class Settings(unittest.TestCase):
                 yamlFile = os.path.join(self.app_yamlFolder, file)
                 print(yamlFile)
                 try:
-                    run_testcaseYaml(yamlFile).run_testcase(self.driver, self.tag)
+                    runYaml(yamlFile).run_testcase(self.driver, self.tag)
                 except:
                     pass
             finally:
-                result_tuple = run_testcaseYaml(yamlFile).get_run_results()
+                result_tuple = runYaml(yamlFile).get_run_results()
                 print(result_tuple)
                 Report().worksheet2_write_data(yamlFile, result_tuple)
 
     # def test_01_wifi(self):
     #     yamlFile = os.path.join(self.app_yamlFolder, '01_wifi.yaml')
     #     try:
-    #         run_testcaseYaml(yamlFile).run_testcase(self.driver, self.tag)
+    #         runYaml(yamlFile).run_testcase(self.driver, self.tag)
     #     finally:
-    #         result_tuple = run_testcaseYaml(yamlFile).get_run_results()
+    #         result_tuple = runYaml(yamlFile).get_run_results()
     #         print(result_tuple)
     #         Report().worksheet2_write_data(yamlFile, result_tuple)
     #
     # def test_06_drivingCollision(self):
     #     yamlFile = os.path.join(self.app_yamlFolder, '06_driving_collision.yaml')
     #     try:
-    #         run_testcaseYaml(yamlFile).run_testcase(self.driver, self.tag)
+    #         runYaml(yamlFile).run_testcase(self.driver, self.tag)
     #     finally:
-    #         result_tuple = run_testcaseYaml(yamlFile).get_run_results()
+    #         result_tuple = runYaml(yamlFile).get_run_results()
     #         print(result_tuple)
     #         Report().worksheet2_write_data(yamlFile, result_tuple)
 

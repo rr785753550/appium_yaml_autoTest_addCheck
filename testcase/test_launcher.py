@@ -2,7 +2,7 @@
 import unittest
 import os
 from time import sleep
-from BaseOperate.run import run_testcaseYaml
+from BaseOperate.run import runYaml
 from BaseOperate.getDriver import mdriver
 from BaseOperate.Excel import Report
 
@@ -26,22 +26,26 @@ class Launcher(unittest.TestCase):
         cls.driver.quit()
         print("launcher End")
 
-    def test_statusBar(self):
-        yamlFile_list = os.listdir(self.app_yamlFolder)
-        yamlFile_list.sort()
-        # print(yamlFile_list)
-        for file in yamlFile_list:
-            try:
-                yamlFile = os.path.join(self.app_yamlFolder, file)
-                print(yamlFile)
+    def test_launcher(self):
+        app_Folder = os.listdir(self.app_yamlFolder)
+        # print(app_Folder)
+        for folder in app_Folder:
+            appsFolder = os.path.join(self.app_yamlFolder, folder)
+            appsFolder_list = os.listdir(appsFolder)
+            appsFolder_list.sort()
+            # print(appsFolder_list)
+            for file in appsFolder_list:
                 try:
-                    run_testcaseYaml(yamlFile).run_testcase(self.driver, self.tag)
-                except:
-                    pass
-            finally:
-                result_tuple = run_testcaseYaml(yamlFile).get_run_results()
-                print(result_tuple)
-                Report().worksheet2_write_data(yamlFile, result_tuple)
+                    yamlFile = os.path.join(appsFolder, file)
+                    print(yamlFile)
+                    try:
+                        runYaml(yamlFile).run_testcase(self.driver, self.tag)
+                    except:
+                        pass
+                finally:
+                    result_tuple = runYaml(yamlFile).get_run_results()
+                    print(result_tuple)
+                    Report().worksheet2_write_data(yamlFile, result_tuple)
 
 
 if __name__ == "__main__":

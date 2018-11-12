@@ -1,12 +1,9 @@
 # coding:utf-8
 import os
-import time
 import subprocess
-import xlsxwriter
 
 PATH = lambda p: os.path.abspath(
-            os.path.join(os.path.dirname(__file__), p)
-        )
+            os.path.join(os.path.dirname(__file__), p))
 topFolder = PATH('../results/top/')
 # topFolder = os.path.join(os.getcwd(), 'results/top/')
 if os.path.exists(topFolder):
@@ -76,14 +73,15 @@ class top:
 
 
 # if __name__ == "__main__":
-#     # top().start_top()
-#     # time.sleep(10)
-#     # top().kill_top()
+#     import time
+#     top().start_top()
+#     time.sleep(10)
+#     top().kill_top()
 #     # 打开excel
 #     # workbook = xlwt.Workbook(encoding='utf-8')
 #     # sheet1 = workbook.add_sheet(u"top")
-#     topExcelFile = os.path.join(topFolder, topName + ".xlsx")
-#     workbook = xlsxwriter.Workbook(topExcelFile)
-#     sheet1 = workbook.add_worksheet("top")
-#     # top().top_list_xls(workbook)
-#     workbook.close()
+#     # topExcelFile = os.path.join(topFolder, topName + ".xlsx")
+#     # workbook = xlsxwriter.Workbook(topExcelFile)
+#     # sheet1 = workbook.add_worksheet("top")
+#     # # top().top_list_xls(workbook)
+#     # workbook.close()

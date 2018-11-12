@@ -1,0 +1,31 @@
+testinfo:
+  title: 车镜K21-Launcher：录像文件卡片
+  condition: 无
+testcase:
+  step1:
+    element_info: //*[@class='android.widget.HorizontalScrollView']/android.widget.LinearLayout/android.widget.RelativeLayout[4]
+    element_type: xpath
+    element_operate: click
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 打开录像应用
+  step2:
+    element_info:
+    element_type:
+    element_operate: back
+    operate_times: 1
+    sleep_time: 1
+    operate_details: 退出录像应用
+check:
+  result1:
+    check_content:
+    expect_value:
+  result2:
+    check_content:
+    expect_value:
+  result3:
+    check_content:
+    expect_value:
+output:
+  pass_output:
+  fail_output:
