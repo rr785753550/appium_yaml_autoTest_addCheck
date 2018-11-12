@@ -7,9 +7,8 @@ from email.mime.text import MIMEText
 
 
 # 定义发件人和收件人
-mail_from = "qinyanhui@yunovo.cn"
-mail_password = "Qyh2017"
-# mail_to = ["1622852733@qq.com", "qinyanhui@yunovo.cn"]
+mail_from = "XXXX"  # 发件人地址
+mail_password = "XXXX"  # 密码
 # receiverPath = "F:\\PythonWorkSpace\\autoTest\common\\emailReceiver\\receiverAddr.txt"
 receiverPath = os.path.join(os.getcwd(), 'common/emailReceiver/receiverAddr.txt')
 fp = open(receiverPath, 'r')
