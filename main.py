@@ -6,7 +6,7 @@ from BaseOperate.grabLog import Logat
 from BaseOperate.appiumServer import appium
 from BaseOperate.Excel import Report
 from BaseOperate.grabTop import top
-from BaseOperate.sendEmail import sendreport
+from BaseOperate.sendEmail import Email
 
 
 testcase_path = os.path.join(os.getcwd(), 'testcase/')
@@ -50,5 +50,5 @@ if __name__ == "__main__":
     Report().worksheet3_write_data()
     Report().worksheet4_write_data()
     Report().closeWorkbook()
-    # sendreport()  # 发送测试报告
-    # print('运行完成退出')
+    Email().sendreport()  # 发送测试报告
+    print('运行完成退出')
