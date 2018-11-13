@@ -1,0 +1,7 @@
+[emailSender]
+name = XXXX   
+password = XXXX
+
+[emailReceiver]
+receiver1 = XXX
+receiver2 = XXXX
